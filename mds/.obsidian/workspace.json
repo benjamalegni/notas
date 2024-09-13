@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "introduccion.md",
+                "file": "captura de requerimientos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "introduccion.md",
+                "file": "captura de requerimientos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "introduccion.md",
+                "file": "captura de requerimientos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "introduccion.md"
+                "file": "captura de requerimientos.md"
               }
             }
           },
@@ -142,7 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -156,11 +156,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "28b92f5c99fcf4fd",
+  "active": "f006e222270073b6",
   "lastOpenFiles": [
+    "disciplinas de gestion.md",
+    "disciplinas de soporte.md",
+    "metodologias y ciclos de vida.md",
+    "captura de requerimientos.md",
+    "media/Pasted image 20240913170238.png",
+    "media/Pasted image 20240913170046.png",
+    "media/Pasted image 20240912170133.png",
     "Untitled 1.canvas",
-    "introduccion.md",
     "Untitled.canvas",
+    "2024-09-13.md",
+    "media/Pasted image 20240913165901.png",
+    "metodologias y ciclos de vida/disciplinas en la ingenieria de soft.md",
+    "captura de requerimientos",
+    "Untitled.md",
+    "metodologias y ciclos de vida",
+    "[.md",
+    "media/Pasted image 20240912171254.png",
+    "media/Pasted image 20240912170018.png",
+    "Pasted image 20240912170111.png",
+    "media/Screenshot 2024-09-12 165945.png",
+    "media",
     "Welcome.md"
   ]
 }

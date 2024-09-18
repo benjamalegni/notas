@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "captura de requerimientos.md",
+                "file": "metodologias y ciclos de vida.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "captura de requerimientos.md",
+                "file": "metodologias y ciclos de vida.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "captura de requerimientos.md",
+                "file": "metodologias y ciclos de vida.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "captura de requerimientos.md"
+                "file": "metodologias y ciclos de vida.md"
               }
             }
           },
@@ -158,9 +158,10 @@
   },
   "active": "f006e222270073b6",
   "lastOpenFiles": [
-    "disciplinas de gestion.md",
-    "disciplinas de soporte.md",
+    "disciplinas/disciplinas de gestion.md",
     "metodologias y ciclos de vida.md",
+    "disciplinas",
+    "disciplinas/disciplinas de soporte.md",
     "captura de requerimientos.md",
     "media/Pasted image 20240913170238.png",
     "media/Pasted image 20240913170046.png",

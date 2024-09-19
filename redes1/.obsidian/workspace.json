@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "topics/arquitectura de niveles.md",
+                "file": "topics/niveles OSI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "topics/arquitectura de niveles.md",
+                "file": "topics/niveles OSI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "topics/arquitectura de niveles.md",
+                "file": "topics/niveles OSI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "topics/arquitectura de niveles.md"
+                "file": "topics/niveles OSI.md"
               }
             }
           },
@@ -155,12 +155,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "633fa23ae271cc81",
+  "active": "4f837faed983cc62",
   "lastOpenFiles": [
+    "media/Pasted image 20240919000439.png",
+    "media/Pasted image 20240918235723.png",
+    "topics/circuit switching and packet switching.md",
+    "topics/niveles OSI.md",
+    "media/Pasted image 20240918132414.png",
+    "media/Pasted image 20240918131748.png",
+    "media/Pasted image 20240918131358.png",
+    "redes 1.md",
+    "topics/introduccion.md",
     "topics/arquitectura de niveles.md",
     "media/Pasted image 20240918124753.png",
     "media/Pasted image 20240918124007.png",
-    "media",
-    "redes 1.md"
+    "media"
   ]
 }

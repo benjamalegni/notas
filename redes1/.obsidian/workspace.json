@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6aa7a202227f0607",
+        "id": "7b56ab3e69f0d83d",
         "type": "tabs",
         "children": [
           {
-            "id": "4f837faed983cc62",
+            "id": "758755c2a973f4b0",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "media/Pasted image 20240919072726.png"
+                "file": "TCP-IP/modelo TCP-IP.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ff3a27327ae67d2f",
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "media/Pasted image 20240919072726.png",
+                "file": "TCP-IP/modelo TCP-IP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "media/Pasted image 20240919072726.png",
+                "file": "TCP-IP/modelo TCP-IP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "media/Pasted image 20240919072726.png"
+                "file": "TCP-IP/modelo TCP-IP.md"
               }
             }
           },
@@ -140,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,23 +159,26 @@
   },
   "active": "633fa23ae271cc81",
   "lastOpenFiles": [
-    "media/Pasted image 20240919072350.png",
-    "media/Pasted image 20240919000439.png",
-    "media/Pasted image 20240918124753.png",
-    "media/Pasted image 20240918124007.png",
-    "topics/funcionamiento internet.md",
+    "media/Pasted image 20240920122623.png",
+    "media/Pasted image 20240920121802.png",
+    "TCP-IP/modelo TCP-IP.md",
+    "media/Pasted image 20240920122626.png",
+    "media/Pasted image 20240920121353.png",
     "redes 1.md",
+    "TCP-IP",
+    "intro/conceptos transmision.md",
+    "media/Pasted image 20240920092540.png",
+    "media/Pasted image 20240920092220.png",
+    "media/Pasted image 20240920091348.png",
+    "intro/organizaciones en la internet.md",
+    "media/Pasted image 20240920090114.png",
+    "intro/funcionamiento internet.md",
     "media/Pasted image 20240919072814.png",
     "media/Pasted image 20240919072726.png",
-    "media/Pasted image 20240919072231.png",
-    "media/Pasted image 20240919071838.png",
-    "media/Pasted image 20240919065248.png",
-    "topics/niveles OSI.md",
-    "media/Pasted image 20240918235723.png",
-    "topics/circuit switching and packet switching.md",
-    "media/Pasted image 20240918132414.png",
-    "topics/introduccion.md",
-    "topics/arquitectura de niveles.md",
+    "intro/niveles OSI.md",
+    "intro/introduccion.md",
+    "intro/circuit switching and packet switching.md",
+    "intro/arquitectura de niveles.md",
     "media"
   ]
 }

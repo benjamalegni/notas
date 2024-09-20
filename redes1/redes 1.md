@@ -1,4 +1,3 @@
-# redes 1
 
 [introduccion](introduccion.md)
 
@@ -7,3 +6,5 @@
 [[arquitectura de niveles]]
 
 [[niveles OSI]]
+
+[[funcionamiento internet]]

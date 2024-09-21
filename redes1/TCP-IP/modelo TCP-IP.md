@@ -42,5 +42,3 @@ nivel de enlace: equivalo a los niveles de red, data link y fisico del modelo OS
 
 ![[Pasted image 20240920122626.png]]
 
-
-

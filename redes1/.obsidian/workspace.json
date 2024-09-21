@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7b56ab3e69f0d83d",
+        "id": "6aa7a202227f0607",
         "type": "tabs",
         "children": [
           {
-            "id": "758755c2a973f4b0",
+            "id": "4f837faed983cc62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCP-IP/direcciones IPv4.md",
+                "file": "TCP-IP/classfull, classless y CIDR.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ff3a27327ae67d2f",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCP-IP/direcciones IPv4.md",
+                "file": "TCP-IP/classfull, classless y CIDR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TCP-IP/direcciones IPv4.md",
+                "file": "TCP-IP/classfull, classless y CIDR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCP-IP/direcciones IPv4.md"
+                "file": "TCP-IP/classfull, classless y CIDR.md"
               }
             }
           },
@@ -143,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,31 +155,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17703c8f2073c26b",
+  "active": "4f837faed983cc62",
   "lastOpenFiles": [
-    "media/Pasted image 20240920134845.png",
-    "media/Pasted image 20240920133808.png",
-    "media/Pasted image 20240920133615.png",
+    "Pasted image 20240921191104.png",
+    "Pasted image 20240921191016.png",
+    "Pasted image 20240921190938.png",
+    "Pasted image 20240921190618.png",
+    "media/Pasted image 20240921185707.png",
     "redes 1.md",
     "TCP-IP/direcciones IPv4.md",
     "TCP-IP/modelo TCP-IP.md",
-    "intro/bus y store and forward.md",
+    "TCP-IP/classfull, classless y CIDR.md",
+    "media/Pasted image 20240919072726.png",
+    "media/Pasted image 20240920134845.png",
+    "media/Pasted image 20240920133808.png",
+    "media/Pasted image 20240920133615.png",
+    "media/Pasted image 20240920122626.png",
+    "media/Pasted image 20240920122623.png",
     "intro/organizaciones en la internet.md",
     "intro/niveles OSI.md",
-    "media/Pasted image 20240920122623.png",
-    "media/Pasted image 20240920121802.png",
-    "media/Pasted image 20240920122626.png",
-    "media/Pasted image 20240920121353.png",
-    "TCP-IP",
-    "intro/conceptos transmision.md",
-    "media/Pasted image 20240920092540.png",
-    "media/Pasted image 20240920092220.png",
-    "media/Pasted image 20240920091348.png",
-    "media/Pasted image 20240920090114.png",
-    "intro/funcionamiento internet.md",
     "intro/introduccion.md",
+    "intro/funcionamiento internet.md",
+    "intro/conceptos transmision.md",
     "intro/circuit switching and packet switching.md",
     "intro/arquitectura de niveles.md",
+    "intro",
+    "TCP-IP",
+    "topics/funcionamiento internet.md",
+    "topics/niveles OSI.md",
+    "topics/circuit switching and packet switching.md",
+    "topics/introduccion.md",
+    "topics/arquitectura de niveles.md",
     "media"
   ]
 }

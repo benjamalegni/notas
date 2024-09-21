@@ -21,3 +21,4 @@
 
 [[direcciones IPv4]]
 
+[[classfull, classless y CIDR]]

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCP-IP/modelo TCP-IP.md",
+                "file": "TCP-IP/direcciones IPv4.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCP-IP/modelo TCP-IP.md",
+                "file": "TCP-IP/direcciones IPv4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TCP-IP/modelo TCP-IP.md",
+                "file": "TCP-IP/direcciones IPv4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCP-IP/modelo TCP-IP.md"
+                "file": "TCP-IP/direcciones IPv4.md"
               }
             }
           },
@@ -157,25 +157,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "633fa23ae271cc81",
+  "active": "17703c8f2073c26b",
   "lastOpenFiles": [
+    "media/Pasted image 20240920134845.png",
+    "media/Pasted image 20240920133808.png",
+    "media/Pasted image 20240920133615.png",
+    "redes 1.md",
+    "TCP-IP/direcciones IPv4.md",
+    "TCP-IP/modelo TCP-IP.md",
+    "intro/bus y store and forward.md",
+    "intro/organizaciones en la internet.md",
+    "intro/niveles OSI.md",
     "media/Pasted image 20240920122623.png",
     "media/Pasted image 20240920121802.png",
-    "TCP-IP/modelo TCP-IP.md",
     "media/Pasted image 20240920122626.png",
     "media/Pasted image 20240920121353.png",
-    "redes 1.md",
     "TCP-IP",
     "intro/conceptos transmision.md",
     "media/Pasted image 20240920092540.png",
     "media/Pasted image 20240920092220.png",
     "media/Pasted image 20240920091348.png",
-    "intro/organizaciones en la internet.md",
     "media/Pasted image 20240920090114.png",
     "intro/funcionamiento internet.md",
-    "media/Pasted image 20240919072814.png",
-    "media/Pasted image 20240919072726.png",
-    "intro/niveles OSI.md",
     "intro/introduccion.md",
     "intro/circuit switching and packet switching.md",
     "intro/arquitectura de niveles.md",

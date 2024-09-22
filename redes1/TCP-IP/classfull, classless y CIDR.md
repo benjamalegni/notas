@@ -86,14 +86,3 @@ classless: me asignan el bloque equivalente a las 256 redes clase C
 anunciamos: 201.1.0.0/16
 ![[Pasted image 20240921191104.png]]
 
-# VLSM (variable lenght subnet mask)
-- mascara de red de tamano variable
-- se utiliza cuando se desea dividir un red en subredes de distintos tamanos
-- la mascara puede variar de una red a otra, es decir, la parte red y host no es la misma para todas las subredes
-- se debe tener especial cuidado para no solpar las direcciones de las subredes
-
-- uso mas eficiente del espacio de direcciones
-	- posibilidad de asignar un numero de direcciones acorde al numero de equipos de la red, en lugar de asignar una clase (ej.: C completa)
-- requerimientos
-	- algoritmo "longest match prefix" para reenvio
-	- protocolos de ruteo que intercambien prefijos de red

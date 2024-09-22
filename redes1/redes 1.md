@@ -22,3 +22,10 @@
 [[direcciones IPv4]]
 
 [[classfull, classless y CIDR]]
+
+[[VLSM (variable lenght subnet mask)]]
+
+[[ruteo - reenvio]]
+
+[[IP]]
+

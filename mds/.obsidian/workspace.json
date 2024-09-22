@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f006e222270073b6",
+            "id": "a230fba5d5d7b996",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "metodologias y ciclos de vida.md",
+                "file": "casos de uso/UML.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "f264ed41f57060b9",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "metodologias y ciclos de vida.md",
+                "file": "casos de uso/UML.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "metodologias y ciclos de vida.md",
+                "file": "casos de uso/UML.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "metodologias y ciclos de vida.md"
+                "file": "casos de uso/UML.md"
               }
             }
           },
@@ -156,13 +157,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f006e222270073b6",
+  "active": "f44316e6b70b39be",
   "lastOpenFiles": [
-    "disciplinas/disciplinas de gestion.md",
+    "media/Pasted image 20240921193629.png",
+    "diagrama de casos de uso.md",
+    "mds.md",
     "metodologias y ciclos de vida.md",
+    "captura de requerimientos.md",
+    "casos de uso/casos de uso.md",
+    "casos de uso/UML.md",
+    "casos de uso",
+    "disciplinas/disciplinas de gestion.md",
     "disciplinas",
     "disciplinas/disciplinas de soporte.md",
-    "captura de requerimientos.md",
     "media/Pasted image 20240913170238.png",
     "media/Pasted image 20240913170046.png",
     "media/Pasted image 20240912170133.png",
@@ -172,7 +179,6 @@
     "media/Pasted image 20240913165901.png",
     "metodologias y ciclos de vida/disciplinas en la ingenieria de soft.md",
     "captura de requerimientos",
-    "Untitled.md",
     "metodologias y ciclos de vida",
     "[.md",
     "media/Pasted image 20240912171254.png",

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "modelo TCP-IP/IP.md",
+                "file": "TCP-IP/MTU y fragmentacion.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "modelo TCP-IP/IP.md",
+                "file": "TCP-IP/MTU y fragmentacion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "modelo TCP-IP/IP.md",
+                "file": "TCP-IP/MTU y fragmentacion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "modelo TCP-IP/IP.md"
+                "file": "TCP-IP/MTU y fragmentacion.md"
               }
             }
           },
@@ -139,7 +139,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -159,29 +159,31 @@
   },
   "active": "4f837faed983cc62",
   "lastOpenFiles": [
+    "Pasted image 20240923085016.png",
+    "Pasted image 20240923083658.png",
+    "Pasted image 20240923083517.png",
     "redes 1.md",
-    "modelo TCP-IP/IP.md",
-    "modelo TCP-IP",
-    "TCP-IP/ruteo - reenvio.md",
-    "Pasted image 20240922175655.png",
-    "Pasted image 20240922174828.png",
-    "Pasted image 20240922174323.png",
-    "TCP-IP/VLSM (variable lenght subnet mask).md",
     "TCP-IP/classfull, classless y CIDR.md",
+    "TCP-IP/direcciones IPv4.md",
+    "TCP-IP/IP.md",
+    "TCP-IP/MTU y fragmentacion.md",
+    "TCP-IP/ruteo - reenvio.md",
+    "TCP-IP/VLSM (variable lenght subnet mask).md",
+    "intro/conceptos transmision.md",
+    "media/Pasted image 20240922213209.png",
+    "modelo TCP-IP",
+    "media/Pasted image 20240922175655.png",
+    "media/Pasted image 20240922174828.png",
+    "media/Pasted image 20240922174323.png",
     "media/Pasted image 20240921191104.png",
     "media/Pasted image 20240921191016.png",
     "media/Pasted image 20240921190938.png",
     "media/Pasted image 20240921190618.png",
-    "media/Pasted image 20240921185707.png",
-    "TCP-IP/direcciones IPv4.md",
     "TCP-IP/modelo TCP-IP.md",
-    "media/Pasted image 20240919072726.png",
-    "media/Pasted image 20240920134845.png",
     "intro/organizaciones en la internet.md",
     "intro/niveles OSI.md",
     "intro/introduccion.md",
     "intro/funcionamiento internet.md",
-    "intro/conceptos transmision.md",
     "intro/circuit switching and packet switching.md",
     "intro/arquitectura de niveles.md",
     "intro",

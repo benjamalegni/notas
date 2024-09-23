@@ -29,3 +29,4 @@
 
 [[IP]]
 
+[[MTU y fragmentacion]]

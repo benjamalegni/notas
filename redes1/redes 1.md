@@ -30,3 +30,7 @@
 [[IP]]
 
 [[MTU y fragmentacion]]
+
+[[firewall]]
+
+[[NAT]]

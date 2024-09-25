@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCP-IP/MTU y fragmentacion.md",
+                "file": "redes 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ff3a27327ae67d2f",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCP-IP/MTU y fragmentacion.md",
+                "file": "redes 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TCP-IP/MTU y fragmentacion.md",
+                "file": "redes 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCP-IP/MTU y fragmentacion.md"
+                "file": "redes 1.md"
               }
             }
           },
@@ -157,28 +156,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4f837faed983cc62",
+  "active": "17703c8f2073c26b",
   "lastOpenFiles": [
-    "Pasted image 20240923085016.png",
-    "Pasted image 20240923083658.png",
-    "Pasted image 20240923083517.png",
+    "TCP-IP/NAT.md",
+    "media/Pasted image 20240923142448.png",
+    "media/Pasted image 20240923141729.png",
+    "media/Pasted image 20240923141406.png",
+    "media/Pasted image 20240923141343.png",
     "redes 1.md",
+    "TCP-IP/firewall.md",
+    "media/Pasted image 20240923135734.png",
+    "TCP-IP/MTU y fragmentacion.md",
+    "media/Pasted image 20240923085016.png",
+    "media/Pasted image 20240923083658.png",
+    "media/Pasted image 20240923083517.png",
     "TCP-IP/classfull, classless y CIDR.md",
     "TCP-IP/direcciones IPv4.md",
     "TCP-IP/IP.md",
-    "TCP-IP/MTU y fragmentacion.md",
     "TCP-IP/ruteo - reenvio.md",
     "TCP-IP/VLSM (variable lenght subnet mask).md",
     "intro/conceptos transmision.md",
     "media/Pasted image 20240922213209.png",
     "modelo TCP-IP",
     "media/Pasted image 20240922175655.png",
-    "media/Pasted image 20240922174828.png",
-    "media/Pasted image 20240922174323.png",
-    "media/Pasted image 20240921191104.png",
-    "media/Pasted image 20240921191016.png",
-    "media/Pasted image 20240921190938.png",
-    "media/Pasted image 20240921190618.png",
     "TCP-IP/modelo TCP-IP.md",
     "intro/organizaciones en la internet.md",
     "intro/niveles OSI.md",

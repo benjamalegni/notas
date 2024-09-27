@@ -11,15 +11,34 @@
             "id": "a230fba5d5d7b996",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "scrum.md",
-                "mode": "source",
-                "source": false
+                "file": "media/Pasted image 20240925165848.png"
+              }
+            }
+          },
+          {
+            "id": "74595c9a3b96900f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "media/Pasted image 20240925173657.png"
+              }
+            }
+          },
+          {
+            "id": "2676cba9c678d60b",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "media/Pasted image 20240925173920.png"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f264ed41f57060b9",
@@ -86,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "scrum.md",
+                "file": "media/Pasted image 20240925173920.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "scrum.md",
+                "file": "media/Pasted image 20240925173920.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "scrum.md"
+                "file": "media/Pasted image 20240925173920.png"
               }
             }
           },
@@ -157,21 +175,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a230fba5d5d7b996",
+  "active": "f44316e6b70b39be",
   "lastOpenFiles": [
-    "Pasted image 20240926232544.png",
-    "Pasted image 20240926232128.png",
-    "Pasted image 20240926232037.png",
-    "Pasted image 20240925175622.png",
-    "Pasted image 20240925175248.png",
-    "Pasted image 20240925175121.png",
-    "Pasted image 20240925174855.png",
-    "Pasted image 20240925174214.png",
-    "Pasted image 20240925173920.png",
-    "Pasted image 20240925173657.png",
-    "Pasted image 20240925165848.png",
-    "mds.md",
+    "media/Pasted image 20240925173657.png",
+    "media/Pasted image 20240925165848.png",
     "scrum.md",
+    "media/Pasted image 20240926232544.png",
+    "media/Pasted image 20240926232128.png",
+    "media/Pasted image 20240926232037.png",
+    "media/Pasted image 20240925175622.png",
+    "media/Pasted image 20240925175248.png",
+    "media/Pasted image 20240925175121.png",
+    "media/Pasted image 20240925174855.png",
+    "media/Pasted image 20240925174214.png",
+    "media/Pasted image 20240925173920.png",
+    "mds.md",
     "casos de uso - relaciones.md",
     "requerimientos/metodologias y ciclos de vida.md",
     "casos de uso/diagrama de casos de uso.md",

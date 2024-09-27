@@ -3,3 +3,7 @@
 [[captura de requerimientos]]
 
 [[diagrama de casos de uso]]
+
+[[casos de uso - relaciones]]
+
+[[scrum]]

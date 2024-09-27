@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "casos de uso/UML.md",
+                "file": "scrum.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "casos de uso/UML.md",
+                "file": "scrum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "casos de uso/UML.md",
+                "file": "scrum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "casos de uso/UML.md"
+                "file": "scrum.md"
               }
             }
           },
@@ -157,34 +157,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f44316e6b70b39be",
+  "active": "a230fba5d5d7b996",
   "lastOpenFiles": [
-    "media/Pasted image 20240921193629.png",
-    "diagrama de casos de uso.md",
+    "Pasted image 20240926232544.png",
+    "Pasted image 20240926232128.png",
+    "Pasted image 20240926232037.png",
+    "Pasted image 20240925175622.png",
+    "Pasted image 20240925175248.png",
+    "Pasted image 20240925175121.png",
+    "Pasted image 20240925174855.png",
+    "Pasted image 20240925174214.png",
+    "Pasted image 20240925173920.png",
+    "Pasted image 20240925173657.png",
+    "Pasted image 20240925165848.png",
     "mds.md",
-    "metodologias y ciclos de vida.md",
-    "captura de requerimientos.md",
-    "casos de uso/casos de uso.md",
+    "scrum.md",
+    "casos de uso - relaciones.md",
+    "requerimientos/metodologias y ciclos de vida.md",
+    "casos de uso/diagrama de casos de uso.md",
+    "requerimientos/captura de requerimientos.md",
+    "requerimientos",
     "casos de uso/UML.md",
+    "casos de uso/casos de uso.md",
     "casos de uso",
     "disciplinas/disciplinas de gestion.md",
     "disciplinas",
     "disciplinas/disciplinas de soporte.md",
-    "media/Pasted image 20240913170238.png",
-    "media/Pasted image 20240913170046.png",
-    "media/Pasted image 20240912170133.png",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "2024-09-13.md",
-    "media/Pasted image 20240913165901.png",
     "metodologias y ciclos de vida/disciplinas en la ingenieria de soft.md",
     "captura de requerimientos",
     "metodologias y ciclos de vida",
     "[.md",
-    "media/Pasted image 20240912171254.png",
-    "media/Pasted image 20240912170018.png",
-    "Pasted image 20240912170111.png",
-    "media/Screenshot 2024-09-12 165945.png",
     "media",
     "Welcome.md"
   ]

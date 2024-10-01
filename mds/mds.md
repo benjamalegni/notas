@@ -7,3 +7,5 @@
 [[casos de uso - relaciones]]
 
 [[scrum]]
+
+[[artefactos scrum]]

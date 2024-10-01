@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "redes 1.md",
+                "file": "TCP-IP/ruteo - reenvio.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "redes 1.md",
+                "file": "TCP-IP/ruteo - reenvio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "redes 1.md",
+                "file": "TCP-IP/ruteo - reenvio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "redes 1.md"
+                "file": "TCP-IP/ruteo - reenvio.md"
               }
             }
           },
@@ -156,14 +156,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17703c8f2073c26b",
+  "active": "4f837faed983cc62",
   "lastOpenFiles": [
+    "redes 1.md",
     "TCP-IP/NAT.md",
     "media/Pasted image 20240923142448.png",
     "media/Pasted image 20240923141729.png",
     "media/Pasted image 20240923141406.png",
     "media/Pasted image 20240923141343.png",
-    "redes 1.md",
     "TCP-IP/firewall.md",
     "media/Pasted image 20240923135734.png",
     "TCP-IP/MTU y fragmentacion.md",

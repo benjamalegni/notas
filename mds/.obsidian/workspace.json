@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "artefactos scrum.md",
+                "file": "agile.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "artefactos scrum.md",
+                "file": "agile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "artefactos scrum.md",
+                "file": "agile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "artefactos scrum.md"
+                "file": "agile.md"
               }
             }
           },
@@ -159,26 +159,29 @@
   },
   "active": "2676cba9c678d60b",
   "lastOpenFiles": [
-    "Pasted image 20241001205610.png",
-    "Pasted image 20241001205429.png",
-    "Pasted image 20241001205202.png",
-    "Pasted image 20241001162632.png",
-    "Pasted image 20241001162306.png",
-    "Pasted image 20241001162245.png",
-    "Pasted image 20240927132631.png",
-    "Pasted image 20240927125506.png",
-    "media/Pasted image 20240925173657.png",
-    "media/Pasted image 20240925165848.png",
-    "artefactos scrum.md",
-    "mds.md",
-    "scrum.md",
-    "media/Pasted image 20240926232544.png",
-    "casos de uso - relaciones.md",
-    "requerimientos/metodologias y ciclos de vida.md",
+    "Pasted image 20241006173549.png",
+    "Pasted image 20241006173127.png",
+    "Pasted image 20241006172714.png",
+    "Pasted image 20241006172127.png",
+    "Pasted image 20241006171955.png",
+    "Pasted image 20241006170856.png",
+    "Pasted image 20241006170733.png",
+    "Pasted image 20241006134911.png",
+    "Pasted image 20241006134909.png",
+    "Pasted image 20241006134612.png",
+    "media/Pasted image 20241006133835.png",
+    "casos de uso/UML.md",
     "casos de uso/diagrama de casos de uso.md",
+    "mds.md",
+    "casos de uso - relaciones.md",
+    "agile.md",
+    "diagrama de clase.md",
+    "media/scrum.md",
+    "artefactos scrum.md",
+    "scrum.md",
+    "requerimientos/metodologias y ciclos de vida.md",
     "requerimientos/captura de requerimientos.md",
     "requerimientos",
-    "casos de uso/UML.md",
     "casos de uso/casos de uso.md",
     "casos de uso",
     "disciplinas/disciplinas de gestion.md",

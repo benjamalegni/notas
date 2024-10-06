@@ -9,3 +9,7 @@
 [[scrum]]
 
 [[artefactos scrum]]
+
+[[diagrama de clase]]
+
+[[agile]]

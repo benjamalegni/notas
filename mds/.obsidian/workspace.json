@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f264ed41f57060b9",
@@ -157,18 +156,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2676cba9c678d60b",
+  "active": "f44316e6b70b39be",
   "lastOpenFiles": [
-    "Pasted image 20241006173549.png",
-    "Pasted image 20241006173127.png",
-    "Pasted image 20241006172714.png",
-    "Pasted image 20241006172127.png",
-    "Pasted image 20241006171955.png",
-    "Pasted image 20241006170856.png",
-    "Pasted image 20241006170733.png",
-    "Pasted image 20241006134911.png",
-    "Pasted image 20241006134909.png",
-    "Pasted image 20241006134612.png",
+    "media/Pasted image 20241006173549.png",
+    "media/Pasted image 20241006173127.png",
+    "media/Pasted image 20241006172714.png",
+    "media/Pasted image 20241006172127.png",
+    "media/Pasted image 20241006171955.png",
+    "media/Pasted image 20241006170856.png",
+    "media/Pasted image 20241006170733.png",
+    "media/Pasted image 20241006134911.png",
+    "media/Pasted image 20241006134909.png",
+    "media/Pasted image 20241006134612.png",
     "media/Pasted image 20241006133835.png",
     "casos de uso/UML.md",
     "casos de uso/diagrama de casos de uso.md",

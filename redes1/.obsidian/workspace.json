@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TCP-IP/ruteo - reenvio.md",
+                "file": "TCP-IP/netfilter - IPtables.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ff3a27327ae67d2f",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCP-IP/ruteo - reenvio.md",
+                "file": "TCP-IP/netfilter - IPtables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TCP-IP/ruteo - reenvio.md",
+                "file": "TCP-IP/netfilter - IPtables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCP-IP/ruteo - reenvio.md"
+                "file": "TCP-IP/netfilter - IPtables.md"
               }
             }
           },
@@ -158,7 +159,14 @@
   },
   "active": "4f837faed983cc62",
   "lastOpenFiles": [
+    "Pasted image 20241007103315.png",
+    "Pasted image 20241007103227.png",
+    "Pasted image 20241007103142.png",
+    "Pasted image 20241007101246.png",
+    "Pasted image 20241007100814.png",
     "redes 1.md",
+    "TCP-IP/netfilter - IPtables.md",
+    "TCP-IP/ruteo - reenvio.md",
     "TCP-IP/NAT.md",
     "media/Pasted image 20240923142448.png",
     "media/Pasted image 20240923141729.png",
@@ -168,17 +176,12 @@
     "media/Pasted image 20240923135734.png",
     "TCP-IP/MTU y fragmentacion.md",
     "media/Pasted image 20240923085016.png",
-    "media/Pasted image 20240923083658.png",
-    "media/Pasted image 20240923083517.png",
     "TCP-IP/classfull, classless y CIDR.md",
     "TCP-IP/direcciones IPv4.md",
     "TCP-IP/IP.md",
-    "TCP-IP/ruteo - reenvio.md",
     "TCP-IP/VLSM (variable lenght subnet mask).md",
     "intro/conceptos transmision.md",
-    "media/Pasted image 20240922213209.png",
     "modelo TCP-IP",
-    "media/Pasted image 20240922175655.png",
     "TCP-IP/modelo TCP-IP.md",
     "intro/organizaciones en la internet.md",
     "intro/niveles OSI.md",

@@ -27,7 +27,7 @@ Nombre(CamelCase. primer letra mayus)
 Atributos(CamelCase, primer letra en minuscula)
 Operaciones(CamelCase. primer letra en minuscula)
 
-| usuario           |
+| Usuario           |
 | ----------------- |
 | nombreDelUsuario  |
 | password          |

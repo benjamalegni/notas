@@ -16,7 +16,9 @@
                 "file": "TCP-IP/netfilter - IPtables.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "netfilter - IPtables"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -86,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TCP-IP/netfilter - IPtables.md",
+                "file": "nivel 2/control de flujo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for control de flujo"
             }
           },
           {
@@ -103,10 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TCP-IP/netfilter - IPtables.md",
+                "file": "nivel 2/control de flujo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from control de flujo"
             }
           },
           {
@@ -117,7 +129,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -126,8 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TCP-IP/netfilter - IPtables.md"
-              }
+                "file": "nivel 2/control de flujo.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of control de flujo"
             }
           },
           {
@@ -135,7 +151,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -159,23 +177,31 @@
   },
   "active": "4f837faed983cc62",
   "lastOpenFiles": [
-    "Pasted image 20241007103315.png",
-    "Pasted image 20241007103227.png",
-    "Pasted image 20241007103142.png",
-    "Pasted image 20241007101246.png",
-    "Pasted image 20241007100814.png",
-    "redes 1.md",
-    "TCP-IP/netfilter - IPtables.md",
-    "TCP-IP/ruteo - reenvio.md",
-    "TCP-IP/NAT.md",
-    "media/Pasted image 20240923142448.png",
-    "media/Pasted image 20240923141729.png",
-    "media/Pasted image 20240923141406.png",
-    "media/Pasted image 20240923141343.png",
+    "TCP-IP/ICMP.md",
     "TCP-IP/firewall.md",
-    "media/Pasted image 20240923135734.png",
+    "nivel 2/control de flujo.md",
+    "media/Pasted image 20241017102540.png",
+    "media/Pasted image 20241017102218.png",
+    "media/Pasted image 20241017102008.png",
+    "redes 1.md",
+    "nivel 2/deteccion y correccion de errores.md",
+    "media/Pasted image 20241017095540.png",
+    "media/Pasted image 20241017095223.png",
+    "media/Pasted image 20241017095201.png",
+    "media/Pasted image 20241017094856.png",
+    "media/Pasted image 20241017094152.png",
+    "media/Pasted image 20241017094111.png",
+    "nivel 2/delimitacion de bloques.md",
+    "media/Pasted image 20241017001345.png",
+    "nivel2/delimitacion de bloques.md",
+    "nivel2",
+    "nivel 2/intro.md",
+    "nivel 2",
+    "TCP-IP/ruteo - reenvio.md",
+    "TCP-IP/ARP.md",
+    "TCP-IP/netfilter - IPtables.md",
+    "TCP-IP/NAT.md",
     "TCP-IP/MTU y fragmentacion.md",
-    "media/Pasted image 20240923085016.png",
     "TCP-IP/classfull, classless y CIDR.md",
     "TCP-IP/direcciones IPv4.md",
     "TCP-IP/IP.md",
@@ -191,11 +217,6 @@
     "intro/arquitectura de niveles.md",
     "intro",
     "TCP-IP",
-    "topics/funcionamiento internet.md",
-    "topics/niveles OSI.md",
-    "topics/circuit switching and packet switching.md",
-    "topics/introduccion.md",
-    "topics/arquitectura de niveles.md",
     "media"
   ]
 }

@@ -13,3 +13,5 @@
 [[diagrama de clase]]
 
 [[agile]]
+
+[[diagrama de secuencia]]

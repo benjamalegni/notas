@@ -11,7 +11,7 @@
 - an include relationship between use cases means that the use case explicitly incorporates the behavior of another use case at a location specified in the base. The included use case never stands alone
 - the extend relationship between use cases means that the base use case implicitly incorporated the behavior of another use case at a location specified indirectly by the extending use case
 
-### generalization
+### generalization (HERENCIA)
 - if a use case can be developed in different ways so a generalization relationship is needed
 - there are as use cases as different development use case alternatives are, and the father
 ![[Pasted image 20240925164430.png]]

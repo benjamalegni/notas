@@ -37,3 +37,16 @@
 
 [[netfilter - IPtables]]
 
+[[ARP]]
+
+[[ICMP]]
+
+# nivel 2
+
+[[intro]]
+
+[[nivel 2/delimitacion de bloques]]
+
+[[nivel 2/deteccion y correccion de errores]]
+
+[[nivel 2/control de flujo]]

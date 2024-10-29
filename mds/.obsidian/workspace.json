@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "agile.md",
+                "file": "diagrama de clase.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "diagrama de clase"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -48,13 +52,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "epica",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "agile.md",
+                "file": "diagrama de clase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for diagrama de clase"
             }
           },
           {
@@ -102,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "agile.md",
+                "file": "diagrama de clase.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from diagrama de clase"
             }
           },
           {
@@ -116,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "agile.md"
-              }
+                "file": "diagrama de clase.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of diagrama de clase"
             }
           },
           {
@@ -134,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -156,36 +174,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f44316e6b70b39be",
+  "active": "2676cba9c678d60b",
   "lastOpenFiles": [
+    "mds.md",
+    "diagrama de secuencia.md",
+    "casos de uso - relaciones.md",
+    "casos de uso/UML.md",
+    "casos de uso/diagrama de casos de uso.md",
+    "requerimientos/metodologias y ciclos de vida.md",
+    "agile.md",
+    "artefactos scrum.md",
+    "requerimientos/captura de requerimientos.md",
+    "disciplinas/disciplinas de soporte.md",
+    "disciplinas/disciplinas de gestion.md",
+    "diagrama de clase.md",
+    "media/scrum.md",
+    "casos de uso.md",
+    "casos de uso/casos de uso.md",
+    "media/Pasted image 20241015204455.png",
+    "media/Pasted image 20241015204436.png",
+    "media/Pasted image 20241015204228.png",
+    "media/Pasted image 20241015203318.png",
+    "media/Pasted image 20241015202904.png",
+    "media/Pasted image 20241015202727.png",
     "media/Pasted image 20241006173549.png",
     "media/Pasted image 20241006173127.png",
     "media/Pasted image 20241006172714.png",
     "media/Pasted image 20241006172127.png",
-    "media/Pasted image 20241006171955.png",
-    "media/Pasted image 20241006170856.png",
-    "media/Pasted image 20241006170733.png",
-    "media/Pasted image 20241006134911.png",
-    "media/Pasted image 20241006134909.png",
-    "media/Pasted image 20241006134612.png",
-    "media/Pasted image 20241006133835.png",
-    "casos de uso/UML.md",
-    "casos de uso/diagrama de casos de uso.md",
-    "mds.md",
-    "casos de uso - relaciones.md",
-    "agile.md",
-    "diagrama de clase.md",
-    "media/scrum.md",
-    "artefactos scrum.md",
     "scrum.md",
-    "requerimientos/metodologias y ciclos de vida.md",
-    "requerimientos/captura de requerimientos.md",
     "requerimientos",
-    "casos de uso/casos de uso.md",
     "casos de uso",
-    "disciplinas/disciplinas de gestion.md",
     "disciplinas",
-    "disciplinas/disciplinas de soporte.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "2024-09-13.md",

@@ -34,3 +34,17 @@
 [[firewall]]
 
 [[NAT]]
+
+# Ethernet
+
+[[evolucion]]
+
+[[ethernet/componentes fisicos]]
+
+[[ethernet/frame]]
+
+[[ethernet/bridge y switch]]
+
+# wifi
+
+[[wifi/parte 1]]

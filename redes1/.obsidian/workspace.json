@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6aa7a202227f0607",
+        "id": "a215e23bf7b91762",
         "type": "tabs",
         "children": [
           {
-            "id": "4f837faed983cc62",
+            "id": "0bae27bb6ecf0f9b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "redes 1.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -39,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +54,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +64,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "redes 1.md",
+                "file": "ethernet/evolucion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +97,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for evolucion"
             }
           },
           {
@@ -102,10 +108,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "redes 1.md",
+                "file": "ethernet/evolucion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from evolucion"
             }
           },
           {
@@ -116,7 +124,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +135,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "redes 1.md"
-              }
+                "file": "ethernet/evolucion.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of evolucion"
             }
           },
           {
@@ -134,11 +146,13 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -156,29 +170,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "17703c8f2073c26b",
+  "active": "0bae27bb6ecf0f9b",
   "lastOpenFiles": [
-    "TCP-IP/NAT.md",
-    "media/Pasted image 20240923142448.png",
-    "media/Pasted image 20240923141729.png",
-    "media/Pasted image 20240923141406.png",
-    "media/Pasted image 20240923141343.png",
     "redes 1.md",
+    "ethernet/componentes fisicos.md",
+    "ethernet/frame.md",
+    "wifi/parte 1.md",
+    "Pasted image 20241104075832.png",
+    "Pasted image 20241104074746.png",
+    "wifi",
+    "ethernet/bridge y switch.md",
+    "Pasted image 20241104074054.png",
+    "Pasted image 20241104074044.png",
+    "Pasted image 20241104073818.png",
+    "Pasted image 20241104073758.png",
+    "media/Pasted image 20241104073250.png",
+    "media/Pasted image 20241104072111.png",
+    "media/Pasted image 20241104071303.png",
+    "media/Pasted image 20241104070731.png",
+    "ethernet/evolucion.md",
+    "ethernet",
+    "TCP-IP/IP.md",
+    "TCP-IP/VLSM (variable lenght subnet mask).md",
+    "TCP-IP/NAT.md",
     "TCP-IP/firewall.md",
-    "media/Pasted image 20240923135734.png",
     "TCP-IP/MTU y fragmentacion.md",
-    "media/Pasted image 20240923085016.png",
-    "media/Pasted image 20240923083658.png",
-    "media/Pasted image 20240923083517.png",
     "TCP-IP/classfull, classless y CIDR.md",
     "TCP-IP/direcciones IPv4.md",
-    "TCP-IP/IP.md",
     "TCP-IP/ruteo - reenvio.md",
-    "TCP-IP/VLSM (variable lenght subnet mask).md",
     "intro/conceptos transmision.md",
-    "media/Pasted image 20240922213209.png",
     "modelo TCP-IP",
-    "media/Pasted image 20240922175655.png",
     "TCP-IP/modelo TCP-IP.md",
     "intro/organizaciones en la internet.md",
     "intro/niveles OSI.md",
@@ -191,8 +212,6 @@
     "topics/funcionamiento internet.md",
     "topics/niveles OSI.md",
     "topics/circuit switching and packet switching.md",
-    "topics/introduccion.md",
-    "topics/arquitectura de niveles.md",
     "media"
   ]
 }

@@ -7,3 +7,7 @@
 [[casos de uso - relaciones]]
 
 [[scrum]]
+
+[[diagrama de actividades]]
+
+[[diagrama de transicion, deployment y componentes]]

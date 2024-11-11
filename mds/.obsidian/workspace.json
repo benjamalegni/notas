@@ -14,7 +14,9 @@
               "type": "image",
               "state": {
                 "file": "media/Pasted image 20240925165848.png"
-              }
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20240925165848"
             }
           },
           {
@@ -24,17 +26,23 @@
               "type": "image",
               "state": {
                 "file": "media/Pasted image 20240925173657.png"
-              }
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20240925173657"
             }
           },
           {
             "id": "2676cba9c678d60b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "media/Pasted image 20240925173920.png"
-              }
+                "file": "mds.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "mds"
             }
           }
         ],
@@ -58,7 +66,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -73,7 +83,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -81,7 +93,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -104,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "media/Pasted image 20240925173920.png",
+                "file": "mds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +126,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for mds"
             }
           },
           {
@@ -121,10 +137,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "media/Pasted image 20240925173920.png",
+                "file": "mds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from mds"
             }
           },
           {
@@ -135,7 +153,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -144,8 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "media/Pasted image 20240925173920.png"
-              }
+                "file": "mds.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of mds"
             }
           },
           {
@@ -153,7 +175,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -175,21 +199,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f44316e6b70b39be",
+  "active": "2676cba9c678d60b",
   "lastOpenFiles": [
-    "media/Pasted image 20240925173657.png",
-    "media/Pasted image 20240925165848.png",
+    "diagrama de transicion, deployment y componentes.md",
+    "diagrama de actividades.md",
     "scrum.md",
-    "media/Pasted image 20240926232544.png",
-    "media/Pasted image 20240926232128.png",
-    "media/Pasted image 20240926232037.png",
-    "media/Pasted image 20240925175622.png",
-    "media/Pasted image 20240925175248.png",
-    "media/Pasted image 20240925175121.png",
-    "media/Pasted image 20240925174855.png",
-    "media/Pasted image 20240925174214.png",
-    "media/Pasted image 20240925173920.png",
     "mds.md",
+    "media/Pasted image 20241110192600.png",
+    "media/Pasted image 20241110192511.png",
+    "media/Pasted image 20241110192358.png",
+    "media/Pasted image 20241110192346.png",
+    "media/Pasted image 20241110192254.png",
+    "media/Pasted image 20241110192213.png",
+    "media/Pasted image 20241110191230.png",
+    "media/Pasted image 20241110191222.png",
+    "media/Pasted image 20241110191152.png",
+    "media/Pasted image 20241110191103.png",
     "casos de uso - relaciones.md",
     "requerimientos/metodologias y ciclos de vida.md",
     "casos de uso/diagrama de casos de uso.md",

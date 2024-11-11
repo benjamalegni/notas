@@ -11,3 +11,12 @@
 [[diagrama de actividades]]
 
 [[diagrama de transicion, deployment y componentes]]
+
+[[artefactos scrum]]
+
+[[diagrama de clase]]
+
+[[agile]]
+
+[[diagrama de secuencia]]
+>>>>>>> refs/remotes/origin/master

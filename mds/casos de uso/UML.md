@@ -44,8 +44,8 @@ behavioral diagrams:
 - a use case specifies the behavior of a system or a part of a system and is a description of a set sequences of actions
 - use cases are used to capture the intended behavior of the system in develop
 - a use case represents a functional requirement of a system as a whole
-- use case: a use case involves the interaction of actos and the system
-- actor: an actos represents a coherent set of roles that use cases play when interacting with these use cases
+- use case: a use case involves the interaction of actors and the system
+- actor: an actor represents a coherent set of roles that use cases play when interacting with these use cases
 - activation: interaction between a use case and an actor
 - relationships: inclusion, extention, generalization
 	![[Pasted image 20240921193629.png]]

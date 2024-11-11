@@ -35,6 +35,7 @@
 
 [[NAT]]
 
+<<<<<<< HEAD
 # Ethernet
 
 [[evolucion]]
@@ -48,3 +49,20 @@
 # wifi
 
 [[wifi/parte 1]]
+=======
+[[netfilter - IPtables]]
+
+[[ARP]]
+
+[[ICMP]]
+
+# nivel 2
+
+[[intro]]
+
+[[nivel 2/delimitacion de bloques]]
+
+[[nivel 2/deteccion y correccion de errores]]
+
+[[nivel 2/control de flujo]]
+>>>>>>> refs/remotes/origin/master

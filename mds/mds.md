@@ -19,4 +19,3 @@
 [[agile]]
 
 [[diagrama de secuencia]]
->>>>>>> refs/remotes/origin/master

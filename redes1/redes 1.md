@@ -35,21 +35,6 @@
 
 [[NAT]]
 
-<<<<<<< HEAD
-# Ethernet
-
-[[evolucion]]
-
-[[ethernet/componentes fisicos]]
-
-[[ethernet/frame]]
-
-[[ethernet/bridge y switch]]
-
-# wifi
-
-[[wifi/parte 1]]
-=======
 [[netfilter - IPtables]]
 
 [[ARP]]
@@ -65,4 +50,19 @@
 [[nivel 2/deteccion y correccion de errores]]
 
 [[nivel 2/control de flujo]]
->>>>>>> refs/remotes/origin/master
+
+# Ethernet
+
+[[evolucion]]
+
+[[ethernet/componentes fisicos]]
+
+[[ethernet/frame]]
+
+[[ethernet/bridge y switch]]
+
+# wifi
+
+[[wifi/parte 1]]
+
+[[wifi/parte 2]]

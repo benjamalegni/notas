@@ -61,7 +61,7 @@
 #### nivel de detalle
 - un beneficio de las user stories es qeu se pueden escribir con distinto nivel de detalle
 
-#### tipos de user stories\
+#### tipos de user stories
 - epica: una user story que no podemos estimar cuanto tiempo/esfuerzo nos va a llevar
 	- demasiado grande: deberia dividirse en stories mas chicas
 	- falta detalle: agregar detalle y reevaluar

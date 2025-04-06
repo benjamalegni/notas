@@ -37,16 +37,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mds.md",
+                "file": "artefactos scrum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mds"
+              "title": "artefactos scrum"
+            }
+          },
+          {
+            "id": "6c037ffe72546e58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "diagrama de clase.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "diagrama de clase"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -118,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mds.md",
+                "file": "artefactos scrum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +142,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for mds"
+              "title": "Backlinks for artefactos scrum"
             }
           },
           {
@@ -137,12 +151,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mds.md",
+                "file": "artefactos scrum.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from mds"
+              "title": "Outgoing links from artefactos scrum"
             }
           },
           {
@@ -164,10 +178,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mds.md"
+                "file": "artefactos scrum.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of mds"
+              "title": "Outline of artefactos scrum"
             }
           },
           {
@@ -199,14 +213,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2676cba9c678d60b",
+  "active": "6c037ffe72546e58",
   "lastOpenFiles": [
-    "diagrama de transicion, deployment y componentes.md",
-    "mds.md",
-    "diagrama de actividades.md",
-    "diagrama de clase.md",
     "diagrama de secuencia.md",
+    "mds.md",
+    "agile.md",
+    "diagrama de clase.md",
+    "casos de uso - relaciones.md",
+    "diagrama de actividades.md",
+    "diagrama de transicion, deployment y componentes.md",
+    "requerimientos/metodologias y ciclos de vida.md",
+    "requerimientos/captura de requerimientos.md",
     "media/scrum.md",
+    "artefactos scrum.md",
     "media/Pasted image 20241015204455.png",
     "media/Pasted image 20241015204436.png",
     "media/Pasted image 20241015204228.png",
@@ -217,13 +236,8 @@
     "media/Pasted image 20241006173127.png",
     "media/Pasted image 20241006172714.png",
     "media/Pasted image 20241006172127.png",
-    "artefactos scrum.md",
-    "agile.md",
     "scrum.md",
-    "casos de uso - relaciones.md",
-    "requerimientos/metodologias y ciclos de vida.md",
     "casos de uso/diagrama de casos de uso.md",
-    "requerimientos/captura de requerimientos.md",
     "requerimientos",
     "casos de uso/UML.md",
     "casos de uso/casos de uso.md",

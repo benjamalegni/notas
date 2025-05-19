@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/BD1/modelo de datos.md",
+                "file": "2025/redes II/IPv6/Identificador de interfaz y asignacion de direcciones.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "modelo de datos"
+              "title": "Identificador de interfaz y asignacion de direcciones"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ingreso/Math exam 6a5af62f52d24413a1842503ed7882c9.md",
+                "file": "2025/redes II/IPv6/Direcciones IPv6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Math exam 6a5af62f52d24413a1842503ed7882c9"
+              "title": "Backlinks for Direcciones IPv6"
             }
           },
           {
@@ -157,16 +157,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ingreso/Math exam 6a5af62f52d24413a1842503ed7882c9.md",
+                "file": "2025/redes II/IPv6/Coexistencia IPv4-IPv6.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Math exam 6a5af62f52d24413a1842503ed7882c9"
+              "title": "Outline of Coexistencia IPv4-IPv6"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -185,11 +186,29 @@
   },
   "active": "2ac2bf8e48eccccf",
   "lastOpenFiles": [
-    "2025/BD1/bases de datos.md",
-    "2025/BD1/modelo de datos.md",
+    "2025/redes II/IPv6/Intro IPv6.md",
+    "2025/redes II/IPv6/Coexistencia IPv4-IPv6.md",
+    "2025/redes II/media/Pasted image 20250518195047.png",
+    "2025/redes II/media/Pasted image 20250518195039.png",
+    "2025/redes II/media/Pasted image 20250518194933.png",
+    "2025/redes II/media/Pasted image 20250518194538.png",
+    "2025/redes II/media/Pasted image 20250518194527.png",
+    "2025/redes II/media/Pasted image 20250518194517.png",
+    "2025/redes II/media/Pasted image 20250518194509.png",
+    "2025/redes II/media/Pasted image 20250518194400.png",
+    "2025/redes II/media/Pasted image 20250518194348.png",
+    "2025/redes II/media/Pasted image 20250518194325.png",
+    "2025/redes II/Redes II.md",
+    "2025/redes II/IPv6/Configuracion de Direcciones IPv6.md",
+    "2025/redes II/IPv6/Identificador de interfaz y asignacion de direcciones.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "2025/redes II/IPv6/ asignacion de interfaz y asignacion de direcciones.md",
+    "2025/redes II/IPv6/Direcciones IPv6.md",
     "2025/BD1/concepto y tipologias de bases de datos.md",
-    "2025/BD1/media/Pasted image 20250512172038.png",
-    "2025/BD1/media/Pasted image 20250512171915.png",
-    "2025/BD1/media/Pasted image 20250512114352.png"
+    "2025/redes II/IPv6/Direccionamiento IPv4.md",
+    "2025/BD1/modelo de datos II.md",
+    "2025/BD1/bases de datos.md",
+    "2025/BD1/modelo de datos.md"
   ]
 }

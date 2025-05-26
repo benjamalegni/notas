@@ -126,3 +126,56 @@ estas 2 caracteristicas son ortogonales, y por lo tanto conforman un espectro de
 
 *exclusiva total, exclusiva parcial, compartida total, compartida parcial*
 ![[Pasted image 20250516212624.png]]
+
+## agregaciones
+es una extension propuesta para modelar interrelaciones entre entidades y relaciones, o entre relaciones
+- cual es su significado semantico?
+- cuando tiene sentido plantear una agregacion?
+
+como indicar la relacion **trabaja** entre entidades y relaciones?
+![[Pasted image 20250519200046.png]]
+
+### dimension temporal
+- el tratamiento de la dimension temporal dentro del MERExt es un tema complejo
+- es necesario establecer un metodo semantico y grafico que recoja de algun modo en el esquema conceptual el paso del tiempo y su influencia en la forma en que varian los datos
+- que opciones tenemos hasta ahora? solo la representacion de un dato de tipo fecha
+
+debemos analizar:
+- si los datos que vamos a almacenar van a constituir una base de datos historica o no
+- podemos tener que registrar a lo largo del tiempo:
+	- los atributos
+	- las relaciones
+
+### construccion del DERExt
+*no existen reglas que indiquen como construir un modelo de datos, solo principios generales a aplicar junto al criterio del disenador experimentado*
+
+- interpretar las frases expresadas en lenguaje natural, identificando cuales son las *entidades* (datos) y cuales las *relaciones* (entre los datos) en la organizacion
+- Chen propuso las siguiente heuristicas:
+	- en general, ==un sustantivo es una entidad==, aunque tambien podria ser un atributo (ej: "los ==ALUMNOS== cursan ==MATERIAS==")
+	- un verbo o frase verbal puede indicar una relacion entre entidades (ej: "los alumnos ==CURSAN== materias"). Asociaciones entre los datos
+- que informacion acerca de las entidades y relaciones deberian registrarse? -> determinar los atributos (de entidades y relaciones)
+- respecto de relaciones mas complejas (ternarias, agregaciones, etc.) la experiencia del disenador, las herramientas computacionales que maneje y el conocimiento de las transformaciones en esquemas equivalentes constituyen un recurso fundamental
+
+### decisiones de diseno
+- cuando un concepto deberia modelarse como entidad? o como atributo?
+- cuando un concepto deberia modelarse como una entidad? o como una relacion?
+DEPENDE DE LOS REQUERIMIENTOS DEL CLIENTE
+
+
+- como definir correctamente el grado de una relacion? es binaria? es ternaria o de orden >3? son varias o es una?
+ANALISIS DE TIEMPOS Y ACTORES
+
+- es equivalente una relacion ternaria a dos o mas binarias entre las entidades involucradas?
+- es equivalente una relacion ternaria a una agregacion?
+NO SIEMPREE
+
+-> EXPERIENCIA Y PRACTICA SON INDISPENSABLES PARA RESOLVER ESTOS INTERROGANTES
+
+
+## resumen: diseno conceptual de datos
+- el diseno conceptual se guia por el **analisis de requisitos**
+	- permite obtener una descripcion de alto nivel de los datos que finalmente seran almacenados
+- MER/MERExt es uno de los modelos mas populares para el diseno conceptual
+	- construcciones expresivas, cercanas a la forma en que los usuarios piensan acerca de sus aplicaciones
+	- numerosas herramientas CASE (que generalmente siguen el modelo binario -> no hay relaciones ternarias, que deben ser representadas por 2 o mas binarias -> no siempre equivalentes!!)
+- algoritmos de derivacion 'casi automatica' desde el esquema conceptual al esquema logico temprano

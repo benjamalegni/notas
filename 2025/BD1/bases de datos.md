@@ -1,7 +1,14 @@
+tema 1
 [[introduccion BD]]
 [[concepto y tipologias de bases de datos]]
 
-[[2025/BD1/modelo de datos]]
-[[2025/BD1/modelo de datos II]]
+tema 2
+[[modelo de datos]]
+[[modelo de datos II]]
 
-[[2025/BD1/Modelo Relacional]]
+tema 3
+[[Modelo Relacional]]
+[[Desarrolo de una BD]]
+
+tema 4: SQL
+[[Consultas SQL 1]]

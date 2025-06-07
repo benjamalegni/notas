@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/redes II/nivelred/OSPF.md",
+                "file": "2025/redes II/aplicaciones/DNS parte I.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OSPF"
+              "title": "DNS parte I"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -170,24 +171,33 @@
   },
   "active": "9d155383b99ac9d4",
   "lastOpenFiles": [
-    "2025/redes II/media/Pasted image 20250525232847.png",
-    "2025/redes II/media/Pasted image 20250525232840.png",
-    "2025/redes II/media/Pasted image 20250525232729.png",
-    "2025/redes II/media/Pasted image 20250525232547.png",
-    "2025/redes II/media/Pasted image 20250525232412.png",
-    "2025/redes II/media/Pasted image 20250525232037.png",
-    "2025/redes II/media/Pasted image 20250525231904.png",
-    "2025/redes II/media/Pasted image 20250525231717.png",
-    "2025/redes II/media/Pasted image 20250525231620.png",
-    "2025/redes II/media/Pasted image 20250525231508.png",
-    "2025/redes II/media/Pasted image 20250525231110.png",
-    "Untitled.md",
-    "2025/redes II/nivelred/OSPF.md",
     "2025/redes II/Redes II.md",
-    "2025/redes II/nivelred/RIP.md",
+    "2025/redes II/aplicaciones/DNS parte I.md",
+    "2025/redes II/aplicaciones/Web caches (tambien servidores proxy).md",
+    "2025/redes II/aplicaciones/HTTP - formato de mensajes.md",
+    "Pasted image 20250605191406.png",
+    "Pasted image 20250605190714.png",
+    "Pasted image 20250605182721.png",
+    "2025/redes II/aplicaciones/HTTP - conexiones.md",
+    "Pasted image 20250604171634.png",
+    "Pasted image 20250604171618.png",
+    "Pasted image 20250604171134.png",
+    "Pasted image 20250604170955.png",
+    "Pasted image 20250604170833.png",
+    "Pasted image 20250604170444.png",
+    "2025/redes II/aplicaciones/HTTP  - generalidades.md",
+    "Pasted image 20250604165125.png",
+    "2025/redes II/aplicaciones/servicios de la capa de transporte.md",
+    "2025/redes II/aplicaciones/procesos que se comunican y sockets.md",
+    "2025/redes II/aplicaciones/introduccion.md",
+    "2025/redes II/aplicaciones",
     "2025/redes II/nivelred/algoritmos de ruteo.md",
+    "2025/redes II/nivelred/OSPF.md",
     "2025/redes II/nivelred/ruteo avanzado.md",
+    "2025/redes II/nivelred/RIP.md",
     "2025/redes II/IPv6/Direcciones IPv6.md",
+    "2025/redes II/IPv6/Identificador de interfaz y asignacion de direcciones.md",
+    "Untitled.md",
     "2025/redes II/IPv6/Direccionamiento IPv4.md",
     "2025/redes II/IPv6/Configuracion de Direcciones IPv6.md",
     "2025/BD1/Modelo Relacional.md",
@@ -197,7 +207,6 @@
     "2025/redes II/nivelred",
     "2025/BD1/modelo de datos.md",
     "2025/redes II/IPv6/Coexistencia IPv4-IPv6.md",
-    "2025/redes II/IPv6/Identificador de interfaz y asignacion de direcciones.md",
     "2025/BD1/concepto y tipologias de bases de datos.md",
     "2025/BD1/introduccion BD.md"
   ]

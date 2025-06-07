@@ -1,18 +1,4 @@
-# iproute2
-- conjunto integrado de utilitarios para administrar el networking de linux
-- reemplaza a net-tools (ifconfig, arp, route)
-- mas eficiente (acceso al kernel a traves de sockets netlink)
-- separa los diferentes conceptos (objetos) relativos a networking (direcciones, dispositivos, rutas, etc)
-- sintaxis comun para todos los objetos
-- incorpora conceptos nuevos (p.ej. tuneles)
-- soporta balanceo de carga, control de trafico, etc
-- docu: linux advanced routing and traffic control, **https://www.lartc.org/lartc.pdf
-
-## comando iproute2
-**link** (man ip link)
-- un link es un dispositivo de red: puede ser fisico o logico
-- tiene solo 2 comandos: show y set (para configurarlo)
-**address** (man ip address)
+address** (man ip address)
 - direcciones del protocolo de nivel 3 (ipv4 o ipv6) asignadas a los dispositivos
 - permite agregar, eliminar o modificar direcciones
 **neighbour** (man ip neighbour)
@@ -145,7 +131,7 @@ posibles decisiones de las reglas
 - ejemplos
 	- ip rule add blackhole to 10.182.17.64/28  
 	- ip rule add prohibit from 209.10.26.51 
-	-  ip rule add unreachable iif wan0 fwmark 5 (Previamente: iptables -t mangle -A INPUT -m mark --mark 5)  
+	- ip rule add unreachable iif wan0 fwmark 5 (Previamente: iptables -t mangle -A INPUT -m mark --mark 5)  
 	- ip rule add unicast from 192.168.100.17 table 5
 
 ### funcionamiento de ruteo avanzado

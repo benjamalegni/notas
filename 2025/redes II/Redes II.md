@@ -12,3 +12,14 @@
 [[algoritmos de ruteo]]
 [[RIP]]
 [[OSPF]]
+
+# Aplicaciones
+[[2025/redes II/aplicaciones/introduccion|introduccion]]
+[[procesos que se comunican y sockets]]
+[[servicios de la capa de transporte]]
+[[HTTP  - generalidades]]
+[[HTTP - conexiones]]
+[[HTTP - formato de mensajes]]
+[[Web caches (tambien servidores proxy)]]
+[[DNS parte I]]
+

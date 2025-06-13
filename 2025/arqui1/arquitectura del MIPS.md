@@ -100,4 +100,4 @@ target address: direccion de destino de salto
 	- ![[Pasted image 20250602073337.png]]
 	- ![[Pasted image 20250602073346.png]]
 - control de la ALU
-	- ![[Pasted image 20250602074259.png]]
+	- ![[Pasted image 20250602074259.png]]  

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/arqui1/arquitectura del MIPS.md",
+                "file": "2025/arqui1/MIPS segmentado.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "arquitectura del MIPS"
+              "title": "MIPS segmentado"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ingreso/Math exam 6a5af62f52d24413a1842503ed7882c9.md",
+                "file": "2025/arqui1/arqui.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Math exam 6a5af62f52d24413a1842503ed7882c9"
+              "title": "Backlinks for arqui"
             }
           },
           {
@@ -171,48 +170,49 @@
   },
   "active": "9d155383b99ac9d4",
   "lastOpenFiles": [
-    "Pasted image 20250602074259.png",
-    "Pasted image 20250602073346.png",
-    "Pasted image 20250602073337.png",
-    "Pasted image 20250602073329.png",
-    "Pasted image 20250602073320.png",
-    "Pasted image 20250602073312.png",
-    "Pasted image 20250602073300.png",
-    "Pasted image 20250602072303.png",
-    "Pasted image 20250602072228.png",
-    "Pasted image 20250602072221.png",
-    "Pasted image 20250602072214.png",
-    "2025/arqui1/lab/VHDL II.md",
+    "2025/arqui1/media/Pasted image 20250608182834.png",
+    "2025/arqui1/media/Pasted image 20250608182828.png",
+    "2025/arqui1/media/Pasted image 20250608182540.png",
+    "2025/arqui1/media/Pasted image 20250608182528.png",
+    "2025/arqui1/media/Pasted image 20250608182504.png",
+    "2025/arqui1/media/Pasted image 20250608182347.png",
+    "2025/arqui1/media/Pasted image 20250608182330.png",
+    "2025/arqui1/media/Pasted image 20250608182316.png",
+    "2025/arqui1/media/Pasted image 20250608182305.png",
+    "2025/arqui1/media/Pasted image 20250608182248.png",
+    "2025/arqui1/media/Pasted image 20250608182237.png",
     "2025/arqui1/arquitectura del MIPS.md",
     "2025/arqui1/arqui.md",
     "2025/arqui1/lab/VHDL I.md",
-    "2025/arqui1/media",
-    "2025/arqui1/lab",
+    "2025/arqui1/lab/VHDL II.md",
+    "2025/arqui1/MIPS segmentado.md",
+    "2025/arqui1/jerarquia de memorias.md",
+    "2025/arqui1/rendimiento de sistemas.md",
     "2025/arqui1/intro.md",
     "2025/redes II/Redes II.md",
+    "2025/redes II/aplicaciones/Protocolos de acceso de correo.md",
+    "2025/redes II/aplicaciones/protocolo SMTP.md",
+    "2025/redes II/aplicaciones/intro correo electronico.md",
+    "2025/redes II/aplicaciones/DNS parte II.md",
+    "2025/redes II/aplicaciones/DNS parte I.md",
+    "2025/redes II/aplicaciones/servicios de la capa de transporte.md",
+    "2025/redes II/aplicaciones/procesos que se comunican y sockets.md",
+    "2025/redes II/aplicaciones/introduccion.md",
+    "2025/redes II/aplicaciones/Web caches (tambien servidores proxy).md",
+    "2025/redes II/aplicaciones/HTTP  - generalidades.md",
+    "2025/redes II/aplicaciones/HTTP - formato de mensajes.md",
+    "2025/redes II/aplicaciones/HTTP - conexiones.md",
+    "2025/redes II/aplicaciones",
+    "2025/arqui1/media",
+    "2025/arqui1/lab",
     "2025/BD1/bases de datos.md",
     "2025/BD1/tema 4/Consultas SQL 1.md",
     "2025/BD1/tema 4",
     "2025/BD1/tema 1/concepto y tipologias de bases de datos.md",
     "2025/BD1/tema 1/introduccion BD.md",
-    "2025/BD1/tema 3/Modelo Relacional.md",
     "2025/BD1/tema 3",
     "2025/BD1/tema 2",
-    "2025/BD1/tema 3/Desarrolo de una BD.md",
     "2025/BD1/tema 1",
-    "Untitled.md",
-    "2025/BD1/tema 2/modelo de datos II.md",
-    "2025/redes II/nivelred/OSPF.md",
-    "2025/redes II/nivelred/RIP.md",
-    "2025/redes II/nivelred/algoritmos de ruteo.md",
-    "2025/redes II/nivelred/ruteo avanzado.md",
-    "2025/redes II/IPv6/Direcciones IPv6.md",
-    "2025/redes II/IPv6/Direccionamiento IPv4.md",
-    "2025/redes II/IPv6/Configuracion de Direcciones IPv6.md",
-    "2025/redes II/nivelred/introduccion.md",
-    "2025/redes II/nivelred",
-    "2025/BD1/tema 2/modelo de datos.md",
-    "2025/redes II/IPv6/Coexistencia IPv4-IPv6.md",
-    "2025/redes II/IPv6/Identificador de interfaz y asignacion de direcciones.md"
+    "2025/redes II/nivelred"
   ]
 }

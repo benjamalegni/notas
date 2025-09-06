@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/arqui1/MIPS segmentado.md",
+                "file": "2025/ing. sistemas/contents/introduccion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MIPS segmentado"
+              "title": "introduccion"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 243.5
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025/arqui1/arqui.md",
+                "file": "2025/arqui1/sistemas de e-s.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for arqui"
+              "title": "Backlinks for sistemas de e-s"
             }
           },
           {
@@ -142,24 +142,26 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ingreso/Math exam 6a5af62f52d24413a1842503ed7882c9.md",
+                "file": "2025/arqui1/jerarquia de memorias.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Math exam 6a5af62f52d24413a1842503ed7882c9"
+              "title": "Outline of jerarquia de memorias"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -170,32 +172,41 @@
   },
   "active": "9d155383b99ac9d4",
   "lastOpenFiles": [
-    "2025/arqui1/media/Pasted image 20250608182834.png",
-    "2025/arqui1/media/Pasted image 20250608182828.png",
-    "2025/arqui1/media/Pasted image 20250608182540.png",
-    "2025/arqui1/media/Pasted image 20250608182528.png",
-    "2025/arqui1/media/Pasted image 20250608182504.png",
-    "2025/arqui1/media/Pasted image 20250608182347.png",
-    "2025/arqui1/media/Pasted image 20250608182330.png",
-    "2025/arqui1/media/Pasted image 20250608182316.png",
-    "2025/arqui1/media/Pasted image 20250608182305.png",
-    "2025/arqui1/media/Pasted image 20250608182248.png",
-    "2025/arqui1/media/Pasted image 20250608182237.png",
+    "2025/ing. sistemas/Index.md",
+    "2025/ing. sistemas/contents/introduccion.md",
+    "2025/ing. sistemas/contents",
+    "2025/arqui1/sistemas de e-s.md",
+    "2025/ing. sistemas",
+    "2025/calculo I",
+    "2025/arqui2",
+    "Untitled.canvas",
+    "2025/arqui1/jerarquia de memorias.md",
     "2025/arqui1/arquitectura del MIPS.md",
+    "2025/arqui1/media/Pasted image 20250801162035.png",
+    "2025/arqui1/media/Pasted image 20250801162029.png",
+    "2025/arqui1/media/Pasted image 20250801162020.png",
+    "2025/arqui1/media/Pasted image 20250801161955.png",
+    "2025/arqui1/media/Pasted image 20250801161431.png",
+    "2025/arqui1/media/Pasted image 20250801161056.png",
     "2025/arqui1/arqui.md",
+    "2025/arqui1/rendimiento de sistemas.md",
+    "2025/arqui1/MIPS segmentado.md",
+    "2025/arqui1/excepciones e interrupciones.md",
+    "Pasted image 20250801162035.png",
+    "Pasted image 20250801162029.png",
+    "Pasted image 20250801162020.png",
+    "Pasted image 20250801161955.png",
+    "Untitled.md",
+    "2025/redes II/Redes II.md",
+    "2025/redes II/aplicaciones/servicios de la capa de transporte.md",
     "2025/arqui1/lab/VHDL I.md",
     "2025/arqui1/lab/VHDL II.md",
-    "2025/arqui1/MIPS segmentado.md",
-    "2025/arqui1/jerarquia de memorias.md",
-    "2025/arqui1/rendimiento de sistemas.md",
     "2025/arqui1/intro.md",
-    "2025/redes II/Redes II.md",
     "2025/redes II/aplicaciones/Protocolos de acceso de correo.md",
     "2025/redes II/aplicaciones/protocolo SMTP.md",
     "2025/redes II/aplicaciones/intro correo electronico.md",
     "2025/redes II/aplicaciones/DNS parte II.md",
     "2025/redes II/aplicaciones/DNS parte I.md",
-    "2025/redes II/aplicaciones/servicios de la capa de transporte.md",
     "2025/redes II/aplicaciones/procesos que se comunican y sockets.md",
     "2025/redes II/aplicaciones/introduccion.md",
     "2025/redes II/aplicaciones/Web caches (tambien servidores proxy).md",
@@ -205,14 +216,8 @@
     "2025/redes II/aplicaciones",
     "2025/arqui1/media",
     "2025/arqui1/lab",
-    "2025/BD1/bases de datos.md",
-    "2025/BD1/tema 4/Consultas SQL 1.md",
     "2025/BD1/tema 4",
-    "2025/BD1/tema 1/concepto y tipologias de bases de datos.md",
-    "2025/BD1/tema 1/introduccion BD.md",
     "2025/BD1/tema 3",
-    "2025/BD1/tema 2",
-    "2025/BD1/tema 1",
-    "2025/redes II/nivelred"
+    "2025/BD1/tema 2"
   ]
 }

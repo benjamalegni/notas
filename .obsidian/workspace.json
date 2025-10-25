@@ -13,15 +13,80 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/ing. software/contents/introduccion.md",
+                "file": "2025/ing. software/contents/estilos arquitectonicos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "introduccion"
+              "title": "estilos arquitectonicos"
+            }
+          },
+          {
+            "id": "fd3e18291a1afceb",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "2025/ing. software/media/Pasted image 20251010103543.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20251010103543"
+            }
+          },
+          {
+            "id": "b6965d1acedd7ba4",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "2025/ing. software/media/Pasted image 20251010103446.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20251010103446"
+            }
+          },
+          {
+            "id": "804395ee2a99aac5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "2025/ing. software/media/Pasted image 20251010103446.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20251010103446"
+            }
+          },
+          {
+            "id": "e3855d42985b3dd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025/BD1/SQL queries.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL queries"
+            }
+          },
+          {
+            "id": "5915217b670f35fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025/ing. software/contents/atributos de calidad.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "atributos de calidad"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -113,12 +178,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ingreso/Math exam 6a5af62f52d24413a1842503ed7882c9.md",
+                "file": "2025/ing. software/contents/estilos arquitectonicos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Math exam 6a5af62f52d24413a1842503ed7882c9"
+              "title": "Outgoing links from estilos arquitectonicos"
             }
           },
           {
@@ -137,86 +202,110 @@
             }
           },
           {
-            "id": "64274bafe148ee53",
+            "id": "da710b5ce2c0ab62",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          },
+          {
+            "id": "cbed6a8eebd22b1a",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "smart-connections",
+              "title": "Connections"
+            }
+          },
+          {
+            "id": "04c46260372ee682",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025/arqui1/jerarquia de memorias.md",
+                "file": "2025/ing. software/contents/patrones de diseno.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of jerarquia de memorias"
+              "title": "Outline of patrones de diseno"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 207.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "copilot:Open Copilot Chat": false,
+      "smart-connections:Open: Smart Chat": false,
+      "smart-connections:Smart Connections: Open connections view": false,
+      "smart-connections:Smart Connections: Open random connection": true
     }
   },
-  "active": "9d155383b99ac9d4",
+  "active": "e3855d42985b3dd4",
   "lastOpenFiles": [
-    "Pasted image 20250906190819.png",
-    "Pasted image 20250906190244.png",
-    "Pasted image 20250906190221.png",
-    "Pasted image 20250906185833.png",
-    "Pasted image 20250906183316.png",
-    "Pasted image 20250906183117.png",
-    "Pasted image 20250906182534.png",
-    "Pasted image 20250906182504.png",
+    "2025/ing. software/media/Pasted image 20251010103543.png",
+    "2025/BD1/SQL queries.md",
+    "2025/ing. software/media/Pasted image 20251010103446.png",
+    "2025/ing. software/media/Pasted image 20251010103038.png",
+    "2025/ing. software/contents/estilos arquitectonicos.md",
+    "2025/ing. software/media/Pasted image 20251013175859.png",
+    "2025/ing. software/media/Pasted image 20251013175052.png",
+    "2025/ing. software/media/Pasted image 20251013175036.png",
+    "2025/ing. software/media/Pasted image 20251013174824.png",
+    "2025/ing. software/media/Pasted image 20251013174755.png",
+    "2025/ing. software/media/Pasted image 20251013174342.png",
+    "2025/ing. software/media/Pasted image 20251013174316.png",
     "2025/ing. software/Index.md",
+    "2025/ing. software/contents/atributos de calidad.md",
+    "2025/ing. software/contents/arquitecturas REST.md",
+    "2024/redes1/intro/arquitectura de niveles.md",
+    "Untitled.md",
+    "Untitled.base",
+    "Untitled 1.base",
     "2025/ing. software/contents/introduccion.md",
+    "2025/ing. software/contents/patrones de diseno.md",
+    "2025/ing. software/contents/patrones para persistencia.md",
+    "2025/ing. software/contents/jpa.md",
+    "2024/mds/diagrama de actividades.md",
+    "2024/mds/diagrama de clase.md",
+    "2024/mds/diagrama de transicion, deployment y componentes.md",
+    "2024/mds/diagrama de secuencia.md",
+    "copilot-custom-prompts/Explain like I am 5.md",
+    "2025/ing. software/media",
+    "copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot-custom-prompts/Remove URLs.md",
+    "copilot-custom-prompts/Generate glossary.md",
+    "copilot-custom-prompts/Generate table of contents.md",
+    "copilot-custom-prompts/Make longer.md",
+    "copilot-custom-prompts/Make shorter.md",
+    "copilot-custom-prompts/Emojify.md",
+    "copilot-custom-prompts/Simplify.md",
+    "copilot-custom-prompts",
     "2025/ing. software/contents",
-    "2025/arqui1/sistemas de e-s.md",
     "2025/ing. software",
+    "2025/ing. sistemas/contents",
+    "2025/ing. sistemas",
     "2025/calculo I",
     "2025/arqui2",
-    "Untitled.canvas",
-    "2025/arqui1/jerarquia de memorias.md",
-    "2025/arqui1/arquitectura del MIPS.md",
-    "2025/arqui1/media/Pasted image 20250801162035.png",
-    "2025/arqui1/media/Pasted image 20250801162029.png",
-    "2025/arqui1/media/Pasted image 20250801162020.png",
-    "2025/arqui1/arqui.md",
-    "2025/arqui1/rendimiento de sistemas.md",
-    "2025/arqui1/MIPS segmentado.md",
-    "2025/arqui1/excepciones e interrupciones.md",
-    "Untitled.md",
-    "2025/redes II/Redes II.md",
-    "2025/redes II/aplicaciones/servicios de la capa de transporte.md",
-    "2025/arqui1/lab/VHDL I.md",
-    "2025/arqui1/lab/VHDL II.md",
-    "2025/arqui1/intro.md",
-    "2025/redes II/aplicaciones/Protocolos de acceso de correo.md",
-    "2025/redes II/aplicaciones/protocolo SMTP.md",
-    "2025/redes II/aplicaciones/intro correo electronico.md",
-    "2025/redes II/aplicaciones/DNS parte II.md",
-    "2025/redes II/aplicaciones/DNS parte I.md",
-    "2025/redes II/aplicaciones/procesos que se comunican y sockets.md",
-    "2025/redes II/aplicaciones/introduccion.md",
-    "2025/redes II/aplicaciones/Web caches (tambien servidores proxy).md",
-    "2025/redes II/aplicaciones/HTTP  - generalidades.md",
-    "2025/redes II/aplicaciones/HTTP - formato de mensajes.md",
-    "2025/redes II/aplicaciones",
-    "2025/arqui1/media",
-    "2025/arqui1/lab",
-    "2025/BD1/tema 4",
-    "2025/BD1/tema 3",
-    "2025/BD1/tema 2"
+    "Untitled.canvas"
   ]
 }

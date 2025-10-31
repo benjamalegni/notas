@@ -4,3 +4,6 @@
 [[patrones para persistencia]]
 [[arquitecturas REST]]
 [[atributos de calidad]]
+[[estilos arquitectonicos]]
+
+

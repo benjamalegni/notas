@@ -138,4 +138,35 @@ AS cl
 ON c.code = cl.countrycode
 ORDER BY number_of_languages DESC;
 
+
+# transacciones
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SAVEPOINT my_savepoint;
+INSERT INTO countrylanguage VALUES('USA','Latin','F', 0.1);
+SAVEPOINT after_latin_addition_savepoint;
+INSERT INTO countrylanguage VALUES('USA','Greek', 'F',0.02);
+ROLLBACK TO SAVEPOINT after_latin_addition_savepoint;
+COMMIT;
+
+#vistas
+USE world;
+CREATE VIEW Independent_Country_Details(country_name, country_area, country_population, country_official_language) AS
+SELECT c.name, c.surfaceArea, c.population, cl.language
+FROM country AS c, countrylanguage AS cl
+WHERE cl.isOfficial = 'T' and cl.countrycode = c.code;
+
+SELECT * FROM Independent_Country_Details;
+DROP VIEW Independent_Country_Details;
+
+# indices
+ALTER TABLE departments ADD INDEX dept_name_idx(dept_name); -- con este nuevo indice ahora se ordena por dept_name
+SHOW INDEX FROM departments;
+ALTER TABLE departments DROP INDEX dept_name_idx;
+
+# metadata
+SHOW databases;
+SELECT table_name, table_type
+FROM INFORMATION_SCHEMA.tables
+WHERE table_schema = 'world';
 ```

@@ -130,3 +130,147 @@ tipos de fan-out:
 - Logging y trazabilidad
 - …
 
+# algunos patrones
+
+ruteo y descubrimiento:
+![[Pasted image 20251102110900.png]]
+
+resiliencia:
+![[Pasted image 20251102110921.png]]
+
+seguridad:
+![[Pasted image 20251102111452.png]]
+
+logging y trazabilidad:
+![[Pasted image 20251102111512.png]]
+
+## estandarizacion de servicios REST
+- Uso de URIs descriptivas. Ejemplo:
+	- www.myweather.com/avg/{city}/{month} [Not OK]
+	- www.myweather.com/averages/city/{city}/month/{month} [OK]
+- Uso de parámetros en queries para
+	- Paginación. Ejemplo: /forecast/monthly/{city}?page=1
+	- Filtrado de atributos. Ejemplo:
+		/forecast/monthly/{city}?attributes=max,min
+	- Criterios de búsqueda. Ejemplo:
+		/severeweatheralerts?year=2015&month=9
+
+- Elección de use-of-hyphen por sobre use_of_underscore
+	- Alternativas: useOfCamelCase, lowercaseonly
+- Usar ya sea singular o plural para los sustantivos, de forma consistente
+
+- Usar métodos HTTP para indicar la acción a realizar. Ejemplo:
+	- http://www.myweather.com/getCurrentTemp/zip/{zipCode} [Not OK]
+	- GET http://www.myweather.com/currentTemp/zip/{zipCode} [OK]
+
+- Elegir qué método HTTP utilizar en cada situación. Ejemplos:
+
+| http method | when to use it                                                                   |
+| ----------- | -------------------------------------------------------------------------------- |
+| get         | Queries and read-only operations (no data should be modified)                    |
+| put         | Updates on resources in an idempotent fashion                                    |
+| delete      | Removal of resources in an idempotent fashion                                    |
+| post        | Resource creation; or<br>non-idempotent updates or other operations on resources |
+| patch       | Partial updates (i.e., only part of the resource is updated)                     |
+HTTP **status codes** para respuestas:
+- 200: success
+- 201: successful resource creation
+- 202: successful start of a request that will be handled asynchronously
+- 400: data validation error or request processing error
+- 401: invalid user credentials provided for authentication
+- 403: access denied (authorization failure)
+- 404: the requested resource was not found
+- 409: the request creates a conflict (e.g., duplicate key on resource creation)
+- 415: the request content-type header is an unsupported media type
+- 500: unexpected error processing the request
+
+# recapitulacion
+- Un (micro)servicio debe ser lo suficientemente “pequeño” como para ser desarrollado por un único equipo y ser facilmente testeable
+	- Principio de Responsabilidad Unica (POO), en el sentido que una clase o conjunto de clases deben tener una funcionalidad cohesiva y bajo acoplamiento con otras clases (que implementan otras responsabilidades)
+	- El servicio debe “encapsular” cambios relacionados a su responsabilidad 
+- Un microservicio no solo involucra su código fuente (por ej., SpringBoot) sino la capacidad de ser desplegado independientemente de otros microservicios 
+	- -> runtime
+
+### modelado de microservicios
+Dos estrategias
+1. Descomponer el problema en base a capacidades del negocio
+2. Descomponer el problema en base a sub-dominios
+
+Mas generalmente, se aplica un enfoque denominado DDD (Domain-Driven Design)
+
+
+### descomposicion por capacidades del negocio
+![[Pasted image 20251102113945.png]]
+
+### domain-driven design (DDD)
+- Es una técnica de modelamiento que captura “dominios” y servicios asociados, que luego progresivamente sirven para derivar los microservicios del sistema
+![[Pasted image 20251102114038.png]]
+
+descomposicion por sub-dominio
+![[Pasted image 20251102114056.png]]
+
+![[Pasted image 20251102114113.png]]
+
+
+## patrones mas tecnicos
+- Database per microservice
+- Shared database
+- Wrapper service
+- Service data replication
+- Gateway
+- EDA (Event-driven Architecture)
+	- Orquestación
+	- Coreografía
+- Circuit-breaker
+
+### patron: base de datos por microservicio
+- A fin de incrementar la autonomía de cada servicio (por ej., cuando se despliega), cada microservicio funciona con una base de datos dedicada
+	- Puede ser una base de datos fisicamente separada, lo cual permite distintos tipos de bases de datos (por ej., relacionales, NoSQL, etc.)
+	- Pueden ser tablas distintas, y separadas lógicamente, dentro de la misma base de datos
+- Otros componentes no conocen dicha base de datos
+- Todas las llamadas a otros microservicios se hacen via APIs REST
+![[Pasted image 20251102114333.png]]
+
+#### ejemplo de BD por microservicio
+![[Pasted image 20251102114546.png]]
+
+- puede requerir sincronizaciones de datos entre las bases de datos
+
+
+## patron: service data replication
+- Un servicio necesita acceder a datos que pertenecen a otro servicio, o son compartidos con otros
+- Una solución es crear una base dedicada para el servicio que replique los datos requeridos desde la base maestra
+	- Esto requiere un mecanismo de sincronización para actualizar la réplica
+	- Triggers, integración vía ETLs, mensajería punto-a-punto a pub/sub
+	- Puede generar stale data, o necesidad de sincronizar de ambos lados
+
+## event-driven architecture (EDA)
+- Es un estilo arquitectónico en el cual los componentes se comunican principalmente a través del envío de mensajes o eventos de manera asincrónica
+![[Pasted image 20251102115831.png]]
+
+## microservicios sin EDA
+ - Los consumidores invocan operaciones sobre los servicios
+- Las llamadas a los servicios son sincrónicas (solicitud-respuesta)
+![[Pasted image 20251102115934.png]]
+
+
+## microservicios con EDA
+- En EDA, los publicadores anuncian eventos, y los servicios actúan en base a ellos
+- Esto aporta mantenibilidad, escalabilidad y confiabilidad (pero también, complejidad)
+
+![[Pasted image 20251102120119.png]]
+
+- Para mejorar la autonomía, se puede crear una base de datos dedicada por microservicio, con una replica de los datos que necesita tomados de una base de datos (master) compartida
+![[Pasted image 20251102120146.png]]
+
+# migracion ( de monolito ) a microservicios
+- por ejemplo, a traves del patron Strangler
+![[Pasted image 20251102120228.png]]
+
+## productividad versus complejidad
+- La complejidad disminuye la productividad
+- En sistemas poco complejos, microservicios agrega complejidad técnica que no tiene ROI positivo respecto al monolito
+- En sistemas complejos, la independencia de cada equipo ofrece un aumento de productividad que compensa el costo técnico
+
+![[Pasted image 20251102120515.png]]
+

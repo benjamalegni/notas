@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/ing. software/contents/microservicios.md",
+                "file": "2025/ing. software/contents/metodo ADD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "microservicios"
+              "title": "metodo ADD"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5,
-    "collapsed": true
+    "width": 483.5
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -197,14 +196,31 @@
   },
   "active": "de3356531c65613e",
   "lastOpenFiles": [
-    "Pasted image 20251029101529.png",
-    "Pasted image 20251029101038.png",
-    "Pasted image 20251029101016.png",
-    "Pasted image 20251029095842.png",
-    "Pasted image 20251029095828.png",
-    "Pasted image 20251029092129.png",
+    "2025/ing. software/media/Pasted image 20251102195329.png",
+    "2025/ing. software/media/Pasted image 20251102195237.png",
+    "2025/ing. software/media/Pasted image 20251102194708.png",
+    "2025/ing. software/media/Pasted image 20251102194500.png",
+    "2025/ing. software/media/Pasted image 20251102194444.png",
+    "2025/ing. software/media/Pasted image 20251102194424.png",
+    "2025/ing. software/media/Pasted image 20251102194325.png",
+    "2025/ing. software/media/Pasted image 20251102194251.png",
+    "2025/ing. software/media/Pasted image 20251102194147.png",
+    "2025/ing. software/media/Pasted image 20251102194120.png",
+    "2025/ing. software/media/Pasted image 20251102194108.png",
+    "2025/ing. software/contents/jpa.md",
+    "2025/ing. software/contents/introduccion.md",
+    "2025/ing. software/contents/evaluacion de arquitecturas.md",
+    "2025/ing. software/contents/atributos de calidad.md",
+    "2025/ing. software/contents/patrones de diseno.md",
+    "2025/ing. software/contents/enfoques de documentacion arquitectonica.md",
     "2025/ing. software/Index.md",
+    "contents/evaluacion de arquitecturas.md",
+    "contents",
+    "2025/ing. software/contents/metodo ADD.md",
+    "2025/ing. software/contents/patrones para persistencia.md",
+    "2025/ing. software/contents/tacticas arquitectonicas.md",
     "2025/ing. software/contents/microservicios.md",
+    "Untitled.md",
     "2022/ingreso/Math exam 6a5af62f52d24413a1842503ed7882c9.md",
     "2025/BD1/SQL queries.md",
     "2025/redes II/aplicaciones/Protocolos de acceso de correo.md",
@@ -215,26 +231,10 @@
     "2025/BD1/tema 4/Consultas SQL.md",
     "2025/BD1/tema 4/Consultas SQL 1.md",
     "2025/ing. software/contents/estilos arquitectonicos.md",
-    "2025/ing. software/contents/atributos de calidad.md",
-    "2025/ing. software/media/Pasted image 20251010103446.png",
-    "2025/ing. software/media/Pasted image 20251010103543.png",
-    "2025/ing. software/media/Pasted image 20251010103038.png",
-    "2025/ing. software/media/Pasted image 20251013175859.png",
-    "2025/ing. software/media/Pasted image 20251013175052.png",
     "2025/ing. software/contents/arquitecturas REST.md",
     "2024/redes1/intro/arquitectura de niveles.md",
-    "Untitled.md",
     "Untitled.base",
     "Untitled 1.base",
-    "2025/ing. software/contents/introduccion.md",
-    "2025/ing. software/contents/patrones de diseno.md",
-    "2025/ing. software/contents/patrones para persistencia.md",
-    "2025/ing. software/contents/jpa.md",
-    "2024/mds/diagrama de actividades.md",
-    "2024/mds/diagrama de clase.md",
-    "2024/mds/diagrama de transicion, deployment y componentes.md",
-    "2024/mds/diagrama de secuencia.md",
-    "copilot-custom-prompts/Explain like I am 5.md",
     "2025/ing. software/media",
     "copilot-custom-prompts",
     "2025/ing. software/contents",
@@ -242,7 +242,6 @@
     "2025/ing. sistemas/contents",
     "2025/ing. sistemas",
     "2025/calculo I",
-    "2025/arqui2",
     "Untitled.canvas"
   ]
 }

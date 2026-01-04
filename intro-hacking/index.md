@@ -20,4 +20,15 @@
 		[[drupal]]
 		[[magento audit]]
 [[conceptos basicos de enumeracion y explotacion]]
+	shells penetration:
+		[[reverse shell]]
+		[[bind shell]]
+		[[forward shell]]
+	payloads
+		[[payload staged]]
+		[[payload non-staged]]
+	tipos de explotacion
+		[[explotacion manual]]
+		[[explotacion automatizada]]
 	
+		

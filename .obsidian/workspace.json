@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8cd9502e158bf4f4",
+        "id": "21cc49c333ef8e01",
         "type": "tabs",
         "children": [
           {
-            "id": "de3356531c65613e",
+            "id": "9d155383b99ac9d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025/ing. software/contents/metodo ADD.md",
+                "file": "CCNA/notes/2. interfaces and cables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "metodo ADD"
+              "title": "2. interfaces and cables"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 483.5
+    "width": 200
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025/ing. software/contents/estilos arquitectonicos.md",
+                "file": "ingreso/Math exam 6a5af62f52d24413a1842503ed7882c9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from estilos arquitectonicos"
+              "title": "Outgoing links from Math exam 6a5af62f52d24413a1842503ed7882c9"
             }
           },
           {
@@ -137,46 +137,26 @@
             }
           },
           {
-            "id": "da710b5ce2c0ab62",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
-          },
-          {
-            "id": "cbed6a8eebd22b1a",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {},
-              "icon": "smart-connections",
-              "title": "Connections"
-            }
-          },
-          {
-            "id": "04c46260372ee682",
+            "id": "64274bafe148ee53",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025/ing. software/contents/patrones de diseno.md",
+                "file": "2025/arqui1/jerarquia de memorias.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of patrones de diseno"
+              "title": "Outline of jerarquia de memorias"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 207.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -194,8 +174,44 @@
       "smart-connections:Smart Connections: Open random connection": true
     }
   },
-  "active": "de3356531c65613e",
+  "active": "9d155383b99ac9d4",
   "lastOpenFiles": [
+    "CCNA/notes/1. network devices.md",
+    "CCNA/notes/2. interfaces and cables.md",
+    "CCNA/index.md",
+    "Untitled.md",
+    "intro-hacking/contents/conceptos basicos de enumeracion y explotacion.md",
+    "CCNA/notes",
+    "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 34 Lab - Standard ACLs.pkt",
+    "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 23 Flashcards - EtherChannel.apkg",
+    "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 12 Lab - Life of a Packet.pkt",
+    "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 39 Lab - DHCP.pkt",
+    "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 06 Lab - Ethernet LAN Switching.pkt",
+    "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 58 Flashcards - Wireless Configuration.apkg",
+    "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 32 Lab - IPv6 Configuration (Part 2).pkt",
+    "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 11 Lab - Troubleshooting Static Routes.pkt",
+    "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 02 Flashcards - Interfaces and Cables.apkg",
+    "intro-hacking/contents/reconocimiento.md",
+    "intro-hacking/contents/enumeracion de servicios comunes y gestores de contenido.md",
+    "intro-hacking/concepts/explotacion automatizada.md",
+    "intro-hacking/concepts/explotacion manual.md",
+    "intro-hacking/index.md",
+    "intro-hacking/concepts/payload non-staged.md",
+    "intro-hacking/concepts/payload staged.md",
+    "intro-hacking/concepts/reverse shell.md",
+    "intro-hacking/concepts/forward shell.md",
+    "intro-hacking/concepts/bind shell.md",
+    "intro-hacking/tools/netcat.md",
+    "intro-hacking/tools/ftp audit.md",
+    "2025/ing. software/contents/introduccion.md",
+    "intro-hacking/tools/magento audit.md",
+    "intro-hacking/tools/ip route.md",
+    "intro-hacking/tools/drupal.md",
+    "intro-hacking/tools/joomla audit.md",
+    "intro-hacking/tools/arp scan.md",
+    "intro-hacking/tools/masscan.md",
+    "intro-hacking/tools/wordpress audit.md",
+    "intro-hacking/tools/smb audit.md",
     "2025/ing. software/media/Pasted image 20251102195329.png",
     "2025/ing. software/media/Pasted image 20251102195237.png",
     "2025/ing. software/media/Pasted image 20251102194708.png",
@@ -206,42 +222,6 @@
     "2025/ing. software/media/Pasted image 20251102194251.png",
     "2025/ing. software/media/Pasted image 20251102194147.png",
     "2025/ing. software/media/Pasted image 20251102194120.png",
-    "2025/ing. software/media/Pasted image 20251102194108.png",
-    "2025/ing. software/contents/jpa.md",
-    "2025/ing. software/contents/introduccion.md",
-    "2025/ing. software/contents/evaluacion de arquitecturas.md",
-    "2025/ing. software/contents/atributos de calidad.md",
-    "2025/ing. software/contents/patrones de diseno.md",
-    "2025/ing. software/contents/enfoques de documentacion arquitectonica.md",
-    "2025/ing. software/Index.md",
-    "contents/evaluacion de arquitecturas.md",
-    "contents",
-    "2025/ing. software/contents/metodo ADD.md",
-    "2025/ing. software/contents/patrones para persistencia.md",
-    "2025/ing. software/contents/tacticas arquitectonicas.md",
-    "2025/ing. software/contents/microservicios.md",
-    "Untitled.md",
-    "2022/ingreso/Math exam 6a5af62f52d24413a1842503ed7882c9.md",
-    "2025/BD1/SQL queries.md",
-    "2025/redes II/aplicaciones/Protocolos de acceso de correo.md",
-    "2025/redes II/aplicaciones/servicios de la capa de transporte.md",
-    "2025/redes II/aplicaciones/Web caches (tambien servidores proxy).md",
-    "2025/redes II/aplicaciones/HTTP  - generalidades.md",
-    "2025/redes II/aplicaciones/HTTP - conexiones.md",
-    "2025/BD1/tema 4/Consultas SQL.md",
-    "2025/BD1/tema 4/Consultas SQL 1.md",
-    "2025/ing. software/contents/estilos arquitectonicos.md",
-    "2025/ing. software/contents/arquitecturas REST.md",
-    "2024/redes1/intro/arquitectura de niveles.md",
-    "Untitled.base",
-    "Untitled 1.base",
-    "2025/ing. software/media",
-    "copilot-custom-prompts",
-    "2025/ing. software/contents",
-    "2025/ing. software",
-    "2025/ing. sistemas/contents",
-    "2025/ing. sistemas",
-    "2025/calculo I",
     "Untitled.canvas"
   ]
 }

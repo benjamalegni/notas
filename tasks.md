@@ -1,0 +1,2 @@
+- [x] enumeracion de servicios comunes y gestores de contenido
+- [ ] conceptos basicos de enumeracion y explotacion 3/1

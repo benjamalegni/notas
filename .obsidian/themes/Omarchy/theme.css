@@ -1,5 +1,5 @@
 /* Omarchy Theme for Obsidian */
-/* Generated on Fri Dec 26 01:23:11 PM EET 2025 from theme: tokyo-night */
+/* Generated on Thu Jan  8 07:41:48 AM EET 2026 from theme: unknown */
 /* Colors sorted by frequency, backgrounds by distance */
 
 .theme-dark, .theme-light {
@@ -21,16 +21,16 @@
 
   /* Selection colors from Alacritty */
   --text-selection: #7aa2f7;
-  --text-selection-fg: #a9b1d6;
+  --text-selection-fg: #c0caf5;
 
   /* 13-slot color system for remaining elements */
-  --text-title-h1: #7aa2f7;
-  --text-title-h2: #ff9e64;
-  --text-title-h3: #ff7a93;
-  --text-title-h4: #f7768e;
-  --text-title-h5: #e0af68;
-  --text-title-h6: #e0af68;  /* Same as h5 */
-  --text-link: #cdd6f4;
+  --text-title-h1: #c0caf5;
+  --text-title-h2: #7aa2f7;
+  --text-title-h3: #f7768e;
+  --text-title-h4: #e0af68;
+  --text-title-h5: #ff9e64;
+  --text-title-h6: #ff9e64;  /* Same as h5 */
+  --text-link: #ff7a93;
   --markup-code: #bb9af7;
   --text-mark: #b9f27c;
   --interactive-accent: #ad8ee6;

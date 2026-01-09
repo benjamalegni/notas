@@ -45,3 +45,32 @@ La enumeración es un proceso crítico para identificar por ejemplo vías potenc
 [[LSE]] (linux smart enumeration): sirve para ver si un sistema linux es inseguro
 
 Pspy: es una herramienta de enumeración de procesos que permite a los atacantes observar los procesos y comandos que se ejecutan en el sistema objetivo a intervalos regulares de tiempo. Pspy es una herramienta útil para la detección de malware y backdoors, así como para la identificación de procesos maliciosos que se ejecutan en segundo plano sin la interacción del usuario\.
+
+los permisos SUID pueden ser peligrosos y podrian generar una escalada de privilegios
+
+para ver la diferencia en los comandos que se ejecutan se puede hacer el siguiente script de bash:
+
+```bash
+#!/bin/bash
+
+function ctrl_c(){
+	echo -e "\n\n[!] exiting...\n"
+	tput cnorm;exit 1
+}
+
+trap ctrl_c SIGINT
+
+old_process=$(ps -eo user, command)
+
+tput civis
+
+while true; do
+  new_process=$(ps -eo user, command)
+  diff <(echo "$old_process") <(echo "$new_process") | grep "[\>\<]" | grep -vE "command|kworker|procmon"
+  old_process = $new_process
+done
+```
+
+
+#### [[burpsuite]]
+[[burpsuite]] es una herramienta de prueba de penetración utilizada para encontrar vulnerabilidades de seguridad en aplicaciones web. Es una de las herramientas de prueba de penetración más populares y utilizadas en la industria de la seguridad informática. BurpSuite se compone de varias herramientas diferentes que se pueden utilizar juntas para identificar vulnerabilidades en una aplicación web.

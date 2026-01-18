@@ -37,7 +37,7 @@
 
 [[netfilter - IPtables]]
 
-[[ARP]]
+[[2024/redes1/TCP-IP/ARP]]
 
 [[ICMP]]
 

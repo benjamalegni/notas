@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ebec7e6e17639bae",
+        "id": "891a85ef4d63fb64",
         "type": "tabs",
         "children": [
           {
-            "id": "7f8dd6db6bd0b024",
+            "id": "b529e4de4bab291f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "intro-hacking/contents/OWASP top 10.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OWASP top 10"
             }
           }
         ]
@@ -138,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2025/arqui1/jerarquia de memorias.md",
+                "file": "CCNA/notes/5. ethernet LAN switching.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of jerarquia de memorias"
+              "title": "Outline of 5. ethernet LAN switching"
             }
           },
           {
@@ -162,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 623.5
+    "width": 464.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,24 +177,33 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "copilot:Open Copilot Chat": false,
-      "smart-connections:Open: Smart Chat": false,
-      "smart-connections:Smart Connections: Open connections view": false,
-      "smart-connections:Smart Connections: Open random connection": true,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6d4856cc7998c1fa",
+  "active": "b529e4de4bab291f",
   "lastOpenFiles": [
-    "CCNA/notes/4. intro to the CLI.md",
+    "intro-hacking/concepts/LFI.md",
+    "intro-hacking/contents/OWASP top 10.md",
+    "intro-hacking/media/Pasted image 20260117154138.png",
+    "intro-hacking/media/Pasted image 20260117153757.png",
+    "intro-hacking/media/Pasted image 20260117152120.png",
+    "intro-hacking/media",
+    "intro-hacking/concepts/XXE.md",
+    "intro-hacking/concepts/XSS.md",
+    "intro-hacking/contents/reconocimiento.md",
     "CCNA/notes/5. ethernet LAN switching.md",
+    "CCNA/notes/resources/ping.md",
+    "CCNA/media/Pasted image 20260116205416.png",
+    "CCNA/notes/resources/ARP.md",
+    "intro-hacking/contents/conceptos basicos de enumeracion y explotacion.md",
+    "CCNA/media/Pasted image 20260115182702.png",
+    "CCNA/media/Pasted image 20260115181550.png",
     "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 04 Lab - Basic Device Security.pkt~",
+    "CCNA/notes/4. intro to the CLI.md",
     "CCNA/index.md",
     "CCNA/notes/3. TCP-IP.md",
-    "intro-hacking/contents/OWASP top 10.md",
     "2025/redes II/nivelred/OSPF.md",
     "2025/redes II/nivelred/algoritmos de ruteo.md",
-    "intro-hacking/concepts/XSS.md",
     "CCNA/media/Pasted image 20260109183150.png",
     "tasks.md",
     "CCNA/notes/resources/payload.md",
@@ -200,33 +213,21 @@
     "CCNA/notes/resources/auto MDI-X.md",
     "CCNA/notes/1. network devices.md",
     "CCNA/notes/2. interfaces and cables.md",
-    "CCNA/media/Pasted image 20260109175655.png",
-    "CCNA/media/Pasted image 20260109175245.png",
     "intro-hacking/concepts/SQLI.md",
     "intro-hacking/index.md",
-    "intro-hacking/contents/reconocimiento.md",
-    "intro-hacking/contents/conceptos basicos de enumeracion y explotacion.md",
     "intro-hacking/contents/enumeracion de servicios comunes y gestores de contenido.md",
     "intro-hacking/tools/burpsuite.md",
     "intro-hacking/tools/LSE.md",
     "intro-hacking/contents/docker intro.md",
     "www.hashes.com.md",
-    "intro-hacking/tools/sqlmap.md",
-    "intro-hacking/concepts/explotacion automatizada.md",
     "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 02 Lab - Connecting Devices.pkt~",
-    "intro-hacking/concepts/payload staged.md",
     "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 01 Lab - Packet Tracer Introduction.pkt~",
-    "CCNA/media/Pasted image 20260104142158.png",
-    "CCNA/media/Pasted image 20260104141910.png",
-    "CCNA/media/Pasted image 20260104141719.png",
-    "CCNA/media/Pasted image 20260104141606.png",
     "finnish-A1/2025-11-04-Note-14-22.pdf",
     "finnish-A1/2025-10-31-Note-09-08.pdf",
     "CCNA/notes/resources",
     "CCNA/media",
     "CCNA/notes",
     "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 34 Lab - Standard ACLs.pkt",
-    "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 23 Flashcards - EtherChannel.apkg",
     "Untitled.canvas"
   ]
 }

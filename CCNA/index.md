@@ -4,3 +4,4 @@
 [[3. TCP-IP]]
 [[4. intro to the CLI]]
 [[5. ethernet LAN switching]]
+[[6. direcciones IP]]

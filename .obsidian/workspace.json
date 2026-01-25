@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "intro-hacking/concepts/CSTI.md",
+                "file": "CCNA/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSTI"
+              "title": "index"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "soho",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 292.5
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "intro-hacking/concepts/CSTI.md",
+                "file": "CCNA/notes/7. protocolos y modelos.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CSTI"
+              "title": "Outline of 7. protocolos y modelos"
             }
           },
           {
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5
+    "width": 356.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,48 +195,47 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6d4856cc7998c1fa",
+  "active": "b529e4de4bab291f",
   "lastOpenFiles": [
+    "Untitled.base",
+    "CCNA/notes/7. protocolos y modelos.md",
+    "CCNA/notes/0. networking hoy en dia.md",
+    "Pasted image 20260125185216.png",
+    "Pasted image 20260125185127.png",
+    "Pasted image 20260125182602.png",
+    "Pasted image 20260125182600.png",
+    "Pasted image 20260124114324.png",
+    "Pasted image 20260124114049.png",
+    "Pasted image 20260124114015.png",
+    "CCNA/notes/6. direcciones IP.md",
+    "CCNA/notes/5. ethernet LAN switching.md",
+    "CCNA/notes/4. intro to the CLI.md",
+    "CCNA/notes/3. TCP-IP.md",
+    "intro-hacking/concepts/padding oracle.md",
     "intro-hacking/contents/OWASP top 10.md",
-    "intro-hacking/contents/reconocimiento.md",
     "intro-hacking/index.md",
+    "intro-hacking/contents/reconocimiento.md",
     "intro-hacking/concepts/CSTI.md",
-    "Pasted image 20260124071323.png",
+    "intro-hacking/media/Pasted image 20260124071323.png",
     "intro-hacking/contents/docker intro.md",
     "intro-hacking/concepts/SSTI.md",
-    "CCNA/notes/6. direcciones IP.md",
-    "Untitled.base",
-    "Pasted image 20260124062008.png",
-    "Pasted image 20260124061536.png",
+    "intro-hacking/media/Pasted image 20260124062008.png",
+    "intro-hacking/media/Pasted image 20260124061536.png",
     "intro-hacking/concepts/SSRF.md",
     "intro-hacking/concepts/CSRF.md",
     "tasks.md",
     "intro-hacking/concepts/log poisoning.md",
     "finnish-ff2/1. location cases, living and more.md",
     "finnish-ff2/2026-01-22-Note-12-34.xopp",
-    "CCNA/notes/4. intro to the CLI.md",
     "finnish-ff2",
     "Untitled.md",
     "CCNA/index.md",
-    "CCNA/notes/5. ethernet LAN switching.md",
-    "CCNA/media/Pasted image 20260122064617.png",
-    "CCNA/notes/3. TCP-IP.md",
     "CCNA/notes/2. interfaces and cables.md",
     "CCNA/notes/1. network devices.md",
-    "CCNA/notes/0. networking hoy en dia.md",
     "intro-hacking/contents/enumeracion de servicios comunes y gestores de contenido.md",
     "CCNA/notes/resources/SFP.md",
     "CCNA/notes/resources/DSL.md",
-    "CCNA/notes/resources/UTP cable.md",
-    "2024/redes1/ethernet/bridge y switch.md",
-    "intro-hacking/concepts/RFI.md",
-    "intro-hacking/media/Pasted image 20260117154138.png",
-    "intro-hacking/media/Pasted image 20260117153757.png",
-    "intro-hacking/media/Pasted image 20260117152120.png",
     "intro-hacking/media",
-    "CCNA/media/Pasted image 20260116205416.png",
-    "CCNA/media/Pasted image 20260115182702.png",
-    "CCNA/media/Pasted image 20260115181550.png",
     "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 04 Lab - Basic Device Security.pkt~",
     "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 02 Lab - Connecting Devices.pkt~",
     "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 01 Lab - Packet Tracer Introduction.pkt~",

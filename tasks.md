@@ -1,5 +1,26 @@
 - [x] enumeracion de servicios comunes y gestores de contenido
-- [ ] conceptos basicos de enumeracion y explotacion 3/1
+- [x] conceptos basicos de enumeracion y explotacion 3/1
 - [ ] crear calendario interactivo que sea facil para crear reuniones compartidas y que tenga los juegos de linkedin
 - [x] crear pagina con astro de mis notas de CCNA con los labs de jeremy's IT lab
 - [ ] crear instagram clone (que los links se vean parecidos) para que gente ponga su cuenta y password
+
+# contenidos del final AyDA1
+- especificar TDA, con operaciones y especificarlas
+	- ejemplo TDA cuadricula generico
+- clasificar operaciones en constructoras, observadoras, y transformadoras
+- clases de c++
+	- inicializacion de atributos en la definicion del constructor
+- header de c++
+- algoritmos divide y conquista (y otras tecnicas de diseno)
+- greedy
+	- greedy optimo
+- programacion dinamica
+	- aprender multiplicacion encadenada de matrices
+	- top-down
+	- bottom-up
+- complejidad temporal, ***teorema maestro***
+	- si el tiempo de ejecucion de un algoritmo es O(n^2) en el peor caso, es posible que sea O(n^3) sobre algunas entradas? **no***
+	- si el tiempo de ejecucion de un algoritmo es O(n^2) en el peor caso, es posible que sea O(n)sobre algunas entradas? **si***
+	- si el tiempo de ejecucion de un algoritmo es theta(n^2) en el peor caso, es posible que sea O(n)sobre algunas entradas? **no, porque en la notacion asintotica $\theta$ (theta), el mejor caso debera ser igual al peor de los casos***
+	- aprender lo 3 tipos de notaciones asintoticas
+- seguimiento de codigo

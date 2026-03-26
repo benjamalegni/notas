@@ -869,4 +869,19 @@ para leer los contenidos de un archivo usando LaTex:
 \input{/etc/passwd}
 \include{somefile} // para archivos .tex
 
-pero en esta maquina, los strings input o inlude estan **blacklisted**, por lo que no podran usarse sino sera sanitizadas
+pero en esta maquina, los strings input o include estan **blacklisted**, por lo que no podran usarse sino sera sanitizadas
+
+con \write18{comando} es posible ejecutar cualquier tipo de comando con latex
+en esta maquina como se usa pdflatex con -shell-escape entonces esta habilitando el \write18
+
+"include e input no son las unicas keywords que pueden generar vulnerabilidades con latex"
+
+se puede leer una linea de un archivo con el siguiente codigo de latex:
+```latex
+\newread\file
+\openin\file=/etc/issue
+\read\file to\line
+\text{\line}
+\closein\file
+```
+entonces construyo script de bash para que me muestre todas las lineas de una archivo que le indique

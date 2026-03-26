@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "intro-hacking/contents/OWASP top 10.md",
+                "file": "tasks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OWASP top 10"
+              "title": "tasks"
             }
           }
         ]
@@ -167,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5
+    "width": 265.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,9 +184,13 @@
   },
   "active": "b529e4de4bab291f",
   "lastOpenFiles": [
+    "intro-hacking/contents/reconocimiento.md",
+    "informe arqui.md",
+    "intro-hacking/concepts/cURL.md",
+    "intro-hacking/contents/OWASP top 10.md",
+    "intro-hacking/contents/Untitled.md",
     "intro-hacking/index.md",
     "tasks.md",
-    "intro-hacking/contents/OWASP top 10.md",
     "2025/arqui1/arquitectura del MIPS.md",
     "2025/arqui1/arqui.md",
     "2025/arqui1/sistemas de e-s.md",
@@ -193,7 +198,6 @@
     "CCNA/notes/8. network layer.md",
     "CCNA/index.md",
     "intro-hacking/concepts/inyecciones LaTex.md",
-    "intro-hacking/contents/reconocimiento.md",
     "intro-hacking/contents/conceptos basicos de enumeracion y explotacion.md",
     "intro-hacking/contents/enumeracion de servicios comunes y gestores de contenido.md",
     "intro-hacking/contents/docker intro.md",
@@ -209,9 +213,6 @@
     "CCNA/notes/7. ethernet LAN switching.md",
     "CCNA/notes/6. data link layer.md",
     "CCNA/notes/3. protocolos y modelos.md",
-    "CCNA/notes/2. intro a CISCO IOS CLI.md",
-    "CCNA/notes/1. network devices.md",
-    "CCNA/notes/0. networking hoy en dia.md",
     "CCNA/media/Pasted image 20260216061703.png",
     "Pasted image 20260203152355.png",
     "Pasted image 20260203152349.png",

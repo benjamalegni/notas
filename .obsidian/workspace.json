@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5,
-    "collapsed": true
+    "width": 277.5
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -184,13 +183,17 @@
   },
   "active": "b529e4de4bab291f",
   "lastOpenFiles": [
+    "italelem/2026-03-26-Note-23-44.xopp~",
+    "italelem/2026-03-26-Note-23-44.xopp",
+    "italelem/Untitled.md",
+    "tasks.md",
+    "italelem",
     "intro-hacking/contents/reconocimiento.md",
     "informe arqui.md",
     "intro-hacking/concepts/cURL.md",
     "intro-hacking/contents/OWASP top 10.md",
     "intro-hacking/contents/Untitled.md",
     "intro-hacking/index.md",
-    "tasks.md",
     "2025/arqui1/arquitectura del MIPS.md",
     "2025/arqui1/arqui.md",
     "2025/arqui1/sistemas de e-s.md",
@@ -211,8 +214,6 @@
     "Untitled.base",
     "CCNA/notes/4. physical layer - interfaces and cables.md",
     "CCNA/notes/7. ethernet LAN switching.md",
-    "CCNA/notes/6. data link layer.md",
-    "CCNA/notes/3. protocolos y modelos.md",
     "CCNA/media/Pasted image 20260216061703.png",
     "Pasted image 20260203152355.png",
     "Pasted image 20260203152349.png",
@@ -228,8 +229,6 @@
     "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 04 Lab - Basic Device Security.pkt~",
     "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 02 Lab - Connecting Devices.pkt~",
     "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 01 Lab - Packet Tracer Introduction.pkt~",
-    "finnish-A1/2025-11-04-Note-14-22.pdf",
-    "finnish-A1/2025-10-31-Note-09-08.pdf",
     "Untitled.canvas"
   ]
 }

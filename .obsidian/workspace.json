@@ -167,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 568.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,8 +182,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6d4856cc7998c1fa",
+  "active": "85f6ebbf039121d5",
   "lastOpenFiles": [
+    "italelem/2026-04-28-Note-16-20.xopp~",
     "2026/CALSOF/classes/intro calidad.md",
     "2026/CALSOF/index.md",
     "2026/CALSOF/resources/Untitled",
@@ -222,7 +224,6 @@
     "dudas.md",
     "2025/arqui1/lab/VHDL I.md",
     "intro-hacking/concepts/deserialization attack.md",
-    "finnish-ff2/1. location cases, living and more.md",
     "CCNA/media/Pasted image 20260218175421.png",
     "CCNA/media/Pasted image 20260216061703.png",
     "Pasted image 20260203152355.png",

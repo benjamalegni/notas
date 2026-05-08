@@ -4,59 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a3190ce84e2d697d",
+        "id": "ed71b2b7fc83892e",
         "type": "tabs",
         "children": [
           {
-            "id": "679f18d9daa7362b",
+            "id": "7844c246c715f7cc",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "2026/CALSOF/media/Pasted image 20260505060216.png"
+                "file": "CCNA/notes/9. resolucion de red.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260505060216"
-            }
-          },
-          {
-            "id": "ef418a41f07f098d",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "2026/CALSOF/media/Pasted image 20260505060216.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260505060216"
-            }
-          },
-          {
-            "id": "2459b6ca62fc5d20",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "2026/CALSOF/media/Pasted image 20260505061744.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260505061744"
-            }
-          },
-          {
-            "id": "e9a63475e01da4ac",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "2026/CALSOF/media/Pasted image 20260505060216.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260505060216"
+              "icon": "lucide-file",
+              "title": "9. resolucion de red"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "●",
+                "query": "radvd",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 365.5,
+    "collapsed": true
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -177,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026/CALSOF/media/Pasted image 20260505060216.png",
+                "file": "CCNA/notes/9. resolucion de red.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20260505060216"
+              "title": "Outline of 9. resolucion de red"
             }
           },
           {
@@ -201,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 472.5
+    "width": 438.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,35 +181,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cbf7ee09442adf83",
+  "active": "6d4856cc7998c1fa",
   "lastOpenFiles": [
-    "2026/CALSOF/media",
-    "2026/CALSOF/media/Pasted image 20260505065715.png",
-    "2026/CALSOF/media/Pasted image 20260505061744.png",
-    "2026/CALSOF/media/Pasted image 20260505060216.png",
-    "2026/CALSOF/classes/principios solid.md",
-    "2026/CALSOF/media/Pasted image 20260505071458.png",
-    "2026/CALSOF/media/Pasted image 20260505071438.png",
-    "2026/CALSOF/media/Pasted image 20260505070952.png",
-    "2026/CALSOF/media/Pasted image 20260505070458.png",
-    "2026/CALSOF/media/Pasted image 20260505070036.png",
-    "2026/CALSOF/media/Pasted image 20260505065805.png",
-    "Pasted image 20260505065647.png",
+    "CCNA/index.md",
+    "CCNA/notes/9. resolucion de red.md",
+    "CCNA/notes/8. network layer.md",
+    "CCNA/media/Pasted image 20260508155915.png",
+    "CCNA/media/Pasted image 20260508155052.png",
+    "CCNA/media/Pasted image 20260508154521.png",
+    "CCNA/media/Pasted image 20260508152741.png",
+    "2026/ALIN/apuntes.md",
+    "2026/CALSOF/classes/code smells.md",
+    "Pasted image 20260508104548.png",
+    "Pasted image 20260508104500.png",
+    "Pasted image 20260508104423.png",
+    "2026/CALSOF/media/Pasted image 20260508104548.png",
+    "2026/CALSOF/media/Pasted image 20260508104500.png",
+    "2026/CALSOF/media/Pasted image 20260508104423.png",
     "2026/CALSOF/index.md",
+    "2026/CALSOF/classes/software evolution and maintenance.md",
+    "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files 1.md",
+    "Untitled.base",
+    "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files.md",
+    "2025/redes II/IPv6/Configuracion de Direcciones IPv6.md",
+    "2025/redes II/IPv6/Direcciones IPv6.md",
+    "2025/redes II/IPv6/Direccionamiento IPv4.md",
+    "2025/redes II/IPv6/Identificador de interfaz y asignacion de direcciones.md",
+    "tasks.md",
+    "2026/CALSOF/classes/principios solid.md",
+    "2025/redes II/Redes II.md",
+    "2026/CALSOF/media",
     "italelem/2026-04-28-Note-16-20.xopp~",
     "2026/CALSOF/classes/intro calidad.md",
     "2026/CALSOF/resources/Untitled",
     "2026/CALSOF/classes",
     "2026/CALSOF",
-    "CCNA/notes/8. network layer.md",
-    "CCNA/index.md",
-    "tasks.md",
     "algorithms/cmake-build-debug/CMakeFiles/clion-Debug-log.txt",
     "algorithms/cmake-build-debug/CMakeFiles",
     "algorithms/scml_test",
     "algorithms/scml.cpp",
-    "algorithms/robot.cpp",
-    "algorithms/mrn.cpp",
     "algorithms/explanation.md",
     "italelem/Untitled.md",
     "intro-hacking/contents/reconocimiento.md",
@@ -253,16 +229,6 @@
     "intro-hacking/contents/Untitled.md",
     "intro-hacking/index.md",
     "2025/arqui1/arquitectura del MIPS.md",
-    "2025/arqui1/arqui.md",
-    "2025/arqui1/sistemas de e-s.md",
-    "2025/arqui1/rendimiento de sistemas.md",
-    "intro-hacking/concepts/inyecciones LaTex.md",
-    "intro-hacking/contents/conceptos basicos de enumeracion y explotacion.md",
-    "intro-hacking/contents/enumeracion de servicios comunes y gestores de contenido.md",
-    "intro-hacking/contents/docker intro.md",
-    "2025/arqui1/lab/VHDL II.md",
-    "dudas.md",
-    "2025/arqui1/lab/VHDL I.md",
     "Untitled.canvas"
   ]
 }

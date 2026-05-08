@@ -122,3 +122,24 @@ memoria virtual:
 * MMU (Unidad de Gestión de Memoria): Su rol en el hardware.
 * TLB (Translation Lookaside Buffer): ¡Importantísimo! Es la caché de la tabla de páginas.
 * Integración TLB + Caché: (Punto 4.4 del programa) Cómo interactúan ambas al buscar un dato (¿La caché se accede con dirección virtual o física?).
+
+
+# coaching
+trabajar la presencia en cada paso.
+	practicar meditacion o actividades que me hagan estar presentes.
+
+hacer agenda semanal, todos los domingos.
+plan con metas semanales, mensuales, de concecion definidas:
+tener medio dia libre despues de las 12 todas las semanas
+con presencia: tener algo para hacer especial
+sin trabajos luego de las 19
+que sea realista y con limites
+en un mes tener 4 momentos de relax
+
+
+checkpoint diarios con lo que estuvo dentro del plan del dia y al final del dia hacer el resumen
+checkpoint semanal con una planificacion: 
+espectativa/realidad, como me voy adaptando
+ver que ajusto para la proxima semana, que me gusto que no me gusto 
+calculo mensual y de fechas de conseguir resultados viene del semanal. entonces despues de la primer semana puedo hacer el calculo y tener las fechas limites
+juntarme con equipos que me motiven a desarrollar habilidades. que puedo aprender de ellos

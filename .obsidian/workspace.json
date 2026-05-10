@@ -1,106 +1,41 @@
 {
   "main": {
-    "id": "b85b9e7b594e949d",
+    "id": "ba6e5ad525ddaa21",
     "type": "split",
     "children": [
       {
-<<<<<<< HEAD
-        "id": "a3190ce84e2d697d",
+        "id": "ba835676c84099cc",
         "type": "tabs",
         "children": [
           {
-            "id": "679f18d9daa7362b",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "2026/CALSOF/media/Pasted image 20260505060216.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260505060216"
-            }
-          },
-          {
-            "id": "ef418a41f07f098d",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "2026/CALSOF/media/Pasted image 20260505060216.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260505060216"
-            }
-          },
-          {
-            "id": "2459b6ca62fc5d20",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "2026/CALSOF/media/Pasted image 20260505061744.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260505061744"
-            }
-          },
-          {
-            "id": "e9a63475e01da4ac",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "2026/CALSOF/media/Pasted image 20260505060216.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260505060216"
-            }
-          },
-          {
-            "id": "4ee9b2685ed0e665",
-=======
-        "id": "de436b83f6433da2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e71b51678a3892d9",
->>>>>>> cf5f1ac (update note)
+            "id": "02aa1ae642826102",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "italelem/21 aprile.md",
+                "file": "CCNA/notes/9. resolucion de red.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "21 aprile"
+              "title": "9. resolucion de red"
             }
           }
-<<<<<<< HEAD
-        ],
-<<<<<<< HEAD
-        "currentTab": 3
-=======
-        "currentTab": 1
->>>>>>> 5b82aa0 (update note)
-=======
         ]
->>>>>>> cf5f1ac (update note)
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a4b943c87d0b4e86",
+    "id": "ac72a647285ea50c",
     "type": "split",
     "children": [
       {
-        "id": "e0fc6306663aa047",
+        "id": "f3be4f294e72a258",
         "type": "tabs",
         "children": [
           {
-            "id": "95cabf06a79d6ee0",
+            "id": "cbf7ee09442adf83",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -113,12 +48,12 @@
             }
           },
           {
-            "id": "64f07227ffc5b943",
+            "id": "15b4d8e70e41f418",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "radvd",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,7 +65,7 @@
             }
           },
           {
-            "id": "11cd5a77f0403eaa",
+            "id": "f65320e8b602e54c",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -143,36 +78,24 @@
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "width": 365.5
-=======
-<<<<<<< HEAD
-    "width": 365.5,
-=======
-    "width": 277.5,
->>>>>>> 54f95e3 (update note)
+    "width": 349.5,
     "collapsed": true
->>>>>>> 5b82aa0 (update note)
-=======
-    "width": 300
->>>>>>> cf5f1ac (update note)
   },
   "right": {
-    "id": "4c5ab0e544117c38",
+    "id": "59e601f64e0ae900",
     "type": "split",
     "children": [
       {
-        "id": "9569904eb4d19141",
+        "id": "ed54a8c2efd913f6",
         "type": "tabs",
         "children": [
           {
-            "id": "0ffa1b137a20738d",
+            "id": "758f70dda6293c2d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "italelem/21 aprile.md",
+                "file": "2025/arqui1/sistemas de e-s.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,25 +105,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 21 aprile"
+              "title": "Backlinks for sistemas de e-s"
             }
           },
           {
-            "id": "b9ec3b0ab2d55b9e",
+            "id": "0bac028273328f5f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "italelem/21 aprile.md",
+                "file": "ingreso/Math exam 6a5af62f52d24413a1842503ed7882c9.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 21 aprile"
+              "title": "Outgoing links from Math exam 6a5af62f52d24413a1842503ed7882c9"
             }
           },
           {
-            "id": "153b2bcf97b36d5c",
+            "id": "877ed628de9d4fbc",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -215,19 +138,18 @@
             }
           },
           {
-            "id": "63d8eb6c4c723d1b",
+            "id": "64274bafe148ee53",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "2026/CALSOF/media/Pasted image 20260505060216.png",
+                "file": "DUIA/intro-IA/apuntes/pre-procesamiento de datos - perspectiva practica.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Pasted image 20260505060216"
+              "title": "Outline of pre-procesamiento de datos - perspectiva practica"
             }
           },
           {
@@ -238,131 +160,76 @@
               "state": {},
               "icon": "git-pull-request",
               "title": "Source Control"
-=======
-                "file": "italelem/21 aprile.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of 21 aprile"
->>>>>>> cf5f1ac (update note)
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
-    "width": 472.5
-=======
-    "width": 300,
+    "width": 200,
     "collapsed": true
->>>>>>> cf5f1ac (update note)
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
       "obsidian-git:Open Git source control": false
     }
   },
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "active": "cbf7ee09442adf83",
-=======
-<<<<<<< HEAD
-  "active": "6d4856cc7998c1fa",
->>>>>>> 5b82aa0 (update note)
+  "active": "02aa1ae642826102",
   "lastOpenFiles": [
-    "2026/CALSOF/media",
-    "2026/CALSOF/media/Pasted image 20260505065715.png",
-    "2026/CALSOF/media/Pasted image 20260505061744.png",
-    "2026/CALSOF/media/Pasted image 20260505060216.png",
-    "2026/CALSOF/classes/principios solid.md",
-    "2026/CALSOF/media/Pasted image 20260505071458.png",
-    "2026/CALSOF/media/Pasted image 20260505071438.png",
-    "2026/CALSOF/media/Pasted image 20260505070952.png",
-    "2026/CALSOF/media/Pasted image 20260505070458.png",
-    "2026/CALSOF/media/Pasted image 20260505070036.png",
-    "2026/CALSOF/media/Pasted image 20260505065805.png",
-    "Pasted image 20260505065647.png",
-    "2026/CALSOF/index.md",
-    "italelem/2026-04-28-Note-16-20.xopp~",
-    "2026/CALSOF/classes/intro calidad.md",
-    "2026/CALSOF/resources/Untitled",
-    "2026/CALSOF/classes",
-    "2026/CALSOF",
-    "CCNA/notes/8. network layer.md",
-    "CCNA/index.md",
-    "tasks.md",
-    "algorithms/cmake-build-debug/CMakeFiles/clion-Debug-log.txt",
-    "algorithms/cmake-build-debug/CMakeFiles",
-    "algorithms/scml_test",
-    "algorithms/scml.cpp",
-    "algorithms/robot.cpp",
-    "algorithms/mrn.cpp",
-    "algorithms/explanation.md",
-    "italelem/Untitled.md",
-=======
-  "active": "4ee9b2685ed0e665",
-  "lastOpenFiles": [
-    "tasks.md",
+    "DUIA/intro-IA/apuntes/pre-procesamiento de datos - perspectiva practica.md",
+    "DUIA/intro-IA/apuntes/pre-procesamiento de texto - perspectiva practica.md",
+    "DUIA/intro-IA/index.md",
+    "DUIA/intro-IA/actividades/TP 2.a.md",
+    "DUIA/intro-IA/actividades/actividad de introduccion.md",
     "italelem/21 aprile.md",
-    "italelem/2026-03-26-Note-23-44.xopp~",
-    "italelem/2026-03-26-Note-23-44.xopp",
-    "italelem",
->>>>>>> 54f95e3 (update note)
-    "intro-hacking/contents/reconocimiento.md",
-    "informe arqui.md",
-    "intro-hacking/concepts/cURL.md",
-    "intro-hacking/contents/OWASP top 10.md",
-    "intro-hacking/contents/Untitled.md",
-    "intro-hacking/index.md",
-    "2025/arqui1/arquitectura del MIPS.md",
-    "2025/arqui1/arqui.md",
-    "2025/arqui1/sistemas de e-s.md",
-    "2025/arqui1/rendimiento de sistemas.md",
-    "intro-hacking/concepts/inyecciones LaTex.md",
-    "intro-hacking/contents/conceptos basicos de enumeracion y explotacion.md",
-    "intro-hacking/contents/enumeracion de servicios comunes y gestores de contenido.md",
-    "intro-hacking/contents/docker intro.md",
-    "2025/arqui1/lab/VHDL II.md",
-    "dudas.md",
-    "2025/arqui1/lab/VHDL I.md",
-<<<<<<< HEAD
-=======
-    "intro-hacking/concepts/deserialization attack.md",
-    "finnish-ff2/1. location cases, living and more.md",
-    "CCNA/media/Pasted image 20260218175421.png",
-    "CCNA/media/Pasted image 20260216061703.png",
-    "Pasted image 20260203152355.png",
-    "Pasted image 20260203152349.png",
-    "CCNA/media/Pasted image 20260203193653.png",
-    "CCNA/media/Pasted image 20260203193101.png",
-<<<<<<< HEAD
-=======
-    "CCNA/media/Pasted image 20260203192906.png",
-    "CCNA/media/Pasted image 20260203190400.png",
-    "CCNA/media/Pasted image 20260203190213.png",
-    "CCNA/media/Pasted image 20260203184617.png",
-    "finnish-ff2/2026-01-22-Note-12-34.xopp",
-    "finnish-ff2",
-    "intro-hacking/media",
-    "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 04 Lab - Basic Device Security.pkt~",
-    "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files/Day 02 Lab - Connecting Devices.pkt~",
->>>>>>> 54f95e3 (update note)
->>>>>>> 5b82aa0 (update note)
+    "tasks.md",
+    "DUIA/intro-IA/apuntes/aprendizaje automatico.md",
+    "DUIA/intro-IA/actividades/aprendizaje automatico - notas de mis respuestas.md",
+    "DUIA/intro-IA/Untitled",
+    "2026/CALSOF/media/Pasted image 20260509082157.png",
+    "2026/CALSOF/media/Pasted image 20260509081534.png",
+    "2026/CALSOF/media/Pasted image 20260509080643.png",
+    "2026/CALSOF/media/Pasted image 20260509080632.png",
+    "2026/CALSOF/media/Pasted image 20260509080546.png",
+    "2026/CALSOF/media/Pasted image 20260509075037.png",
+    "2026/CALSOF/media/Pasted image 20260509074838.png",
+    "2026/CALSOF/media/Pasted image 20260509074816.png",
+    "2026/CALSOF/media/Pasted image 20260509074108.png",
+    "2026/CALSOF/media/Pasted image 20260509072601.png",
+    "DUIA/intro-IA/apuntes",
+    "2026/CALSOF/classes/testing.md",
+    "2026/CALSOF/index.md",
+    "2026/CALSOF/classes/test doubles.md",
+    "2026/CALSOF/classes/code smells.md",
+    "DUIA/intro-IA/actividades",
+    "finnish-A1/2025-11-04-Note-14-22.pdf",
+    "finnish-A1/2025-10-31-Note-09-08.pdf",
+    "Untitled.base",
+    "DUIA/intro-IA",
+    "DUIA",
+    "conflict-files-obsidian-git.md",
+    "CCNA/notes/9. resolucion de red.md",
+    "italelem/2026-05-05-Note-18-33.xopp",
+    "CCNA/index.md",
+    "CCNA/notes/8. network layer.md",
+    "2026/ALIN/apuntes.md",
+    "2026/CALSOF/classes/software evolution and maintenance.md",
+    "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files 1.md",
+    "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files.md",
+    "2025/redes II/IPv6/Configuracion de Direcciones IPv6.md",
+    "2025/redes II/IPv6/Direcciones IPv6.md",
+    "2025/redes II/IPv6/Direccionamiento IPv4.md",
+    "2025/redes II/IPv6/Identificador de interfaz y asignacion de direcciones.md",
+    "2026/CALSOF/classes/principios solid.md",
+    "2026/CALSOF/media",
     "Untitled.canvas"
-=======
-  "active": "e71b51678a3892d9",
-  "lastOpenFiles": [
-    "tasks.md"
->>>>>>> cf5f1ac (update note)
   ]
 }

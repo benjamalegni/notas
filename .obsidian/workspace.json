@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ed71b2b7fc83892e",
+        "id": "ba835676c84099cc",
         "type": "tabs",
         "children": [
           {
-            "id": "7844c246c715f7cc",
+            "id": "02aa1ae642826102",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5,
+    "width": 349.5,
     "collapsed": true
   },
   "right": {
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CCNA/notes/9. resolucion de red.md",
+                "file": "DUIA/intro-IA/apuntes/pre-procesamiento de datos - perspectiva practica.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 9. resolucion de red"
+              "title": "Outline of pre-procesamiento de datos - perspectiva practica"
             }
           },
           {
@@ -167,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 438.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,54 +182,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6d4856cc7998c1fa",
+  "active": "02aa1ae642826102",
   "lastOpenFiles": [
-    "CCNA/index.md",
-    "CCNA/notes/9. resolucion de red.md",
-    "CCNA/notes/8. network layer.md",
-    "CCNA/media/Pasted image 20260508155915.png",
-    "CCNA/media/Pasted image 20260508155052.png",
-    "CCNA/media/Pasted image 20260508154521.png",
-    "CCNA/media/Pasted image 20260508152741.png",
-    "2026/ALIN/apuntes.md",
-    "2026/CALSOF/classes/code smells.md",
-    "Pasted image 20260508104548.png",
-    "Pasted image 20260508104500.png",
-    "Pasted image 20260508104423.png",
-    "2026/CALSOF/media/Pasted image 20260508104548.png",
-    "2026/CALSOF/media/Pasted image 20260508104500.png",
-    "2026/CALSOF/media/Pasted image 20260508104423.png",
+    "DUIA/intro-IA/apuntes/pre-procesamiento de datos - perspectiva practica.md",
+    "DUIA/intro-IA/apuntes/pre-procesamiento de texto - perspectiva practica.md",
+    "DUIA/intro-IA/index.md",
+    "DUIA/intro-IA/actividades/TP 2.a.md",
+    "DUIA/intro-IA/actividades/actividad de introduccion.md",
+    "italelem/21 aprile.md",
+    "tasks.md",
+    "DUIA/intro-IA/apuntes/aprendizaje automatico.md",
+    "DUIA/intro-IA/actividades/aprendizaje automatico - notas de mis respuestas.md",
+    "DUIA/intro-IA/Untitled",
+    "2026/CALSOF/media/Pasted image 20260509082157.png",
+    "2026/CALSOF/media/Pasted image 20260509081534.png",
+    "2026/CALSOF/media/Pasted image 20260509080643.png",
+    "2026/CALSOF/media/Pasted image 20260509080632.png",
+    "2026/CALSOF/media/Pasted image 20260509080546.png",
+    "2026/CALSOF/media/Pasted image 20260509075037.png",
+    "2026/CALSOF/media/Pasted image 20260509074838.png",
+    "2026/CALSOF/media/Pasted image 20260509074816.png",
+    "2026/CALSOF/media/Pasted image 20260509074108.png",
+    "2026/CALSOF/media/Pasted image 20260509072601.png",
+    "DUIA/intro-IA/apuntes",
+    "2026/CALSOF/classes/testing.md",
     "2026/CALSOF/index.md",
+    "2026/CALSOF/classes/test doubles.md",
+    "2026/CALSOF/classes/code smells.md",
+    "DUIA/intro-IA/actividades",
+    "finnish-A1/2025-11-04-Note-14-22.pdf",
+    "finnish-A1/2025-10-31-Note-09-08.pdf",
+    "Untitled.base",
+    "DUIA/intro-IA",
+    "DUIA",
+    "conflict-files-obsidian-git.md",
+    "CCNA/notes/9. resolucion de red.md",
+    "italelem/2026-05-05-Note-18-33.xopp",
+    "CCNA/index.md",
+    "CCNA/notes/8. network layer.md",
+    "2026/ALIN/apuntes.md",
     "2026/CALSOF/classes/software evolution and maintenance.md",
     "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files 1.md",
-    "Untitled.base",
     "CCNA/CCNA 200-301 Course Files-20260104T112104Z-3-001/CCNA 200-301 Course Files.md",
     "2025/redes II/IPv6/Configuracion de Direcciones IPv6.md",
     "2025/redes II/IPv6/Direcciones IPv6.md",
     "2025/redes II/IPv6/Direccionamiento IPv4.md",
     "2025/redes II/IPv6/Identificador de interfaz y asignacion de direcciones.md",
-    "tasks.md",
     "2026/CALSOF/classes/principios solid.md",
-    "2025/redes II/Redes II.md",
     "2026/CALSOF/media",
-    "italelem/2026-04-28-Note-16-20.xopp~",
-    "2026/CALSOF/classes/intro calidad.md",
-    "2026/CALSOF/resources/Untitled",
-    "2026/CALSOF/classes",
-    "2026/CALSOF",
-    "algorithms/cmake-build-debug/CMakeFiles/clion-Debug-log.txt",
-    "algorithms/cmake-build-debug/CMakeFiles",
-    "algorithms/scml_test",
-    "algorithms/scml.cpp",
-    "algorithms/explanation.md",
-    "italelem/Untitled.md",
-    "intro-hacking/contents/reconocimiento.md",
-    "informe arqui.md",
-    "intro-hacking/concepts/cURL.md",
-    "intro-hacking/contents/OWASP top 10.md",
-    "intro-hacking/contents/Untitled.md",
-    "intro-hacking/index.md",
-    "2025/arqui1/arquitectura del MIPS.md",
     "Untitled.canvas"
   ]
 }

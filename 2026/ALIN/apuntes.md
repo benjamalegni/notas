@@ -6,6 +6,7 @@
 es un conjunto de vectores generadores que:
 - generan un espacio
 - son linealmente independientes
+- no son unicas, pero todas tienen la misma dimension
 
 para encontrar una base:
 - partiendo de un sistema de ecuaciones

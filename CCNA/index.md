@@ -16,3 +16,5 @@
 ===
 [[9. resolucion de red]]
 ===
+[[10. configuracion basica de router]]
+===

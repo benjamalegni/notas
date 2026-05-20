@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026/CALSOF/classes/testing.md",
+                "file": "2026/CALSOF/activities/tp5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "testing"
+              "title": "tp5"
             }
           }
         ]
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -183,8 +184,8 @@
   },
   "active": "bc5a49ded3d0e597",
   "lastOpenFiles": [
-    "2026/CALSOF/activities/tp5.md",
     "2026/CALSOF/classes/testing.md",
+    "2026/CALSOF/activities/tp5.md",
     "2026/CALSOF/classes/testing.md~",
     "2026/CALSOF/index.md",
     "2024/mds/requerimientos/captura de requerimientos.md",

@@ -31,3 +31,19 @@
 	arrange: importar dependencias, inicializar variables, instanciar objetos, etc.
 	act: llamar al segmento que estamos testeando
 	assert: verificar que los resultados obtenidos son correctos
+
+ej 2:
+que tipo de test aplicar: unit, integration, E2E.
+7. Validar que el cálculo de impuestos de una factura sea correcto para distintos porcentajes. 
+	unit
+8. Verificar que un endpoint REST persiste correctamente un usuario en una base PostgreSQL real. 
+	integracion
+9. Verificar que el login funciona desde la interfaz web hasta la base de datos. 
+	E2E
+10. Verificar que el sistema arranca correctamente y responde a un request básico luego del deploy. 
+	integracion
+11. Verificar que un servicio envía un email cuando se registra un usuario, sin enviar correos reales.
+	integracion
+
+ej 3:
+Ejercicio 3 – Unit Testing con JUnit 5 (AAA y casos borde) Dado el siguiente código: public class PasswordValidator { public boolean isValid(String password) { if (password == null) return false; if (password.length() < 8) return false; boolean hasUpper = false; boolean hasLower = false; boolean hasDigit = false; for (char c : password.toCharArray()) { if (Character.isUpperCase(c)) hasUpper = true; if (Character.isLowerCase(c)) hasLower = true; if (Character.isDigit(c)) hasDigit = true; } return hasUpper && hasLower && hasDigit; } } a) Escribir al menos 8 unit tests usando JUnit 5 que cubran casos normales y casos borde. b) Los nombres de los tests deben seguir la convención: Metodo_Escenario_ResultadoEsperado. c) Aplicar AAA. Cada test debe tener una sola llamada en Act. d) Indicar qué tipo de cobertura se logra (line vs branch) y qué casos faltan si existieran.

@@ -172,7 +172,7 @@ El test es fácil de leer, entender y modificar. Poco código de setup, sin comp
 Verifica el valor de retorno del SUT. Sin efectos secundarios. El más resistente al refactoring.
 
 ```java
-int suma(int a, intb) {return a+b;} assertEquals(5, suma(2,3));
+int suma(int a, int b) {return a+b;} assertEquals(5, suma(2,3));
 ```
 
 ★★★★★ Mejor calidad

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026/CALSOF/classes/testing.md",
+                "file": "2026/CALSOF/classes/testing II.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "testing"
+              "title": "testing II"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "radvd",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50499725341797,
+    "width": 434.5,
     "collapsed": true
   },
   "right": {
@@ -183,8 +183,17 @@
   },
   "active": "bc5a49ded3d0e597",
   "lastOpenFiles": [
+    "2026/CALSOF/classes/code smells.md",
+    "2026/CALSOF/classes/test doubles.md",
     "2026/CALSOF/index.md",
+    "2026/CALSOF/classes/principios solid.md",
+    "2026/CALSOF/classes/intro calidad.md",
     "2026/CALSOF/activities/tp5.md",
+    "2026/CALSOF/classes/software evolution and maintenance.md",
+    "2026/CALSOF/activities/tp4.md",
+    "CCNA/index.md",
+    "DUIA/todo.md",
+    "2026/CALSOF/classes/testing.md",
     "2026/CALSOF/media/Pasted image 20260517123252.png",
     "2026/CALSOF/media/Pasted image 20260517125128.png",
     "2026/CALSOF/classes/testing II.md",
@@ -197,7 +206,6 @@
     "2026/CALSOF/media/Pasted image 20260518181343.png",
     "2026/CALSOF/media/Pasted image 20260518181129.png",
     "2026/CALSOF/media/Pasted image 20260518180641.png",
-    "DUIA/todo.md",
     "DUIA/media/Pasted image 20260516165730.png",
     "DUIA/media",
     "DUIA/intro-IA/apuntes/tecnicas de planning.md",
@@ -208,7 +216,6 @@
     "DUIA/intro-IA/apuntes/algoritmos geneticos.md",
     "DUIA/intro-IA/apuntes/algoritmos geneticos - perspectiva practica.md",
     "CCNA/notes/10. configuracion basica de router.md",
-    "2026/CALSOF/activities/tp4.md",
     "2026/CALSOF/activities",
     "italelem/21 aprile.md",
     "italelem/2026-05-05-Note-18-33.xopp",
@@ -217,17 +224,11 @@
     "DUIA/intro-IA/apuntes/aprendizaje automatico.md",
     "DUIA/intro-IA/actividades/aprendizaje automatico - notas de mis respuestas.md",
     "DUIA/intro-IA/actividades/actividad de introduccion.md",
-    "DUIA/intro-IA/actividades/TP 2.a.md",
-    "DUIA/intro-IA/index.md",
     "DUIA/intro-IA/apuntes",
     "DUIA/intro-IA/actividades",
     "DUIA/intro-IA",
     "DUIA",
-    "2026/CALSOF/classes/testing.md",
-    "2026/CALSOF/classes/test doubles.md",
     "Untitled.base",
-    "tasks.md",
-    "Untitled.md",
     "Untitled.canvas"
   ]
 }

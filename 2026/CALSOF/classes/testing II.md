@@ -3,7 +3,7 @@ regression testing: es la practica de re-ejecutar tests existentes para detectar
 # tipos de testing - ademas de unit testing
 ## integration testing
 - Un integration test es cualquier test que NO cumple los tres criterios de un unit test. 
-- En la práctica: verifica cómo el sistema funciona en integración con dependencias outof-process (DB, APIs, filesystem, message bus). 
+- En la práctica: verifica cómo el sistema funciona en integración con dependencias out-of-process (DB, APIs, filesystem, message bus). 
 - Cubre el código del cuadrante de 'Controllers': la capa que conecta el dominio con las dependencias externas. 
 - Khorikov: 'No podés estar seguro de que el sistema funciona como un todo si sólo dependés de unit tests.' 
 - Detecta problemas que los unit tests no pueden: mapeos ORM, queries SQL, contratos de APIs, configuraciones.
@@ -15,7 +15,6 @@ responsabilidades
 - Verifican el estado final del sistema. 
 - Menor cantidad: 1 happy path + edge cases no cubribles. 
 - Fallan cuando la integración con sistemas externos falla.
-
 
 | managed dependecies                           | unmanaged dependencies                               |
 | --------------------------------------------- | ---------------------------------------------------- |

@@ -242,7 +242,6 @@ public void register_enviaMail1Vez_returnsTrue(){
 	userService.register("lukabenjaminmalegni@gmail.com");
 	
 	//assert
-	
 	verify(mockEmailSender, times(1)).send("lukabenjaminmalegni@gmail.com","Welcome", "Thanks for registering!")
 
 }
@@ -253,7 +252,6 @@ b) Escribir un unit test que verifique que con email inválido se lanza excepci�
 public void register_emailInvalido_returnsException(){
 	//arrange
 	EmailSender mockEmailSender = Mockito.mock(EmailSender.class)
-	// si fuera stub seria Mockito.stub(objeto ya creado de EmailSender)
 	
 	UserService userService = new UserService(mockEmailSender);
 	
@@ -346,7 +344,7 @@ La clase Mockito es una caja de herramientas estáticas. Sus métodos más usado
 # un stub se ve asi
 PasarelaDePago stub = (tarjeta, monto) -> true;
 
-luego puede usarse como parametro.
+luego puede usarse como parametro del construccion del objeto que se va a testear.
 
 el resultado se verifica con assert, no con verify (porque ahi se estaria testeando funcionamiento y eso seria un mock)
 
@@ -360,3 +358,14 @@ Respuesta teórica — Fake vs. Stub: ¿Cuándo el Fake tiene sentido?
 - Solo necesitás que procesar() devuelva true o false para tu test concreto 
 - La lógica de la pasarela no es lo que estás testeando 
 - Un lambda es suficiente: (t, m) -> true
+
+
+- se usa assert cuando es stub
+	- se puede usar una funcion lambda para implementaciones de una interfaz de un solo metodo: Stub stub = (parametro) -> false;
+	- se puede usar when(metodo()).thenReturn(false);
+	- luego se usa assertFalse, assertTrue, assertEquals, etc. 
+- se usa verify cuando es mock
+- cuando hay excepciones se usa assertThrow(IllegalArgumentException.class, ()->metodoALlamar(parametro))
+	- y luego se hace assert como. verify(objeto_dependiente, never()).registrarTransaccion(any(), etc)
+	- osea nunca se llego a llamar a registrar transaccion porque hubo una excepcion
+- 

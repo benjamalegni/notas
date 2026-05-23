@@ -11,4 +11,4 @@ tema 3
 [[Desarrolo de una BD]]
 
 tema 4: SQL
-[[Consultas SQL 1]]
+[[Consultas SQL]]

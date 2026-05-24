@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "SELECT",
+                "query": "arp -d",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 268.5,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -167,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 461.5
+    "width": 461.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,11 +182,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6d4856cc7998c1fa",
+  "active": "41fcc9324a838dd3",
   "lastOpenFiles": [
     "2025/BD1/bases de datos.md",
     "2025/BD1/SQL queries.md",
     "2025/BD1/tema 4/Consultas SQL.md",
+    "CCNA/notes/11. direccionamiento IPv4.md",
+    "CCNA/notes/10. configuracion basica de router.md",
+    "CCNA/notes/8. network layer.md",
+    "CCNA/notes/9. resolucion de red.md",
+    "CCNA/notes/2. intro a CISCO IOS CLI.md",
+    "CCNA/index.md",
     "tasks.md",
     "DUIA/intro-IA/apuntes/modelos de clasificacion - perspectiva practica.md",
     "DUIA/intro-IA/apuntes/algoritmos geneticos - perspectiva practica.md",
@@ -203,12 +210,6 @@
     "2026/CALSOF/classes/code smells.md",
     "2026/CALSOF/classes/test doubles.md",
     "2026/CALSOF/index.md",
-    "2026/CALSOF/classes/principios solid.md",
-    "2026/CALSOF/classes/intro calidad.md",
-    "2026/CALSOF/activities/tp5.md",
-    "2026/CALSOF/classes/software evolution and maintenance.md",
-    "2026/CALSOF/activities/tp4.md",
-    "CCNA/index.md",
     "2026/CALSOF/media/Pasted image 20260517123252.png",
     "2026/CALSOF/media/Pasted image 20260517125128.png",
     "italelem/2026-05-19-Note-18-56.xopp",

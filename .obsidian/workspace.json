@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026/CALSOF/classes/testing II.md",
+                "file": "tasks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "testing II"
+              "title": "tasks"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -167,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,6 +184,7 @@
   },
   "active": "bc5a49ded3d0e597",
   "lastOpenFiles": [
+    "2026/CALSOF/classes/testing II.md",
     "2026/CALSOF/classes/code smells.md",
     "2026/CALSOF/classes/test doubles.md",
     "2026/CALSOF/index.md",
@@ -196,7 +198,6 @@
     "2026/CALSOF/classes/testing.md",
     "2026/CALSOF/media/Pasted image 20260517123252.png",
     "2026/CALSOF/media/Pasted image 20260517125128.png",
-    "2026/CALSOF/classes/testing II.md",
     "italelem/2026-05-19-Note-18-56.xopp",
     "italelem/2026-05-14-Note-18-54.xopp",
     "2026/CALSOF/media/Pasted image 20260519011708.png",

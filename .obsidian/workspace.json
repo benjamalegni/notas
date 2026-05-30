@@ -11,47 +11,13 @@
             "id": "bc5a49ded3d0e597",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "tasks.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "tasks"
-            }
-          },
-          {
-            "id": "41fcc9324a838dd3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025/BD1/tema 4/Consultas SQL.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Consultas SQL"
-            }
-          },
-          {
-            "id": "cee17b1a25e4f19d",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "CCNA/notes/10. configuracion basica de router.md",
-                "bFile": "CCNA/notes/10. configuracion basica de router.md",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 10. configuracion basica de router  (Index)"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 0
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,13 +139,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DUIA/intro-IA/apuntes/reinforcement learning.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of reinforcement learning"
+              "title": "Outline"
             }
           },
           {
@@ -193,11 +158,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 804.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,11 +179,23 @@
   },
   "active": "bc5a49ded3d0e597",
   "lastOpenFiles": [
+    "italelem/2026-05-28-Note-18-55.xopp",
+    "DUIA/machine learning/apuntes/intro.md",
+    "DUIA/machine learning/index.md",
+    "DUIA/machine learning/apuntes",
+    "DUIA/machine learning",
+    "DUIA/intro-IA/apuntes/modelos de clasificacion - perspectiva practica.md",
+    "DUIA/intro-IA/index.md",
+    "DUIA/intro-IA/apuntes/tecnicas de clasificacion.md",
+    "DUIA/todo.md",
+    "DUIA/intro-IA/apuntes/pre-procesamiento de texto - perspectiva practica.md",
+    "tasks.md",
+    "italelem/2026-05-28-Note-18-55.xopp~",
+    "Untitled.md",
     "conflict-files-obsidian-git.md",
     "2025/BD1/bases de datos.md",
     "2025/BD1/SQL queries.md",
     "2025/BD1/tema 4/Consultas SQL.md",
-    "tasks.md",
     "CCNA/notes/11. direccionamiento IPv4.md",
     "CCNA/notes/8. network layer.md",
     "CCNA/notes/9. resolucion de red.md",
@@ -230,10 +208,6 @@
     "2026/CALSOF/classes/intro calidad.md",
     "2026/CALSOF/activities/tp5.md",
     "2026/CALSOF/classes/software evolution and maintenance.md",
-    "2026/CALSOF/activities/tp4.md",
-    "CCNA/index.md",
-    "DUIA/todo.md",
-    "2026/CALSOF/classes/testing.md",
     "2026/CALSOF/media/Pasted image 20260517123252.png",
     "2026/CALSOF/media/Pasted image 20260517125128.png",
     "italelem/2026-05-19-Note-18-56.xopp",
@@ -247,28 +221,9 @@
     "2026/CALSOF/media/Pasted image 20260518180641.png",
     "DUIA/media/Pasted image 20260516165730.png",
     "DUIA/media",
-    "DUIA/intro-IA/apuntes/tecnicas de planning.md",
-    "DUIA/intro-IA/apuntes/tecnicas de clasificacion.md",
-    "DUIA/intro-IA/apuntes/reinforcement learning.md",
-    "DUIA/intro-IA/apuntes/notas de python-pandas.md",
-    "DUIA/intro-IA/apuntes/modelos de clasificacion - perspectiva practica.md",
-    "DUIA/intro-IA/apuntes/algoritmos geneticos.md",
-    "DUIA/intro-IA/apuntes/algoritmos geneticos - perspectiva practica.md",
-    "DUIA/intro-IA/index.md",
-    "CCNA/notes/10. configuracion basica de router.md",
     "2026/CALSOF/activities",
-    "italelem/21 aprile.md",
     "italelem/2026-05-05-Note-18-33.xopp",
-    "DUIA/intro-IA/apuntes/pre-procesamiento de texto - perspectiva practica.md",
-    "DUIA/intro-IA/apuntes/pre-procesamiento de datos - perspectiva practica.md",
-    "DUIA/intro-IA/apuntes/aprendizaje automatico.md",
-    "DUIA/intro-IA/actividades/aprendizaje automatico - notas de mis respuestas.md",
-    "DUIA/intro-IA/actividades/actividad de introduccion.md",
     "DUIA/intro-IA/apuntes",
-    "DUIA/intro-IA/actividades",
-    "DUIA/intro-IA",
-    "DUIA",
-    "Untitled.base",
     "Untitled.canvas"
   ]
 }

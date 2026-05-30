@@ -315,3 +315,6 @@ Cerrar intermedio UNICEN -> Europa -> terminar bachelor -> máster
 ```
 
 No descartaría el grado argentino, pero lo usaría como plan B si Europa te reconoce pocos créditos. Fuentes principales usadas: plan 2023 y plan interactivo de Exactas UNICEN, reglamento PPS/PI, sistema ECTS europeo y reconocimiento académico UE.
+
+
+# 

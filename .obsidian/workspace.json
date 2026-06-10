@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "854fff7c8505e21e",
+        "id": "e10fa4fbb2e08b4b",
         "type": "tabs",
         "children": [
           {
-            "id": "bc5a49ded3d0e597",
+            "id": "a1274dda2286fde0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "tasks.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "tasks"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 234.5,
     "collapsed": true
   },
   "right": {
@@ -139,12 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DUIA/machine learning/apuntes/modelado de datos.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of modelado de datos"
             }
           },
           {
@@ -177,20 +182,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc5a49ded3d0e597",
+  "active": "a1274dda2286fde0",
   "lastOpenFiles": [
+    "italelem/2026-05-28-Note-18-55.xopp~",
+    "DUIA/machine learning/apuntes/clasificacion 1.md",
+    "Pasted image 20260606105706.png",
+    "Pasted image 20260606104312.png",
+    "Pasted image 20260606104005.png",
+    "DUIA/media/Pasted image 20260606111643.png",
+    "DUIA/media/Pasted image 20260606110012.png",
+    "DUIA/media/Pasted image 20260606105706.png",
+    "DUIA/media/Pasted image 20260606104721.png",
+    "DUIA/media/Pasted image 20260606104312.png",
+    "DUIA/media/Pasted image 20260606104005.png",
+    "DUIA/media/Pasted image 20260605200126.png",
+    "DUIA/machine learning/index.md",
+    "DUIA/machine learning/apuntes/regresion.md",
+    "italelem/21 aprile.md",
+    "2025/redes II/aplicaciones/procesos que se comunican y sockets.md",
+    "2025/redes II/Redes II.md",
+    "DUIA/machine learning/apuntes/modelado de datos.md",
+    "DUIA/intro-IA/index.md",
     "italelem/2026-05-28-Note-18-55.xopp",
     "DUIA/machine learning/apuntes/intro.md",
-    "DUIA/machine learning/index.md",
     "DUIA/machine learning/apuntes",
     "DUIA/machine learning",
     "DUIA/intro-IA/apuntes/modelos de clasificacion - perspectiva practica.md",
-    "DUIA/intro-IA/index.md",
     "DUIA/intro-IA/apuntes/tecnicas de clasificacion.md",
     "DUIA/todo.md",
     "DUIA/intro-IA/apuntes/pre-procesamiento de texto - perspectiva practica.md",
     "tasks.md",
-    "italelem/2026-05-28-Note-18-55.xopp~",
     "Untitled.md",
     "conflict-files-obsidian-git.md",
     "2025/BD1/bases de datos.md",
@@ -202,24 +223,8 @@
     "CCNA/notes/2. intro a CISCO IOS CLI.md",
     "2026/CALSOF/classes/testing II.md",
     "2026/CALSOF/classes/code smells.md",
-    "2026/CALSOF/classes/test doubles.md",
-    "2026/CALSOF/index.md",
-    "2026/CALSOF/classes/principios solid.md",
-    "2026/CALSOF/classes/intro calidad.md",
-    "2026/CALSOF/activities/tp5.md",
-    "2026/CALSOF/classes/software evolution and maintenance.md",
-    "2026/CALSOF/media/Pasted image 20260517123252.png",
-    "2026/CALSOF/media/Pasted image 20260517125128.png",
     "italelem/2026-05-19-Note-18-56.xopp",
     "italelem/2026-05-14-Note-18-54.xopp",
-    "2026/CALSOF/media/Pasted image 20260519011708.png",
-    "2026/CALSOF/media/Pasted image 20260519010352.png",
-    "2026/CALSOF/media/Pasted image 20260519010328.png",
-    "2026/CALSOF/media/Pasted image 20260519002552.png",
-    "2026/CALSOF/media/Pasted image 20260518181343.png",
-    "2026/CALSOF/media/Pasted image 20260518181129.png",
-    "2026/CALSOF/media/Pasted image 20260518180641.png",
-    "DUIA/media/Pasted image 20260516165730.png",
     "DUIA/media",
     "2026/CALSOF/activities",
     "italelem/2026-05-05-Note-18-33.xopp",

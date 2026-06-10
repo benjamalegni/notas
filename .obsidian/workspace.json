@@ -11,10 +11,15 @@
             "id": "a0ce5eb9575340f7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "2025/BD1/apuntes-examen/audio_chunks.txt",
+                "bFile": "2025/BD1/apuntes-examen/audio_chunks.txt",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: audio_chunks.txt  (Index)"
             }
           }
         ]
@@ -49,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dependencias funcionales",
+                "query": "assertion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 550.5
+    "width": 316.5
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -138,13 +143,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CCNA/notes/11. direccionamiento IPv4.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 11. direccionamiento IPv4"
+              "title": "Outline"
             }
           },
           {
@@ -158,12 +162,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 434.5,
-    "collapsed": true
+    "width": 434.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,54 +180,54 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cbf7ee09442adf83",
+  "active": "a0ce5eb9575340f7",
   "lastOpenFiles": [
-    "Untitled.base",
-    "Untitled 1.base",
+    "CCNA/notes/11. direccionamiento IPv4.md",
+    "CCNA/index.md",
+    "2026/ALIN/apuntes.md",
+    "2026/CALSOF/classes/testing.md",
+    "2025/BD1/apuntes-examen/repaso_bd1_examen_2h_2026-06-03.mp3",
+    "2025/BD1/apuntes-examen/repaso_bd1_extra_final_2026-06-03.mp3",
+    "2025/BD1/apuntes-examen/repaso_bd1_extra_final_2026-06-03_chunks.txt",
+    "2025/BD1/apuntes-examen/repaso_bd1_extra_final_2026-06-03_chunks/chunk_003.mp3",
+    "2025/BD1/apuntes-examen/repaso_bd1_extra_final_2026-06-03_chunks/chunk_002.mp3",
+    "2025/BD1/apuntes-examen/repaso_bd1_extra_final_2026-06-03_chunks/chunk_001.mp3",
+    "2025/BD1/apuntes-examen/repaso_bd1_extra_final_2026-06-03_chunks",
+    "2025/BD1/apuntes-examen/guion_audio_bd1_extra_final_2026-06-03.txt",
+    "2025/BD1/apuntes-examen/repaso_bd1_examen_largo_2026-06-03.mp3",
+    "2025/BD1/apuntes-examen/repaso_bd1_examen_largo_2026-06-03_chunks.txt",
+    "2025/BD1/apuntes-examen/apuntes_bd1_examen_2026-06-03.md",
     "2025/BD1/tema 3/Modelo Relacional.md",
-    "2025/BD1/tema 6/normalizacion.md",
+    "2025/BD1/tema 4/Consultas SQL.md",
+    "2025/BD1/tema 2/modelo de datos.md",
     "2025/BD1/index.md",
-    "2025/BD1/tema 6",
+    "2025/redes II/nivelred/RIP.md",
+    "2025/redes II/aplicaciones/HTTP - conexiones.md",
+    "2025/redes II/Redes II.md",
+    "2025/redes II/aplicaciones/HTTP  - generalidades.md",
+    "2025/redes II/IPv6/Direcciones IPv6.md",
+    "CCNA/notes/10. configuracion basica de router.md",
+    "2025/BD1/tema 6/normalizacion.md",
+    "2025/BD1/SQL queries.md",
     "DUIA/intro-IA/apuntes/pre-procesamiento de texto - perspectiva practica.md",
     "2025/BD1/media/Pasted image 20260527184005.png",
     "CCNA/media/Pasted image 20260527133418.png",
     "CCNA/media/Pasted image 20260526194945.png",
     "2025/BD1/tema 5/restricciones de integridad.md",
-    "2025/BD1/tema 5",
-    "2025/BD1/SQL queries.md",
-    "CCNA/notes/11. direccionamiento IPv4.md",
     "CCNA/media/Pasted image 20260527121829.png",
-    "CCNA/index.md",
     "CCNA/notes/5. binary lab.md",
     "CCNA/notes/6. data link layer.md",
     "2025/redes II/IPv6/Direccionamiento IPv4.md",
     "CCNA/notes/Untitled.md",
-    "CCNA/notes/10. configuracion basica de router.md",
     "tasks.md",
     "DUIA/todo.md",
     "DUIA/intro-IA/index.md",
-    "DUIA/intro-IA/apuntes/notas de python-pandas.md",
-    "DUIA/intro-IA/apuntes/modelos de clasificacion - perspectiva practica.md",
-    "DUIA/intro-IA/apuntes/pre-procesamiento de datos - perspectiva practica.md",
-    "DUIA/intro-IA/actividades/actividad de introduccion.md",
-    "DUIA/intro-IA/actividades/aprendizaje automatico - notas de mis respuestas.md",
-    "DUIA/intro-IA/apuntes/algoritmos geneticos.md",
-    "DUIA/intro-IA/apuntes/algoritmos geneticos - perspectiva practica.md",
-    "DUIA/intro-IA/apuntes/aprendizaje automatico.md",
-    "DUIA/intro-IA/apuntes/reinforcement learning.md",
     "2026/CALSOF/media/Pasted image 20260517123252.png",
     "2026/CALSOF/media/Pasted image 20260517125128.png",
-    "italelem/2026-05-19-Note-18-56.xopp",
-    "italelem/2026-05-14-Note-18-54.xopp",
     "2026/CALSOF/media/Pasted image 20260519011708.png",
     "2026/CALSOF/media/Pasted image 20260519010352.png",
     "2026/CALSOF/media/Pasted image 20260519010328.png",
     "2026/CALSOF/media/Pasted image 20260519002552.png",
-    "DUIA/media",
-    "2026/CALSOF/activities",
-    "italelem/2026-05-05-Note-18-33.xopp",
-    "DUIA/intro-IA/apuntes",
-    "DUIA/intro-IA/actividades",
     "Untitled.canvas"
   ]
 }

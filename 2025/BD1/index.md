@@ -18,3 +18,4 @@ tema 5: integridad en bases de datos
 [[restricciones de integridad]]
 
 tema 6: normalizacion
+[[normalizacion]]

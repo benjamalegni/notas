@@ -4,22 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5f4d96fd4c0b5330",
+        "id": "e10fa4fbb2e08b4b",
         "type": "tabs",
         "children": [
           {
-            "id": "a0ce5eb9575340f7",
+            "id": "a1274dda2286fde0",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "2025/BD1/apuntes-examen/audio_chunks.txt",
-                "bFile": "2025/BD1/apuntes-examen/audio_chunks.txt",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "tasks.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: audio_chunks.txt  (Index)"
+              "icon": "lucide-file",
+              "title": "tasks"
             }
           }
         ]
@@ -54,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "assertion",
+                "query": "arp -d",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 234.5,
+    "collapsed": true
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -143,12 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "DUIA/machine learning/apuntes/modelado de datos.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of modelado de datos"
             }
           },
           {
@@ -162,11 +163,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 434.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,54 +182,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a0ce5eb9575340f7",
+  "active": "a1274dda2286fde0",
   "lastOpenFiles": [
-    "CCNA/notes/11. direccionamiento IPv4.md",
-    "CCNA/index.md",
-    "2026/ALIN/apuntes.md",
-    "2026/CALSOF/classes/testing.md",
-    "2025/BD1/apuntes-examen/repaso_bd1_examen_2h_2026-06-03.mp3",
-    "2025/BD1/apuntes-examen/repaso_bd1_extra_final_2026-06-03.mp3",
-    "2025/BD1/apuntes-examen/repaso_bd1_extra_final_2026-06-03_chunks.txt",
-    "2025/BD1/apuntes-examen/repaso_bd1_extra_final_2026-06-03_chunks/chunk_003.mp3",
-    "2025/BD1/apuntes-examen/repaso_bd1_extra_final_2026-06-03_chunks/chunk_002.mp3",
-    "2025/BD1/apuntes-examen/repaso_bd1_extra_final_2026-06-03_chunks/chunk_001.mp3",
-    "2025/BD1/apuntes-examen/repaso_bd1_extra_final_2026-06-03_chunks",
-    "2025/BD1/apuntes-examen/guion_audio_bd1_extra_final_2026-06-03.txt",
-    "2025/BD1/apuntes-examen/repaso_bd1_examen_largo_2026-06-03.mp3",
-    "2025/BD1/apuntes-examen/repaso_bd1_examen_largo_2026-06-03_chunks.txt",
-    "2025/BD1/apuntes-examen/apuntes_bd1_examen_2026-06-03.md",
-    "2025/BD1/tema 3/Modelo Relacional.md",
-    "2025/BD1/tema 4/Consultas SQL.md",
-    "2025/BD1/tema 2/modelo de datos.md",
-    "2025/BD1/index.md",
-    "2025/redes II/nivelred/RIP.md",
-    "2025/redes II/aplicaciones/HTTP - conexiones.md",
+    "italelem/2026-05-28-Note-18-55.xopp~",
+    "DUIA/machine learning/apuntes/clasificacion 1.md",
+    "Pasted image 20260606105706.png",
+    "Pasted image 20260606104312.png",
+    "Pasted image 20260606104005.png",
+    "DUIA/media/Pasted image 20260606111643.png",
+    "DUIA/media/Pasted image 20260606110012.png",
+    "DUIA/media/Pasted image 20260606105706.png",
+    "DUIA/media/Pasted image 20260606104721.png",
+    "DUIA/media/Pasted image 20260606104312.png",
+    "DUIA/media/Pasted image 20260606104005.png",
+    "DUIA/media/Pasted image 20260605200126.png",
+    "DUIA/machine learning/index.md",
+    "DUIA/machine learning/apuntes/regresion.md",
+    "italelem/21 aprile.md",
+    "2025/redes II/aplicaciones/procesos que se comunican y sockets.md",
     "2025/redes II/Redes II.md",
-    "2025/redes II/aplicaciones/HTTP  - generalidades.md",
-    "2025/redes II/IPv6/Direcciones IPv6.md",
-    "CCNA/notes/10. configuracion basica de router.md",
-    "2025/BD1/tema 6/normalizacion.md",
-    "2025/BD1/SQL queries.md",
-    "DUIA/intro-IA/apuntes/pre-procesamiento de texto - perspectiva practica.md",
-    "2025/BD1/media/Pasted image 20260527184005.png",
-    "CCNA/media/Pasted image 20260527133418.png",
-    "CCNA/media/Pasted image 20260526194945.png",
-    "2025/BD1/tema 5/restricciones de integridad.md",
-    "CCNA/media/Pasted image 20260527121829.png",
-    "CCNA/notes/5. binary lab.md",
-    "CCNA/notes/6. data link layer.md",
-    "2025/redes II/IPv6/Direccionamiento IPv4.md",
-    "CCNA/notes/Untitled.md",
-    "tasks.md",
-    "DUIA/todo.md",
+    "DUIA/machine learning/apuntes/modelado de datos.md",
     "DUIA/intro-IA/index.md",
-    "2026/CALSOF/media/Pasted image 20260517123252.png",
-    "2026/CALSOF/media/Pasted image 20260517125128.png",
-    "2026/CALSOF/media/Pasted image 20260519011708.png",
-    "2026/CALSOF/media/Pasted image 20260519010352.png",
-    "2026/CALSOF/media/Pasted image 20260519010328.png",
-    "2026/CALSOF/media/Pasted image 20260519002552.png",
+    "italelem/2026-05-28-Note-18-55.xopp",
+    "DUIA/machine learning/apuntes/intro.md",
+    "DUIA/machine learning/apuntes",
+    "DUIA/machine learning",
+    "DUIA/intro-IA/apuntes/modelos de clasificacion - perspectiva practica.md",
+    "DUIA/intro-IA/apuntes/tecnicas de clasificacion.md",
+    "DUIA/todo.md",
+    "DUIA/intro-IA/apuntes/pre-procesamiento de texto - perspectiva practica.md",
+    "tasks.md",
+    "Untitled.md",
+    "conflict-files-obsidian-git.md",
+    "2025/BD1/bases de datos.md",
+    "2025/BD1/SQL queries.md",
+    "2025/BD1/tema 4/Consultas SQL.md",
+    "CCNA/notes/11. direccionamiento IPv4.md",
+    "CCNA/notes/8. network layer.md",
+    "CCNA/notes/9. resolucion de red.md",
+    "CCNA/notes/2. intro a CISCO IOS CLI.md",
+    "2026/CALSOF/classes/testing II.md",
+    "2026/CALSOF/classes/code smells.md",
+    "italelem/2026-05-19-Note-18-56.xopp",
+    "italelem/2026-05-14-Note-18-54.xopp",
+    "DUIA/media",
+    "2026/CALSOF/activities",
+    "italelem/2026-05-05-Note-18-33.xopp",
+    "DUIA/intro-IA/apuntes",
     "Untitled.canvas"
   ]
 }

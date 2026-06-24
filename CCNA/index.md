@@ -24,5 +24,5 @@
 ===
 [[11. direccionamiento IPv4]]
 ===
-
-
+[[direccionamiento IPv6]]
+===

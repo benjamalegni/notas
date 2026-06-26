@@ -258,9 +258,12 @@ lo que falta es que al volver a hacer el autofilling detecte automaticamente esa
 
 https://www.getonbrd.com.ar/
 
-- probar webwright solo cuando el response del autofill devuelve partially filled porque hay preguntas opcionales
+- probar webwright solo cuando el response del autofill devuelve partially filled porque hay preguntas opcionales.
+	- NO muy muy lento
 - no se esta llenando correctamente despues de completar las preguntas opcionales, se rompe campo CV
+	- ok visto
 - question_key no es necesario => sacarlo si no se usa y usar el question_id
+	- pendiente
 - PUT de a varias preguntas en vez de una sola y volver a llamar al autofilling automaticamente con el mismo puesto
 
 
@@ -430,6 +433,11 @@ Cerrar intermedio UNICEN -> Europa -> terminar bachelor -> máster
 
 No descartaría el grado argentino, pero lo usaría como plan B si Europa te reconoce pocos créditos. Fuentes principales usadas: plan 2023 y plan interactivo de Exactas UNICEN, reglamento PPS/PI, sistema ECTS europeo y reconocimiento académico UE.
 
+## cursos/certificaciones en curso
+ahora estoy preparando el examen CCNA para septiembre
+tambien certificacion en project management y cybersecurity de google
+luego puedo comenzar a estudiar gratis cursos associate/professional de gcp
+tener en cuenta!! security+ de comptia
 
 # calsof
 repasar bien los refactorings y con que code smells re relacionan
@@ -479,3 +487,8 @@ usar los creditos de azure para infra => opentofu
 - single-tenant to multi-tenant => todos con dominio en comun
 - no creo bds ni containers por cada negocio, redirigo a su pagina de acuerdo a su slug
 - tauri/electron pagina para el print worker
+
+
+# otro
+- rellenar el forms de movilidad a francia
+- responder al mail diciendo que estoy interesado por la propuesta y que quedo a la espera para las inscripciones de las clases de frances

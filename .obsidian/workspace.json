@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CCNA/notes/direccionamiento IPv6.md",
+                "file": "CCNA/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "direccionamiento IPv6"
+              "title": "index"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 275.51103591918945
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 507.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,9 +180,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cbf7ee09442adf83",
+  "active": "6fb9a4036717cd07",
   "lastOpenFiles": [
-    "GPMC/apuntes",
+    "CCNA/notes/13. ICMP.md",
+    "CCNA/index.md",
+    "CCNA/notes/12. direccionamiento IPv6.md",
+    "tasks.md",
+    "italelem/25 june.md",
+    "Pasted image 20260625175534.png",
+    "italelem/21 aprile.md",
+    "GPMC/foundations of project management/apuntes/embarking a career in project management.md",
+    "intro-hacking/contents/OWASP top 10.md",
+    "intro-hacking/concepts/deserialization attack.md",
+    "intro-hacking/concepts/log poisoning.md",
+    "intro-hacking/concepts/abuso de apis.md",
+    "intro-hacking/concepts/inyecciones LaTex.md",
+    "intro-hacking/index.md",
+    "GPMC/foundations of project management",
+    "finnish-A1/2025-10-31-Note-09-08.pdf",
+    "finnish-A1/2025-11-04-Note-14-22.pdf",
+    "GPMC/foundations of project management/apuntes",
     "GPMC",
     "CCNA/media/Pasted image 20260624151155.png",
     "CCNA/media/Pasted image 20260624145804.png",
@@ -193,19 +210,11 @@
     "CCNA/media/Pasted image 20260620192625.png",
     "Pasted image 20260624151155.png",
     "Pasted image 20260624145804.png",
-    "Pasted image 20260624143628.png",
-    "CCNA/index.md",
-    "CCNA/notes/direccionamiento IPv6.md",
     "2025/arqui1/exams/Parcial 2025 (TEMA1).pdf",
     "2026/CALSOF/resumen-audible-calsof-examen.mp3",
-    "intro-hacking/concepts/inyecciones LaTex.md",
     "hack4u-recorder/package-lock.json",
     "hack4u-recorder/node_modules/playwright-core/lib/vite/traceViewer/manifest.webmanifest",
     "hack4u-recorder/node_modules/playwright-core/ThirdPartyNotices.txt",
-    "hack4u-recorder/node_modules/playwright-core/lib/vite/traceViewer/codicon.DCmgc-ay.ttf",
-    "hack4u-recorder/node_modules/playwright-core/lib/vite/recorder/assets/codicon-DCmgc-ay.ttf",
-    "hack4u-recorder/node_modules/playwright-core/lib/vite/dashboard/assets/codicon-DCmgc-ay.ttf",
-    "hack4u-recorder/node_modules/playwright-core/types/types.d.ts",
     "hack4u-recorder/node_modules/playwright-core/lib/tools/cli-client/skill/references/video-recording.md",
     "hack4u-recorder/node_modules/playwright-core/lib/tools/cli-client/skill/references/tracing.md",
     "hack4u-recorder/node_modules/playwright-core/lib/tools/cli-client/skill/references/test-generation.md",
@@ -219,15 +228,6 @@
     "hack4u-recorder/node_modules/playwright-core/lib/tools/cli-client/skill/references/request-mocking.md",
     "hack4u-recorder/node_modules/playwright-core/lib/tools/cli-client/skill/references/playwright-tests.md",
     "hack4u-recorder/node_modules/playwright-core/lib/tools/cli-client/skill/references/element-attributes.md",
-    "hack4u-recorder/README.md",
-    "intro-hacking/index.md",
-    "tasks.md",
-    "2025/redes II/IPv6/Configuracion de Direcciones IPv6.md",
-    "2025/redes II/IPv6/Direccionamiento IPv4.md",
-    "2025/redes II/IPv6/Direcciones IPv6.md",
-    "DUIA/machine learning/index.md",
-    "CCNA/notes/11. direccionamiento IPv4.md",
-    "DUIA/machine learning/apuntes/regresion.md",
     "Untitled.canvas"
   ]
 }

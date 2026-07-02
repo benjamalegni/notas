@@ -3,4 +3,6 @@
 - [ ] notas tecnicas de clustering
 - [x] notas algoritmos geneticos
 - [x] corregir/sumar info a notas de de tecnicas de clasificacion
+- [ ] meterle con los algoritmos geneticos, hacer el tp para probar
 
+- [ ] revisar el colab de nltk (R1)

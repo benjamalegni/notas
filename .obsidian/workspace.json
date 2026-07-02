@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CCNA/index.md",
+                "file": "CCNA/notes/13. ICMP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "13. ICMP"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "proxy",
+                "query": "metricas",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.51103591918945
+    "width": 370.51103591918945
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 410.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,52 +182,51 @@
   },
   "active": "6fb9a4036717cd07",
   "lastOpenFiles": [
-    "CCNA/notes/13. ICMP.md",
     "CCNA/index.md",
-    "CCNA/notes/12. direccionamiento IPv6.md",
-    "tasks.md",
-    "italelem/25 june.md",
-    "Pasted image 20260625175534.png",
-    "italelem/21 aprile.md",
-    "GPMC/foundations of project management/apuntes/embarking a career in project management.md",
+    "DUIA/machine learning/apuntes/intro.md",
+    "Untitled.base",
+    "DUIA/procesamiento de texto/apuntes/pre-procesamiento.md",
+    "DUIA/intro-IA/apuntes/pre-procesamiento de datos - perspectiva practica.md",
+    "CCNA/notes/13. ICMP.md",
+    "Pasted image 20260627103735.png",
+    "Pasted image 20260627100332.png",
+    "DUIA/media/Pasted image 20260627113109.png",
+    "DUIA/media/Pasted image 20260627112828.png",
+    "DUIA/media/Pasted image 20260627105511.png",
+    "DUIA/media/Pasted image 20260627104344.png",
+    "DUIA/media/Pasted image 20260627103735.png",
+    "DUIA/media/Pasted image 20260627100332.png",
+    "DUIA/media/Pasted image 20260627094909.png",
+    "Pasted image 20260627104344.png",
     "intro-hacking/contents/OWASP top 10.md",
+    "intro-hacking/index.md",
+    "intro-hacking/concepts/mass-asignment attack.md",
+    "intro-hacking/concepts/DNS zone transfer.md",
+    "intro-hacking/concepts/prototype pollution.md",
+    "tasks.md",
+    "Untitled.canvas",
+    "intro-hacking/concepts/abuso de subida de archivos.md",
+    "DUIA/procesamiento de texto/index.md",
+    "DUIA/todo.md",
+    "DUIA/procesamiento de texto/actividades/colab 1.md",
+    "DUIA/procesamiento de texto/apuntes/intro.md",
+    "DUIA/procesamiento de texto/actividades",
+    "DUIA/nlp/apuntes/Untitled",
+    "DUIA/procesamiento de texto/apuntes",
+    "DUIA/procesamiento de texto",
+    "GPMC/foundations of project management/mod 1/2. becoming an effective project manager.md",
+    "GPMC/foundations of project management/mod 1/1. embarking a career in project management.md",
+    "GPMC/foundations of project management/apuntes/Untitled",
+    "CCNA/notes/12. direccionamiento IPv6.md",
+    "italelem/25 june.md",
+    "italelem/21 aprile.md",
     "intro-hacking/concepts/deserialization attack.md",
     "intro-hacking/concepts/log poisoning.md",
     "intro-hacking/concepts/abuso de apis.md",
     "intro-hacking/concepts/inyecciones LaTex.md",
-    "intro-hacking/index.md",
     "GPMC/foundations of project management",
     "finnish-A1/2025-10-31-Note-09-08.pdf",
     "finnish-A1/2025-11-04-Note-14-22.pdf",
-    "GPMC/foundations of project management/apuntes",
-    "GPMC",
-    "CCNA/media/Pasted image 20260624151155.png",
-    "CCNA/media/Pasted image 20260624145804.png",
-    "CCNA/media/Pasted image 20260624143628.png",
-    "CCNA/media/Pasted image 20260624142102.png",
-    "CCNA/media/Pasted image 20260620195641.png",
-    "CCNA/media/Pasted image 20260620193743.png",
-    "CCNA/media/Pasted image 20260620192625.png",
-    "Pasted image 20260624151155.png",
-    "Pasted image 20260624145804.png",
-    "2025/arqui1/exams/Parcial 2025 (TEMA1).pdf",
-    "2026/CALSOF/resumen-audible-calsof-examen.mp3",
-    "hack4u-recorder/package-lock.json",
-    "hack4u-recorder/node_modules/playwright-core/lib/vite/traceViewer/manifest.webmanifest",
-    "hack4u-recorder/node_modules/playwright-core/ThirdPartyNotices.txt",
-    "hack4u-recorder/node_modules/playwright-core/lib/tools/cli-client/skill/references/video-recording.md",
-    "hack4u-recorder/node_modules/playwright-core/lib/tools/cli-client/skill/references/tracing.md",
-    "hack4u-recorder/node_modules/playwright-core/lib/tools/cli-client/skill/references/test-generation.md",
-    "hack4u-recorder/node_modules/playwright-core/lib/tools/cli-client/skill/references/storage-state.md",
-    "hack4u-recorder/node_modules/playwright-core/lib/tools/cli-client/skill/references/spec-driven-testing.md",
-    "hack4u-recorder/node_modules/playwright-core/lib/tools/trace/SKILL.md",
-    "hack4u-recorder/node_modules/playwright-core/lib/tools/cli-client/skill/SKILL.md",
-    "hack4u-recorder/node_modules/playwright-core/lib/tools/cli-client/skill/references/session-management.md",
-    "hack4u-recorder/node_modules/playwright-core/lib/tools/cli-client/skill/references/running-code.md",
-    "hack4u-recorder/node_modules/playwright-core/README.md",
-    "hack4u-recorder/node_modules/playwright-core/lib/tools/cli-client/skill/references/request-mocking.md",
-    "hack4u-recorder/node_modules/playwright-core/lib/tools/cli-client/skill/references/playwright-tests.md",
-    "hack4u-recorder/node_modules/playwright-core/lib/tools/cli-client/skill/references/element-attributes.md",
-    "Untitled.canvas"
+    "GPMC/foundations of project management/mod 1"
   ]
 }

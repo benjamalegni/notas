@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.51103591918945
+    "width": 370.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -166,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 410.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,11 +184,11 @@
   "active": "6fb9a4036717cd07",
   "lastOpenFiles": [
     "CCNA/index.md",
+    "CCNA/notes/13. ICMP.md",
     "DUIA/machine learning/apuntes/intro.md",
     "Untitled.base",
     "DUIA/procesamiento de texto/apuntes/pre-procesamiento.md",
     "DUIA/intro-IA/apuntes/pre-procesamiento de datos - perspectiva practica.md",
-    "CCNA/notes/13. ICMP.md",
     "Pasted image 20260627103735.png",
     "Pasted image 20260627100332.png",
     "DUIA/media/Pasted image 20260627113109.png",

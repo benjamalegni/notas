@@ -517,3 +517,5 @@ investigar ssr para react native/expo
 lazy loading a la mayoria de cosas
 
 permitir usar la app sin terminar el onboarding, sumar a la 010spec
+
+la grasa de los portales (de las capitales) => aplicar

@@ -989,3 +989,10 @@ si se intenta agregar el campo "role":"admin" (que no aparece en la interfaz de 
 docker pull blabla1337/owasp-skf-lab:parameter-binding
 docker run -ti -p 3080:3080 blabla1337/owasp-skf-lab:parameter-binding
 
+# 21. open redirect
+se usa la herramienta: https://github.com/epsylon/ufonet
+se puede hacer DDoS usando el redirect de otro servidor
+
+en el "harder" se puede url encondear el body post del request porque no permite usar puntos para la url
+
+# 22. enumeracion y explotacion de webDAV

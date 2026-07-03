@@ -53,3 +53,6 @@
 	[[prototype pollution]]
 	[[DNS zone transfer]]
 	[[mass-asignment attack]]
+	[[open redirect]]
+	[[enumeracion y explotacion de webdav]]
+	

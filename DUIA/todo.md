@@ -6,3 +6,4 @@
 - [ ] meterle con los algoritmos geneticos, hacer el tp para probar
 
 - [x] revisar el colab de nltk (R1)
+- [ ] hacer el apunte de representacion de texto

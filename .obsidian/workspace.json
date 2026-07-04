@@ -11,14 +11,12 @@
             "id": "6fb9a4036717cd07",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "DUIA/procesamiento de texto/apuntes/intro.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20260704111916.png"
               },
-              "icon": "lucide-file",
-              "title": "intro"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260704111916"
             }
           }
         ]
@@ -78,7 +76,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 370.51103591918945
+    "width": 370.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -94,8 +93,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025/arqui1/sistemas de e-s.md",
-                "collapseAll": false,
+                "file": "Pasted image 20260704111916.png",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for sistemas de e-s"
+              "title": "Backlinks for Pasted image 20260704111916"
             }
           },
           {
@@ -142,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CCNA/notes/14. transport layer.md",
+                "file": "Pasted image 20260704111916.png",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 14. transport layer"
+              "title": "Outline of Pasted image 20260704111916"
             }
           },
           {
@@ -166,7 +165,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 428.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,15 +179,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6fb9a4036717cd07",
+  "active": "6d4856cc7998c1fa",
   "lastOpenFiles": [
-    "DUIA/intro-IA/apuntes/tecnicas de clustering.md",
+    "Pasted image 20260704095347.png",
+    "DUIA/procesamiento de texto/apuntes/analisis sintactico.md",
+    "DUIA/procesamiento de texto/apuntes/representacion de texto.md",
+    "Pasted image 20260704111916.png",
     "DUIA/procesamiento de texto/apuntes/pre-procesamiento.md",
-    "DUIA/procesamiento de texto/index.md",
-    "preprocesamiento.md",
-    "DUIA/procesamiento de texto/apuntes/intro.md",
-    "preprocesamiento -.md",
     "DUIA/todo.md",
+    "tasks.md",
+    "DUIA/procesamiento de texto/index.md",
+    "DUIA/procesamiento de texto/apuntes/intro.md",
+    "DUIA/intro-IA/apuntes/tecnicas de clustering.md",
+    "preprocesamiento.md",
+    "preprocesamiento -.md",
     "DUIA/intro-IA/apuntes/tecnicas de planning.md",
     "CCNA/notes/14. transport layer.md",
     "CCNA/media/Pasted image 20260703163651.png",
@@ -199,10 +203,7 @@
     "CCNA/media/Pasted image 20260703153328.png",
     "CCNA/media/Pasted image 20260703153211.png",
     "CCNA/media/Pasted image 20260703153032.png",
-    "CCNA/media/Pasted image 20260703152955.png",
-    "CCNA/media/Pasted image 20260703152710.png",
     "CCNA/index.md",
-    "tasks.md",
     "italelem/2026-06-30-Note-18-38.xopp~",
     "intro-hacking/contents/OWASP top 10.md",
     "intro-hacking/index.md",
@@ -222,10 +223,7 @@
     "DUIA/nlp/apuntes/Untitled",
     "DUIA/procesamiento de texto/apuntes",
     "DUIA/procesamiento de texto",
-    "GPMC/foundations of project management/mod 1/2. becoming an effective project manager.md",
-    "GPMC/foundations of project management/mod 1/1. embarking a career in project management.md",
     "GPMC/foundations of project management/apuntes/Untitled",
-    "CCNA/notes/12. direccionamiento IPv6.md",
     "GPMC/foundations of project management",
     "finnish-A1/2025-10-31-Note-09-08.pdf",
     "finnish-A1/2025-11-04-Note-14-22.pdf"

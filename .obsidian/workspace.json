@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DUIA/procesamiento de texto/apuntes/analisis sintactico.md",
+                "file": "tasks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "analisis sintactico"
+              "title": "tasks"
             }
           }
         ]
@@ -169,7 +169,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 301.337890625,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,6 +186,7 @@
   },
   "active": "6fb9a4036717cd07",
   "lastOpenFiles": [
+    "DUIA/procesamiento de texto/apuntes/analisis sintactico.md",
     "DUIA/procesamiento de texto/index.md",
     "CCNA/notes/17. build a small network.md",
     "CCNA/notes/4. physical layer - interfaces and cables.md",

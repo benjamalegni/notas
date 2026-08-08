@@ -568,3 +568,8 @@ pegarle a la otra rama de la api
 v2
 - pensar que pasa al eliminar
 - en la pantalla principal adaptar el buscador para mostrar subtemas
+
+# aplicar
+hay endpoints especificos para el onboarding en vez del patch del profile
+- por cada step se hace un post
+- 

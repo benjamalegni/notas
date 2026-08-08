@@ -1,7 +1,8 @@
 [[notas de python-pandas]]
 [[aprendizaje automatico]]
-[[algoritmos geneticos]]
+[[DUIA/intro-IA/apuntes/algoritmos geneticos]]
 [[tecnicas de planning]]
+[[tecnicas de clustering]]
 [[tecnicas de clasificacion]]
 [[reinforcement learning]]
 

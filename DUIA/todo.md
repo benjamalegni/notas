@@ -1,6 +1,12 @@
-- [ ] hacer las notas de notas de python-pandas y tecnicas de planning
+- [x] hacer las notas de notas de python-pandas
+- [x] notas tecnicas de planning
+- [x] notas tecnicas de clustering
 - [x] notas algoritmos geneticos
-- [ ] corregir/sumar info a notas de de tecnicas de clasificacion
+- [x] corregir/sumar info a notas de de tecnicas de clasificacion
+- [x] meterle con los algoritmos geneticos, hacer el tp para probar
 
-completar primero clasificacion
-- y lo que resta de planning
+- [x] revisar el colab de nltk (R1)
+- [ ] hacer el apunte de representacion de texto
+
+- [ ] hacer feature selection
+- [ ] hacer fairness

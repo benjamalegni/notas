@@ -9,7 +9,7 @@
 	- Evolución
 - Indican deuda técnica
 
-### cuando usar code smells
+### como detectar code smells
 - Métodos demasiado largos 
 - Clases con muchas responsabilidades 
 - Cantidad de parámetros excesivos 
@@ -38,7 +38,7 @@
 - Identificación 
 	- Centraliza la inteligencia del sistema (o subsistema) 
 	- Hace mucho trabajo y delega solo detalles menores a otras clases 
-	- Clases grandes y complejas 
+	- Clases grandes y complejas
 	- Acceden directamente a muchos datos de clases satélites 
 - Solución 
 	- “Partir” la clase mediante la identificación de conjuntos de métodos relacionados

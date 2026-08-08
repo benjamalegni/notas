@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026/CALSOF/activities/tp4.md",
+                "file": "DUIA/procesamiento de texto/apuntes/analisis sintactico.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tp4"
+              "title": "analisis sintactico"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -53,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "radvd",
+                "query": "interface brief",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.50499725341797
+    "width": 352.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -94,8 +97,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025/arqui1/sistemas de e-s.md",
-                "collapseAll": false,
+                "file": "Pasted image 20260704111916.png",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -104,7 +107,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for sistemas de e-s"
+              "title": "Backlinks for Pasted image 20260704111916"
             }
           },
           {
@@ -113,12 +116,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ingreso/Math exam 6a5af62f52d24413a1842503ed7882c9.md",
+                "file": "CCNA/notes/14. transport layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Math exam 6a5af62f52d24413a1842503ed7882c9"
+              "title": "Outgoing links from 14. transport layer"
             }
           },
           {
@@ -142,13 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DUIA/intro-IA/apuntes/reinforcement learning.md",
+                "file": "Pasted image 20260704111916.png",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of reinforcement learning"
+              "title": "Outline of Pasted image 20260704111916"
             }
           },
           {
@@ -166,7 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 364.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,52 +185,51 @@
   },
   "active": "6fb9a4036717cd07",
   "lastOpenFiles": [
-    "2026/CALSOF/classes/test doubles.md",
-    "2026/CALSOF/index.md",
-    "2026/CALSOF/activities/tp4.md",
-    "2026/CALSOF/classes/testing II.md",
-    "intro-hacking/contents/reconocimiento.md",
-    "intro-hacking/index.md",
-    "intro-hacking/tools/nmap.md",
-    "tasks.md",
-    "2025/BD1/bases de datos.md",
-    "italelem/2026-05-28-Note-16-55.xopp",
-    "italelem/2026-05-19-Note-18-56.xopp",
-    "italelem/2026-05-14-Note-18-54.xopp",
-    "CCNA/notes/11. direccionamiento IPv4.md",
-    "CCNA/media/Pasted image 20260527133418.png",
-    "CCNA/media/Pasted image 20260527121829.png",
-    "CCNA/media/Pasted image 20260526194945.png",
-    "2026/CALSOF/media/Pasted image 20260519011708.png",
-    "2026/CALSOF/media/Pasted image 20260519010352.png",
-    "2026/CALSOF/media/Pasted image 20260519010328.png",
-    "2026/CALSOF/media/Pasted image 20260519002552.png",
-    "2026/CALSOF/media/Pasted image 20260518181343.png",
-    "2026/CALSOF/media/Pasted image 20260518181129.png",
-    "2026/CALSOF/media/Pasted image 20260518180641.png",
-    "2026/CALSOF/activities/tp5.md",
-    "2025/BD1/tema 6/normalizacion.md",
-    "2025/BD1/tema 6",
-    "2025/BD1/tema 5/restricciones de integridad.md",
-    "2025/BD1/tema 5",
-    "2025/BD1/practicas/parcial2022.sql",
-    "2025/BD1/practicas",
-    "2025/BD1/index.md",
-    "DUIA/intro-IA/apuntes/tecnicas de clasificacion.md",
-    "DUIA/intro-IA/index.md",
-    "DUIA/intro-IA/apuntes/modelos de clasificacion - perspectiva practica.md",
-    "DUIA/intro-IA/apuntes/algoritmos geneticos - perspectiva practica.md",
-    "DUIA/intro-IA/apuntes/reinforcement learning.md",
-    "DUIA/intro-IA/apuntes/pre-procesamiento de datos - perspectiva practica.md",
-    "DUIA/intro-IA/apuntes/pre-procesamiento de texto - perspectiva practica.md",
-    "DUIA/todo.md",
-    "2026/CALSOF/activities",
-    "DUIA/intro-IA/apuntes/tecnicas de planning.md",
-    "DUIA/intro-IA/apuntes/algoritmos geneticos.md",
-    "DUIA/media",
-    "DUIA/intro-IA/apuntes/aprendizaje automatico.md",
-    "DUIA/intro-IA/apuntes/notas de python-pandas.md",
+    "DUIA/procesamiento de texto/index.md",
+    "CCNA/notes/17. build a small network.md",
+    "CCNA/notes/4. physical layer - interfaces and cables.md",
     "Untitled.base",
-    "Untitled.canvas"
+    "tasks.md",
+    "CCNA/notes/10. configuracion basica de router.md",
+    "CCNA/index.md",
+    "CCNA/notes/16. network security fundamentals.md",
+    "CCNA/media/Pasted image 20260728064829.png",
+    "CCNA/media/Pasted image 20260723151732.png",
+    "CCNA/media/Pasted image 20260723145353.png",
+    "CCNA/media/Pasted image 20260723144255.png",
+    "CCNA/media/Pasted image 20260723144207.png",
+    "CCNA/media/Pasted image 20260723141959.png",
+    "CCNA/media/Pasted image 20260723141353.png",
+    "CCNA/media/Pasted image 20260723141344.png",
+    "CCNA/media/Pasted image 20260723141329.png",
+    "Pasted image 20260728064829.png",
+    "DUIA/procesamiento de texto/apuntes/feature selection.md",
+    "DUIA/todo.md",
+    "DUIA/procesamiento de texto/apuntes/representacion de texto.md",
+    "DUIA/procesamiento de texto/apuntes/pre-procesamiento.md",
+    "DUIA/procesamiento de texto/apuntes/clasificacion de texto.md",
+    "DUIA/procesamiento de texto/apuntes/fairness.md",
+    "DUIA/procesamiento de texto/apuntes/intro.md",
+    "DUIA/intro-IA/index.md",
+    "CCNA/notes/15. application layer.md",
+    "DUIA/intro-IA/actividades/algoritmos geneticos.md",
+    "DUIA/intro-IA/actividades/aprendizaje automatico - notas de mis respuestas.md",
+    "DUIA/intro-IA/apuntes/tecnicas de clustering.md",
+    "DUIA/intro-IA/apuntes/tecnicas de clasificacion.md",
+    "DUIA/intro-IA/apuntes/algoritmos geneticos.md",
+    "DUIA/intro-IA/apuntes/algoritmos geneticos - perspectiva practica.md",
+    "DUIA/intro-IA/apuntes/tecnicas de planning.md",
+    "DUIA/intro-IA/actividades/actividad de introduccion.md",
+    "DUIA/machine learning/index.md",
+    "algorithms/finalfeb26.cpp~",
+    "italelem/2026-06-30-Note-18-38.xopp~",
+    "Untitled.canvas",
+    "DUIA/procesamiento de texto/actividades",
+    "DUIA/nlp/apuntes/Untitled",
+    "DUIA/procesamiento de texto/apuntes",
+    "DUIA/procesamiento de texto",
+    "GPMC/foundations of project management/apuntes/Untitled",
+    "GPMC/foundations of project management",
+    "finnish-A1/2025-10-31-Note-09-08.pdf"
   ]
 }

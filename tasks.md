@@ -543,12 +543,6 @@ calsof:
 - repasar test doubles
 - code smells y refactorings
 
-# web aplicar
-- en mobile que diga apli-car, no todo junto
-- mirar el backlog que hizo lucho en excel, laburar en esas cosas
-
-- tech IA: area de tecnologia, ir pensando de que hablar y que mostrar
-
 # idea ccna-prep
 ccna-prep apartado de practica de comandos de cisco iOS, donde te pidan intrucciones en lenguaje natural y tener que poner lo comandos correctos para cada cosa
 
@@ -570,6 +564,12 @@ v2
 - en la pantalla principal adaptar el buscador para mostrar subtemas
 
 # aplicar
-hay endpoints especificos para el onboarding en vez del patch del profile
-- por cada step se hace un post
-- 
+el step que aparece antes de que termine step_complete_wordings, lo uso para mostrar que el cv se esta generando en segundo plano
+- despues este cv aparece cuando se esta por postular a una posicion, enviando una version personalidzada para el puesto
+
+
+mail juanmanuel.rodriguez@isistan.unicen.edu.ar
+
+duia: terminar trabajos opcionales de nlp
+hacer los workshops de nvidia y el assesments que estan buenisimos.
+cualquier duda preguntar a juan

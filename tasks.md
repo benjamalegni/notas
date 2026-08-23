@@ -576,17 +576,10 @@ pegarle a la otra rama de la api
 v2
 - pensar que pasa al eliminar
 - en la pantalla principal adaptar el buscador para mostrar subtemas
-<<<<<<< HEAD
-
-# aplicar
-el step que aparece antes de que termine step_complete_wordings, lo uso para mostrar que el cv se esta generando en segundo plano
-- despues este cv aparece cuando se esta por postular a una posicion, enviando una version personalidzada para el puesto
-
 
 mail juanmanuel.rodriguez@isistan.unicen.edu.ar
 
-duia: terminar trabajos opcionales de nlp
 hacer los workshops de nvidia y el assesments que estan buenisimos.
 cualquier duda preguntar a juan
-=======
->>>>>>> origin/master
+
+ableton/flstudio mcp server -> que sea como suno pero con control en todos los tracks y el poder de un daw

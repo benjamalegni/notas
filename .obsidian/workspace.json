@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "17. build a small network"
             }
+          },
+          {
+            "id": "455a6a316cfc3a23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,7 +183,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.337890625
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,12 +198,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6fb9a4036717cd07",
+  "active": "455a6a316cfc3a23",
   "lastOpenFiles": [
+    "CCNA/notes/17. build a small network.md",
+    "conflict-files-obsidian-git.md",
     "tasks.md",
     "DUIA/procesamiento de texto/apuntes/analisis sintactico.md",
     "DUIA/procesamiento de texto/index.md",
-    "CCNA/notes/17. build a small network.md",
     "CCNA/notes/4. physical layer - interfaces and cables.md",
     "Untitled.base",
     "CCNA/notes/10. configuracion basica de router.md",
@@ -220,7 +237,6 @@
     "DUIA/intro-IA/apuntes/algoritmos geneticos - perspectiva practica.md",
     "DUIA/intro-IA/apuntes/tecnicas de planning.md",
     "DUIA/intro-IA/actividades/actividad de introduccion.md",
-    "DUIA/machine learning/index.md",
     "algorithms/finalfeb26.cpp~",
     "italelem/2026-06-30-Note-18-38.xopp~",
     "Untitled.canvas",

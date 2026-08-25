@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026/proba y estadistica/notas/probabilidad condicional.md",
+                "file": "2026/proba y estadistica/notas/probabilidad basica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "probabilidad condicional"
+              "title": "probabilidad basica"
             }
           }
         ]
@@ -169,8 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 622.5438079833984,
-    "collapsed": true
+    "width": 241.63775634765625
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,7 +189,7 @@
   "lastOpenFiles": [
     "2026/proba y estadistica/index.md",
     "tasks.md",
-    "2026/proba y estadistica/notas/probabilidad condicional.md",
+    "2026/proba y estadistica/notas/probabilidad basica.md",
     "2026/proba y estadistica/notas/nociones basicas de probabilidad.md",
     "Pasted image 20260821195830.png",
     "Pasted image 20260821191828.png",

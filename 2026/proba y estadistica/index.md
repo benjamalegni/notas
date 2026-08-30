@@ -1,2 +1,3 @@
 [[nociones basicas de probabilidad]]
-[[probabilidad basica]]
+[[probabilidad condicional]]
+[[probabilidad conjunta]]

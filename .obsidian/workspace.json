@@ -11,14 +11,12 @@
             "id": "b64803bd99f68fb8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "2026/proba y estadistica/notas/probabilidad basica.md",
-                "mode": "source",
-                "source": false
+                "file": "CCNA/media/Pasted image 20260829192359.png"
               },
-              "icon": "lucide-file",
-              "title": "probabilidad basica"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260829192359"
             }
           }
         ]
@@ -80,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -187,30 +184,39 @@
   },
   "active": "b64803bd99f68fb8",
   "lastOpenFiles": [
+    "CCNA/notes/18. basic device configuration.md",
+    "CCNA/media/Pasted image 20260829192359.png",
+    "CCNA/index.md",
+    "DUIA/redes neuronales/apuntes/redes neuronales densas.md",
+    "DUIA/media/Pasted image 20260829114214.png",
+    "DUIA/media/Pasted image 20260829103442.png",
+    "DUIA/media/Pasted image 20260829103338.png",
+    "DUIA/media/Pasted image 20260829103118.png",
+    "DUIA/media/Pasted image 20260829102045.png",
+    "DUIA/media/Pasted image 20260829101958.png",
+    "DUIA/media/Pasted image 20260829101558.png",
+    "DUIA/media/Pasted image 20260829093609.png",
+    "DUIA/media/Pasted image 20260829092245.png",
+    "DUIA/redes neuronales/index.md",
+    "2026/ingsoft2/index.md",
+    "2026/arqui2",
+    "2026/ingsoft2/resources/introduccion.md",
+    "2026/proba y estadistica/notas/probabilidad conjunta.md",
     "2026/proba y estadistica/index.md",
-    "tasks.md",
-    "2026/proba y estadistica/notas/probabilidad basica.md",
+    "2026/proba y estadistica/notas/probabilidad condicional.md",
     "2026/proba y estadistica/notas/nociones basicas de probabilidad.md",
-    "Pasted image 20260821195830.png",
-    "Pasted image 20260821191828.png",
+    "DUIA/redes neuronales/apuntes/gradient descent, de la regression al perceptron.md",
+    "tasks.md",
+    "DUIA/redes neuronales/apuntes",
+    "DUIA/redes neuronales",
     "DUIA/procesamiento de texto/fundamentals of deep learning/1. introduction to deep learning.md",
     "GPMC/foundations of project management/mod 1/2. becoming an effective project manager.md",
     "DUIA/procesamiento de texto/fundamentals of deep learning",
     "2026/proba y estadistica/notas",
     "CCNA/notes/17.1 notes for exam up to now.md",
-    "CCNA/index.md",
-    "CCNA/notes/18. basic device configuration.md",
     "intro-hacking/index.md",
     "intro-hacking/contents/OWASP top 10.md",
     "DUIA/procesamiento de texto/nvidia workshop/3. product deployment.md",
-    "DUIA/media/Pasted image 20260817143702.png",
-    "DUIA/media/Pasted image 20260817142414.png",
-    "DUIA/media/Pasted image 20260817141812.png",
-    "DUIA/media/Pasted image 20260817133352.png",
-    "DUIA/media/Pasted image 20260817133120.png",
-    "DUIA/media/Pasted image 20260817131246.png",
-    "DUIA/media/Pasted image 20260817131107.png",
-    "DUIA/media/Pasted image 20260817130534.png",
     "DUIA/procesamiento de texto/nvidia workshop/2. self supervision, BERT and beyond.md",
     "conflict-files-obsidian-git.md",
     "CCNA/notes/2. intro a CISCO IOS CLI.md",
@@ -218,21 +224,11 @@
     "CCNA/notes/16. network security fundamentals.md",
     "CCNA/notes/15. application layer.md",
     "DUIA/procesamiento de texto/nvidia workshop/1. machine learning in NLP.md",
-    "2026/ingsoft2/resources/introduccion.md",
     "DUIA/procesamiento de texto/nvidia workshop",
-    "2026/ingsoft2/index.md",
     "2026/ingsoft2/resources",
     "2026/proba y estadistica",
     "2026/bd2",
     "2026/calc2",
-    "2026/ingsoft2",
-    "DUIA/procesamiento de texto/apuntes/analisis sintactico.md",
-    "DUIA/procesamiento de texto/index.md",
-    "CCNA/notes/4. physical layer - interfaces and cables.md",
-    "Untitled.base",
-    "CCNA/notes/10. configuracion basica de router.md",
-    "DUIA/procesamiento de texto/apuntes/feature selection.md",
-    "algorithms/finalfeb26.cpp~",
     "Untitled.canvas"
   ]
 }

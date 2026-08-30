@@ -35,7 +35,8 @@ A siendo un suceso cualquiera
 - complemento: A U A^c = Ω ; A ∩ A^c = ∅ ; (A^c)^c = A ; Ω^c = ∅ ; ∅^c = Ω
 - de morgan: (A U B)^c = A^c ∩ B^c ; (A ∩ B)^c = A^c U B^c
 
-para describir espacios muestrales se usan **diagrams de arboles**
+para describir espacios muestrales se usan **diagrama de arboles**
+- las probabilidades basicas con las que se ubican en el primer nivel del diagrama de arbol
 
 principio fundamental de conteo: si un primer evento ocurre de n maneras, un segundo de m maneras, un tercero de r maneras, etc., entonces el numero de maneras en que pueden realizarse en ese orden es n·m·r
 
@@ -60,7 +61,8 @@ todo lo demas se deduce de estos 3 axiomas
 	- por los axiomas 1 y 2, usando la propiedad anterior
 - monotonia: si A ⊆ B entonces P(A) <= P(B)
 	- B = A U (B ∩ A^c), y B ∩ A^c es disjunto con A
-- P(A U B) = P(A) + P(B) - P(A ∩ B)
+
+- ***P(A U B) = P(A) + P(B) - P(A ∩ B)*** - > importante
 	- aditividad para sucesos cualesquiera (no necesariamente disjuntos)
 	- si son disjuntos, P(A ∩ B) = ∅ = 0 y queda la suma directa
 

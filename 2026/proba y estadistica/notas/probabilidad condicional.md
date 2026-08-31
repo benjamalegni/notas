@@ -49,6 +49,10 @@ variable aleatoria continua: para espacios muestrales continuos
 
 condiciones que deben cumplir:
 - funcion masa: $$0 \le P(X=x_i) \le 1 \quad ; \quad \sum_i P(X=x_i) = 1$$
+para que sea una funcion masa:
+1. todas las probabilidades deben ser no negativas
+2. la suma de las probabilidades debe dar 1
+
 - funcion densidad: $$f(x) \ge 0 \quad ; \quad \int_{-\infty}^{\infty} f(x)\,dx = 1$$
 
 para asignar probabilidades a una variable aleatoria es construir su distribucion de probabilidades. esta representa un modelo teorico que describe la forma en que varian los resultados de un experimento aleatorio
@@ -96,8 +100,8 @@ para calcularla hace falta previamente E(X^2):
 #### varianza propiedades
 sean X e Y variables aleatorias y c un numero real (constante)
 - 𝑉 (𝑐 ) = 0 
-- 𝑉(𝑋 + 𝑐) = 𝑉(𝑋) 
-- 𝑉(𝑐𝑋) = 𝑐 2𝑉(𝑋) 
+- 𝑉(𝑋 + 𝑐) = 𝑉(𝑋) => no cambia
+- 𝑉(𝑐𝑋) = 𝑐^2\*𝑉(𝑋) 
 - Si 𝑋 e 𝑌 son independientes 𝑉(𝑋 + 𝑌) = 𝑉(𝑋) + 𝑉(𝑌) 
 - Si 𝑋 e 𝑌 son independientes 𝑉(𝑋 − 𝑌) = 𝑉(𝑋) + 𝑉(𝑌)
 

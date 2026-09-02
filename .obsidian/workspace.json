@@ -11,12 +11,14 @@
             "id": "b64803bd99f68fb8",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "split-diff-view",
               "state": {
-                "file": "2026/arqui2/media/Pasted image 20260830233039.png"
+                "aFile": "2026/proba y estadistica/index.md",
+                "bFile": "2026/proba y estadistica/index.md",
+                "aRef": ""
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260830233039"
+              "icon": "diff",
+              "title": "Diff: index  (Working Tree)"
             }
           }
         ]
@@ -78,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.90246963500977
+    "width": 527.1282234191895
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -182,13 +184,18 @@
       "cornell-marginalia:Alternar Visual Helper (Cornell)": false
     }
   },
-  "active": "cbf7ee09442adf83",
+  "active": "b64803bd99f68fb8",
   "lastOpenFiles": [
+    "CCNA/notes/18. basic device configuration.md",
+    "2026/proba y estadistica/notas/probabilidad condicional.md",
+    "2026/proba y estadistica/resumen audible.mp3",
+    "2026/proba y estadistica/resumen audible.md",
+    "2026/proba y estadistica/index.md",
+    "2026/arqui2/media/Pasted image 20260830233039.png",
     "2026/arqui2/media/Pasted image 20260830233028.png",
     "2026/arqui2/notas/introduccion al paralelismo.md",
     "2026/arqui2/media",
     "2026/arqui2/media/Pasted image 20260830233117.png",
-    "2026/arqui2/media/Pasted image 20260830233039.png",
     "2026/arqui2/index.md",
     "intro-hacking/contents/OWASP top 10.md",
     "2026/arqui2/notas",
@@ -198,14 +205,11 @@
     "intro-hacking/contents/reconocimiento.md",
     "intro-hacking/contents/enumeracion de servicios comunes y gestores de contenido.md",
     "intro-hacking/concepts/XXE.md",
-    "2026/proba y estadistica/index.md",
-    "2026/proba y estadistica/notas/probabilidad condicional.md",
     "tasks.md",
     "Untitled.base",
     "2026/proba y estadistica/notas/probabilidad conjunta.md",
     "2026/proba y estadistica/notas/nociones basicas de probabilidad.md",
     "CCNA/media/Pasted image 20260829192359.png",
-    "CCNA/notes/18. basic device configuration.md",
     "CCNA/index.md",
     "DUIA/redes neuronales/apuntes/redes neuronales densas.md",
     "DUIA/media/Pasted image 20260829114214.png",
@@ -226,9 +230,7 @@
     "DUIA/procesamiento de texto/fundamentals of deep learning",
     "2026/proba y estadistica/notas",
     "CCNA/notes/17.1 notes for exam up to now.md",
-    "DUIA/procesamiento de texto/nvidia workshop/3. product deployment.md",
     "DUIA/procesamiento de texto/nvidia workshop",
-    "2026/ingsoft2/resources",
     "Untitled.canvas"
   ]
 }

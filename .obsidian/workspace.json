@@ -11,8 +11,14 @@
             "id": "35c39ca74f591980",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
+                "aFile": "intro-hacking/contents/OWASP top 10.md",
+                "bFile": "intro-hacking/contents/OWASP top 10.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: OWASP top 10  (Working Tree)"
                 "file": "CCNA/notes/20. VLANs.md",
                 "mode": "source",
                 "source": false
@@ -80,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 371.0130195617676,
     "collapsed": true
   },
   "right": {
@@ -169,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 479.5867919921875
   },
   "left-ribbon": {
     "hiddenItems": {

@@ -11,17 +11,30 @@
             "id": "c8495cd826bbe867",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "2026/ingsoft2/media/Pasted image 20260916152007.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260916152007"
+            }
+          },
+          {
+            "id": "69beb40321082e15",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "DUIA/redes neuronales/apuntes/deep learning - CNN.md",
+                "file": "tasks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "deep learning - CNN"
+              "title": "tasks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.3998908996582,
-    "collapsed": true
+    "width": 250.03267288208008
   },
   "right": {
     "id": "59e601f64e0ae900",
@@ -169,7 +181,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,54 +198,53 @@
       "cornell-marginalia:Alternar Visual Helper (Cornell)": false
     }
   },
-  "active": "6d4856cc7998c1fa",
+  "active": "69beb40321082e15",
   "lastOpenFiles": [
-    "Pasted image 20260916194020.png",
-    "Pasted image 20260916193845.png",
-    "Pasted image 20260916193648.png",
-    "Pasted image 20260916193549.png",
-    "Pasted image 20260916192603.png",
-    "Pasted image 20260916192515.png",
-    "Pasted image 20260916192457.png",
-    "DUIA/redes neuronales/index.md",
-    "DUIA/redes neuronales/apuntes/nlp transformers.md",
-    "2026/ingsoft2/resources/procesos de software.md",
-    "Pasted image 20260916152007.png",
-    "2026/ingsoft2/index.md",
+    "DUIA/media/Pasted image 20260916194020.png",
+    "DUIA/media/Pasted image 20260916193845.png",
+    "DUIA/media/Pasted image 20260916193648.png",
+    "DUIA/media/Pasted image 20260916193549.png",
+    "DUIA/media/Pasted image 20260916192603.png",
+    "DUIA/media/Pasted image 20260916192515.png",
+    "DUIA/media/Pasted image 20260916192457.png",
+    "2026/ingsoft2/media/Pasted image 20260916152007.png",
+    "2026/ingsoft2/media",
+    "italelem/2026-09-15-Note-18-55.xopp",
+    "DUIA/redes neuronales/apuntes/trabajo de cursada notas.md",
+    "DUIA/redes neuronales/apuntes/temas avanzados.md",
+    "DUIA/redes neuronales/apuntes/LSTM, GRU, bidireccionales.md",
+    "DUIA/media/Pasted image 20260913171244.png",
+    "DUIA/media/Pasted image 20260912121305.png",
     "CCNA/notes/21. inter-VLAN routing.md",
     "2026/proba y estadistica/notas/modelos de probabilidad.md",
-    "2026/proba y estadistica/index.md",
-    "2026/bd2/media/Pasted image 20260914150938.png",
-    "2026/bd2/media",
+    "2026/ingsoft2/resources/procesos de software.md",
     "2026/bd2/notas/sql avanzado.md",
-    "2026/bd2/index.md",
     "2026/bd2/notas",
-    "CCNA/media/Pasted image 20260913160329.png",
-    "CCNA/media/Pasted image 20260913153745.png",
+    "2026/bd2/media",
+    "2026/bd2/index.md",
+    "2026/bd2",
+    "intro-hacking/contents/reconocimiento.md",
+    "intro-hacking/contents/OWASP top 10.md",
+    "intro-hacking/contents/enumeracion de servicios comunes y gestores de contenido.md",
+    "intro-hacking/contents/conceptos basicos de enumeracion y explotacion.md",
+    "DUIA/redes neuronales/apuntes/deep learning - CNN.md",
+    "DUIA/redes neuronales/index.md",
+    "DUIA/redes neuronales/apuntes/nlp transformers.md",
+    "2026/ingsoft2/index.md",
+    "2026/proba y estadistica/index.md",
     "CCNA/index.md",
     "CCNA/notes/20. VLANs.md",
     "CCNA/notes/19. switching concepts.md",
-    "DUIA/redes neuronales/apuntes/temas avanzados.md",
-    "DUIA/redes neuronales/apuntes/trabajo de cursada notas.md",
-    "DUIA/redes neuronales/apuntes/LSTM, GRU, bidireccionales.md",
     "DUIA/redes neuronales/apuntes/redes neuronales densas.md",
-    "intro-hacking/contents/OWASP top 10.md",
     "intro-hacking/index.md",
-    "DUIA/redes neuronales/apuntes/deep learning - CNN.md",
     "2026/arqui2/notas/rendimiento en sistemas paralelos.md",
     "2026/arqui2/index.md",
     "2026/arqui2/notas/introduccion al paralelismo.md",
-    "DUIA/redes neuronales/apuntes/gradient descent, de la regression al perceptron.md",
-    "tasks.md",
-    "CCNA/notes/18. basic device configuration.md",
     "2026/proba y estadistica/resumen audible.mp3",
     "2026/arqui2/media",
     "2026/arqui2/notas",
     "Untitled.base",
     "2026/arqui2",
-    "DUIA/redes neuronales/apuntes",
-    "DUIA/redes neuronales",
-    "DUIA/procesamiento de texto/fundamentals of deep learning",
     "Untitled.canvas"
   ]
 }

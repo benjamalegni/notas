@@ -67,3 +67,149 @@ CONV layer:
 - la misma imagen entra en paralelo a distintos filtros
 	- cada salida genera un feature map
 ![[Pasted image 20260907110535.png]]
+
+tipos de layers:
+proceso de feature extraction en una CNN
+1. conv layer: filtrar una imagen para un feature particular
+2. activacion (ReLU): detectar ese feature dentro de la imagen filtrada. introduce no linealidad
+3. pooling: condensar la imagen para mejorar los features
+4. dense layers: combinan features y clasifican
+![[Pasted image 20260909161854.png]]
+
+**conv + ReLU**
+- ReLU:
+	- introduce no linealidad al modelo
+	- ayuda a solucionar el problema de vanishing gradient
+		- osea cuando los valores de los gradientes se vuelven tan pequenos en las capas inciales durante la retropropagacion que el modelo deja de aprender
+
+**pooling layers:**
+generalmente se las mete dentro de la layer convolucional (porque no tiene parametros para entrenar)
+- max pooling (una de las formas mas usadas en pooling layers):
+	- mira una region y escoge el pixel con mas intensidad
+	- resalta los features
+- average pooling: 
+	- se genera un promedio de los valores
+![[Pasted image 20260909162349.png]]
+las variablas f y s. son cosas que tengo que definir, **pero se usan valores estandar generalmente para casos generales**
+
+![[Pasted image 20260909162525.png]]
+la ReLu lo que hace es poner en 0 todo lo negativo. por eso el resultado en las imagenes inferiores
+
+evolucion del diseno de CCNs modernas
+- kernels pequenos (3x3): estandar actual -> menos parametros, mas eficiencias
+- mas capas -> mas profundiad = patrones jerarquicos mas complejos
+- stacking: varias convoluciones seguidas antes de poolin -> representaciones mas ricas
+
+**dense layers:**
+- flatten -> convierte los mapas de caracteristicas en un vector
+- capas densas -> combinan toda la info
+- softmax en la salida -> distribucion de probabilidades por clase
+
+**keras**: existe conv2D y conv3D(para videos, o imagenes medicas)
+
+##### dense vs CNN
+que pasa con MNIST con dense vs CNN?
+- red densa simple: muchos parametros -> pero no escala bien
+- CNN simple: menos parametros, mejor precision
+
+nota: casi siempre se esta usando la funcion de perdida: categorical_crossentropy
+
+##### callbacks (codigo)
+**callbacks, permiten hacer algo en el medio del entrenamiento:**
+- EarlyStopping: supervisa la metrica val_loss. si no mejora durante 8 epochs, detiene el entrenamiento y restaura automaticamente los mejores pesos alcanzados
+
+### regularizacion en CNNs
+dropout: apagar neuronas aleatoriamente durante el entrenamiento -> evitando overfitting
+en CNNs se puede aplicar:
+- en capas densas finales
+- en capas convolucionales (menos usual, pero posible)
+
+## aprendizaje en CNNs
+**batch normalization**: normaliza activaciones -> entrenamiento mas estable y rapido
+- mantiene los datos controlados y estables, la red no se confunde tanto y aprende mas rapido
+
+fuerza a cada capa a tener media +-=0 y varianza +-=1 (aprendibles)
+ventajas:
+- entrenamiento mas rapido
+- permite usar learning rate mayores
+- reduce vanishing/exploding gradients
+
+se aplica justo despues de **conv** o **dense**, antes de la activacion
+
+# arquitecturas CNN reales
+LeNet CNN (1998)
+![[Pasted image 20260916192457.png]]
+AlexNet CNN (2012)
+![[Pasted image 20260916192515.png]]
+VGG-16 (2014)
+![[Pasted image 20260916192603.png]]
+MobileNetV2 (2018)
+- red convolucional ligera y eficiente pensada para correr en celulares
+- entrenada originalmente en imagenet (1.2M imagenes, 1000 clases)
+- su clave es un bloque especial llamado residual invertido con bottleneck lineal
+- ventajas:
+	- pocos parametros -> entrena rapido
+	- buen balance entre velocidad y precision
+	- ideal como base para transfer learning
+
+# transfer learning
+es posible utilizar un implementacion open-source de una NN (code + weights) para simplificar el entrenamiento: **pre-trained NN**
+
+**las capas mas profundas de una CNN aprenden caracteristicas cada vez mas especificas de la tarea**
+
+- pesos previamente aprendidos
+- puede funcionar con datasets pequenos
+- entrenamiento mas rapido
+- mejor generalizacion
+- reutiliza features ya aprendidas
+
+### las partes del modelo reutilizadas en transfer learning
+1. feature extractor: aprende representaciones de las imagenes
+	- aprende representaciones de las imagenes
+	- convoluciones -> pooling -> convoluciones -> pooling -> ...
+2. clasificador
+	- realiza la clasificacion especifica
+	- dense -> dense -> output
+
+estrategias
+- feature extraction
+- fine-tuning parcial
+- fine-tuning total
+![[Pasted image 20260916193549.png]]
+
+
+#### transfer learning - feature extraction
+se reutiliza un modelo preentrenado como extractor de caracteristicas y solo se entrena el clasificador final
+![[Pasted image 20260916193648.png]]
+
+#### transfer learning - fine-tuning parcial
+descongelar solo algunas de las ultimas capas del modelo preentrenado
+
+permitimos que esas capas se adapten ligeramente a nuestro nuevo problema
+
+normalmente se utiliza un **learning rate** muy pequeno
+- para no destruir las representaciones que el modelo ya aprendio
+
+![[Pasted image 20260916193845.png]]
+
+#### transfer learning - fine-tuning total
+descongelar todo el modelo y continuamos con el entrenamiento utilizando los pesos preentrenados como iniciacion
+
+**no entrenamos desde cero**, los pesos w comienzan en los valores aprendidos previamente y luego se actualizan para nuestra nueva tarea
+
+puede ser util cuando:
+- tenemos mas datos disponibles
+- el nuevo dominio es diferente al original
+- queremos adaptar completamente la red
+
+![[Pasted image 20260916194020.png]]
+# data augmentation
+se usa para incrementar la cantidad de datos
+
+una de estas tecnicas en imagenes es el **mirroring**
+
+otras:
+- color shifting
+- random cropping
+- rotation
+

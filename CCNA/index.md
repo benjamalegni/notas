@@ -45,5 +45,9 @@
 ===
 [[19. switching concepts]]
 ===
+[[20. VLANs]]
+===
 [[21. inter-VLAN routing]]
+===
+[[22. STP concepts]]
 ===
